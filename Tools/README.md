@@ -9,7 +9,9 @@ This folder showcases the tools and resources I use in my daily QA workflow.
 | Tool | Usage |
 |------|--------|
 | Jira | Defect tracking and project management |
+| ClickUp | Defect tracking and project management |
 | Postman | API testing and response validation |
+| Swagger | API testing and response validation |
 | Browser DevTools | Inspecting frontend behavior |
 | SQL | Database validation |
 | Android Emulator | Mobile testing environment |
