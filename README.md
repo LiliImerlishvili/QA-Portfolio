@@ -1,6 +1,6 @@
 # 🧪 Manual QA Tester Portfolio
 
-Hi, I’m **Lili Imerlishvili** — a passionate and detail-oriented **Manual QA Tester** with practical experience gained through the **GenoFIT QA Manual Pro Program**.
+Hi, I’m **Lili Imerlishvili**  a passionate and detail-oriented **Manual QA Tester** with practical experience gained through the **GenoFIT QA Manual Pro Program**.
 
 This portfolio showcases my **testing documentation, reports, and real project experience** aligned with ISTQB standards.
 
