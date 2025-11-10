@@ -1,42 +1,41 @@
-# 🧩 Test Cases
+# 🐞 Bug Reports
 
-This folder contains **detailed and structured Test Cases** created for various web and mobile application scenarios.
+This folder contains **realistic and structured bug reports** created during manual testing of web and mobile applications.
 
-Each test case follows ISTQB best practices and includes:
-- Clear title and ID
-- Preconditions and environment
-- Step-by-step test actions
-- Expected results and pass/fail status
-
----
-
-### 🧪 Examples
-
-| ID | Title | Module | Type | Status |
-|----|--------|---------|-------|--------|
-| TC-001 | Verify language change (KA → EN) | UI / Settings | Functional | ✅ Passed |
-| TC-002 | Validate login with valid credentials | Auth | Positive | ✅ Passed |
-| TC-003 | Validate login with invalid credentials | Auth | Negative | ✅ Passed |
-| TC-004 | Verify checkout process (guest user) | E-commerce | End-to-End | ⚠️ Needs Retest |
-| TC-005 | Verify API response status (GET /products) | Backend | API | ✅ Passed |
+Each report includes:
+- Clear title and ID  
+- Steps to reproduce  
+- Expected vs. actual result  
+- Severity, priority, and environment  
 
 ---
 
-### 📘 Purpose
+### 🧾 Sample Reports
 
-Test cases are designed to:
-- Verify system functionality against requirements  
-- Ensure consistent regression testing  
-- Serve as QA documentation reference during sprints  
+| Bug ID | Title | Type | Severity | Status |
+|---------|--------|--------|-----------|-----------|
+| UI-LNG-002 | Language switch leaves header untranslated | UI/Localization | Medium | 🟠 Open |
+| UI-BLG-001 | Blog Grid Layout - inconsistent card height | UI/Layout | Low | 🔵 Fixed |
+| API-CAT-005 | 500 Error on Category Filter API | Backend/API | High | 🔴 Critical |
+| UX-CHE-003 | Checkout button overlaps footer on mobile | UX | Medium | 🟡 In Progress |
+
+---
+
+### 🎯 Purpose
+
+Bug reports demonstrate:
+- Accuracy and clarity in defect documentation  
+- Understanding of **severity vs. priority**  
+- Collaboration with developers through Jira  
 
 ---
 
 ### 🧰 Tools Used
 
-- **Qase.io** – for managing and executing test cases  
-- **Excel / Google Sheets** – for manual documentation  
-- **Postman** – for API validation steps  
+- **Jira / Trello** – Defect tracking  
+- **Screenshots / Screen Recordings** – Visual proof of issues  
+- **Browser DevTools** – Console & Network inspection  
 
 ---
 
-📄 *All test cases in this folder are anonymized and created for educational and demonstration purposes only.*
+📎 *All defects are anonymized and based on simulated or training project scenarios.*
