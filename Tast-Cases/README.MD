@@ -61,6 +61,6 @@ These test cases were created to:
 - Desktop & Mobile browsers for responsive checks  
 
 ---
-*🔒 NDA Notice
+🔒 NDA Notice
 
-All reports are anonymized. Real brand names, URLs, or sensitive client assets were removed or replaced according to NDA restrictions. Only testing logic and QA methodologies are shown.*
+All reports are anonymized. Real brand names, URLs, or sensitive client assets were removed or replaced according to NDA restrictions. Only testing logic and QA methodologies are shown.
