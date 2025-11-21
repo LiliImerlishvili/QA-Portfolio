@@ -1,4 +1,5 @@
-# ID: AI-REC-BUG-001 -  Excel Bulk Import Fails With Position `[object Object]` Error  
+# AI-REC-BUG-001 – Excel Bulk Import Fails With Position `[object Object]` Error
+
 **Project:** AI-Based Recruiting System (Confidential)  
 **Severity:** Major  
 **Priority:** Urgent  
@@ -6,67 +7,61 @@
 
 ---
 
-##  Test Environment
+## Test Environment
 
-| Item                | Value                                              |
-|---------------------|----------------------------------------------------|
-| Device              | iMac                                               |
-| Operating System    | macOS Tahoe 26.0.1                                 |
-| Browser             | Google Chrome 141.0.7390.66 (Official Build) arm64 |
+| Item | Value |
+|------|--------|
+| Device | iMac |
+| Operating System | macOS Tahoe 26.0.1 |
+| Browser | Google Chrome 141.0.7390.66 (Official Build) arm64 |
 
 ---
 
 ## Precondition
-The employer account is active, and the company already has:  
-- At least one existing **project**  
-- Existing **departments**  
-- Valid **position titles** (e.g., developer, tester, HR assistant, senior HR director, account manager)
+The employer account is active and contains:
+- At least one existing project  
+- Existing departments  
+- Valid position titles in the system (developer, tester, HR assistant, senior HR director, account manager)
 
 ---
 
 ## Steps to Reproduce
 
-1. Open the web application (AI-based recruiting system).  
-2. Log in as an employer user.  
-3. Navigate to **“My Projects”**.  
-4. Select any active project and open the **“Bulk upload”** option.  
-5. Choose a company/project if required.  
-6. Click **“Choose file”**.  
-7. Select the Excel template containing employee/candidate data, including:  
+1. Open the AI-based recruiting system in the browser.  
+2. Log in as an employer.  
+3. Navigate to **"My Projects"**.  
+4. Select any active project and open the **"Bulk upload"** option.  
+5. Choose a company or project if required.  
+6. Click **"Choose file"**.  
+7. Select the Excel template containing candidate/employee data:  
    - First/last name, email, phone  
    - Country, city, experience, previous company  
    - Position title  
-   - Salary and other recruitment-related fields  
-   *(All position titles in the file are valid and exist in the system.)*  
-8. Click **Upload** to import the Excel file.
+   - Salary and additional recruitment fields  
+8. Click **Upload**.
 
 ---
 
-##  Actual Result
+## Actual Result
 
-The system fails to import the file and displays validation errors:
-
-- **General detected issues**  
-  - `Found issue: [object Object]`  
-  - “Please do not change these position names in the template.”
-
-- **Validation error example:**  
-  - Row 3: `position_title – Position "[object Object]" does not exist`  
-  - System lists available positions, even though the provided value matches one of them.
-
-As a result, **bulk import is blocked**, and no records are created.
+- System fails to import the file  
+- Shows general detected issues  
+- Errors include:  
+  - “Found issue: [object Object]”  
+  - “Please do not change these position names in the template.”  
+- Row-level validation example:  
+  - **Row 3: position_title – Position "[object Object]" does not exist**  
+- Import is blocked and no records are created.
 
 ---
 
-##  Expected Result
+## Expected Result
 
-- The system should correctly parse the `position_title` values from the Excel file.  
-- If the provided titles exist in the database, the import should complete successfully.  
-- All employees/candidates should be created under the selected project without errors.
+- System should correctly parse the `position_title` values.  
+- Import must succeed when valid titles are included.  
+- All records should be created under the selected project.
 
 ---
 
 ## Additional Evidence
-A reproduction video and console logs are available in the original task (Jam link).
-
----
+A reproduction video and console logs are provided in the original task (Jam link).
