@@ -1,12 +1,33 @@
-# 🧪 Manual QA Tester Portfolio
+# 🧪 Manual QA Tester Portfolio – Lili Imerlishvili
 
-Hi, I’m **Lili Imerlishvili** — a passionate and detail-oriented **Manual QA Tester** with practical experience gained through the **GenoFIT QA Manual Pro Program**.
+Welcome to my **QA Portfolio**, where I document my journey as a **Manual QA Tester**  combining analytical thinking, attention to detail, and passion for quality.
 
-This portfolio showcases my **testing documentation, reports, and real project experience** aligned with ISTQB standards.
+Through the **GenoFIT QA Manual Pro Program**, I’ve gained real-world, hands-on experience testing web and mobile applications, managing defects, and building clear QA documentation aligned with ISTQB standards.
 
 ---
 
-## 🔍 What You’ll Find Here
+## 🚀 About Me
+
+- 🎯 **Detail-oriented Manual QA Tester** focused on improving user experience and ensuring product reliability.  
+- 🧩 Experienced in **Functional, Regression, UI/UX, and API testing**.  
+- 📋 Skilled in creating **Test Cases, Bug Reports, and Checklists**.  
+- 🧠 Knowledgeable in **SDLC, STLC, and Defect Lifecycle**.  
+- 💬 Strong communicator who collaborates effectively with developers, designers, and product teams.  
+
+---
+
+## 🧰 Tools & Technologies
+
+| Category | Tools |
+|-----------|--------|
+| **Test Management** | Jira, Qase.io |
+| **API Testing** | Postman, Swagger |
+| **Frontend Analysis** | Browser DevTools |
+| **Database Testing** | SQL |
+| **Mobile Testing** | Android Studio / Emulators |
+| **Documentation** | Excel, Google Sheets, Notion |
+
+---
 
 | Category | Description |
 |-----------|--------------|
@@ -16,27 +37,21 @@ This portfolio showcases my **testing documentation, reports, and real project e
 | **Test Scenarios** | High-level scenarios written from a user-centric perspective. |
 | **Learning Path** | My study materials, notes, and progress in QA-related tools. |
 | **Certificates** | Proof of my QA training and achievements. |
-| **Tools & Skills** | Jira, Postman, DevTools, SQL, and documentation examples. |
+| **Tools & Skills** | Jira, Postman, DevTools, SQL, and documentation examples. |---
+
+## 🎯 My QA Mindset
+
+> “A great tester doesn’t just find bugs  they prevent them by thinking like a user.”
+
+Quality is not only about finding defects; it’s about understanding the product deeply, asking the right questions, and ensuring the end-user gets the best possible experience.
 
 ---
 
-## 🧰 Tools I Use
+## 🧩 Let’s Connect
 
-- **Jira / Qase.io** - for test case & defect management  
-- **Postman** - API testing  
-- **Browser DevTools** - frontend inspection  
-- **SQL** - database validation  
-- **Android Studio / Emulators** - mobile app testing  
-- **GitHub / Excel / Google Sheets** - documentation  
+💼 [LinkedIn Profile](https://www.linkedin.com/in/lili-imerlishvili/)  
+📧 Email: [lilimerlishvili@gmail.com]  
+📂 [QA Portfolio Repository](https://github.com/LiliImerlishvili/QA-Portfolio)
 
----
-
-## 📜 Note on Projects
-
-All examples in this portfolio are based on **training and anonymized projects**.  
-Due to NDA (Non-Disclosure Agreement), specific product names and client details are not disclosed.
-
----
-
-⭐ **Goal:**  
-To ensure every product I test delivers quality, stability, and great user experience.
+⭐ *If you find this portfolio helpful or inspiring, feel free to give it a star!*
+<img width="451" height="697" alt="image" src="https://github.com/user-attachments/assets/183cc008-00d9-4ec6-87fe-b802f85b4ea8" />
