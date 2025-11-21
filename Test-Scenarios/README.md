@@ -70,22 +70,6 @@ Test Scenarios are designed to:
 
 ---
 
-## 🧩 Summary
-
-The scenarios in this folder provide a complete picture of how users interact with the e-commerce platform under real conditions.
-
-These scenarios help verify that:
-
-- Core business flows (registration, filtering, checkout) function properly  
-- UI, UX, and layout behavior remain consistent across devices  
-- APIs respond correctly and match frontend expectations  
-- The platform behaves the same on mobile and web  
-- Localization works across all components  
-- Product recommendations remain relevant and trustworthy  
-
-This scenario layer acts as the **foundation** for Test Cases, Bug Reports, and Regression Checklists, ensuring complete and professional QA coverage.
-
----
 🔒 NDA Notice
 
 All reports are anonymized. Real brand names, URLs, or sensitive client assets were removed or replaced according to NDA restrictions. Only testing logic and QA methodologies are shown.
