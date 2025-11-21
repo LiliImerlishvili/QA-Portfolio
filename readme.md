@@ -54,4 +54,3 @@ Quality is not only about finding defects; it’s about understanding the produc
 📂 [QA Portfolio Repository](https://github.com/LiliImerlishvili/QA-Portfolio)
 
 ⭐ *If you find this portfolio helpful or inspiring, feel free to give it a star!*
-<img width="451" height="697" alt="image" src="https://github.com/user-attachments/assets/183cc008-00d9-4ec6-87fe-b802f85b4ea8" />
