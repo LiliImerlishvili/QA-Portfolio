@@ -59,7 +59,7 @@ The goal of this collection is to showcase:
 	•	Severity/Priority Evaluation
 	•	Clear Expected vs Actual Analysis
 
-📎 *🔒 NDA Notice
+*🔒 NDA Notice
 
 All reports are anonymized.
 Real brand names, URLs, or sensitive client assets were removed or replaced according to NDA restrictions.
