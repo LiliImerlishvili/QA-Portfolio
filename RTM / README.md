@@ -11,20 +11,6 @@ The matrix provides a clear view of:
 
 ---
 
-## 🧩 Example Mapping
-
-| Scenario ID | Scenario Description                                 | Test Cases                                   | Related Bug Reports                   |
-|------------|--------------------------------------------------------|-----------------------------------------------|----------------------------------------|
-| TS-001     | User registration and account creation                 | TC-REG-001, TC-REG-002                        | FORM-VAL-063                           |
-| TS-002     | Category browsing and product filtering                | TC-FLTR-001, TC-FLTR-002                      | UI-FLTR-093                            |
-| TS-004     | Language switch from KA → EN                           | TC-LNG-001, TC-LNG-002                        | UI-LNG-002                             |
-| TS-006     | Product details: sizes, attributes, size chart         | TC-SIZE-001, TC-SIZE-002, TC-SZCH-001, TC-ATTR-001 | UI-SIZE-081, UI-SIZECHART-104, UI-COLORCAT-147 |
-| TS-007     | Similar & recommended product relevance                | TC-SIM-001, TC-SIMBR-001                      | UI-SIM-052, UI-SIMBRAND-118            |
-
-> For the complete matrix, refer to **RTM.md** in this folder.
-
----
-
 ## 🎯 Purpose
 
 The Traceability Matrix helps to:
