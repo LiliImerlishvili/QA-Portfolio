@@ -23,27 +23,6 @@ Each scenario represents a real-world path the user takes, ensuring functionalit
 
 ---
 
-## ✏ Example Scenarios
-
-| ID      | Scenario                                                         | Type             | Coverage         |
-|---------|------------------------------------------------------------------|------------------|------------------|
-| TS-001  | User registration and account creation                           | Functional       | Web              |
-| TS-002  | Browsing categories and applying product filters                 | UI + Functional  | Web              |
-| TS-003  | Adding a product to cart and validating checkout                 | End-to-End       | Web & Mobile     |
-| TS-004  | Switching website language from KA → EN                           | Localization     | Web              |
-| TS-005  | Validating API responses on product listing                      | API              | Backend          |
-| TS-006  | Viewing product details and verifying size/variant selection     | Functional       | Web              |
-| TS-007  | Verifying Similar & Recommended Products relevance               | Recommendation   | Web              |
-| TS-008  | Full mobile product page navigation and responsive checks        | Responsive       | Mobile           |
-| TS-009  | Figma-to-UI design validation for product page layout            | UI/UX            | Web              |
-| TS-010  | Full wishlist (Favorites) add/remove/refresh flow                | Functional       | Web              |
-| TS-011  | Search functionality with keyword relevance                      | Functional       | Web              |
-| TS-012  | Pagination and infinite scroll navigation                        | Regression       | Web              |
-| TS-013  | Checkout error handling with invalid payment or form data        | Negative         | Web              |
-| TS-014  | Brand-based product discovery and URL parameter validation       | Functional       | Web              |
-| TS-015  | Email-based actions: Restore password & email validation flows   | Functional       | Web + Backend    |
-
----
 
 ## 🎯 Purpose
 
@@ -70,4 +49,4 @@ Test Scenarios are designed to:
 
 🔒 NDA Notice
 
-All reports are anonymized. Real brand names, URLs, or sensitive client assets were removed or replaced according to NDA restrictions. Only testing logic and QA methodologies are shown.
+All Test-scenarios are anonymized. Real brand names, URLs, or sensitive client assets were removed or replaced according to NDA restrictions. Only testing logic and QA methodologies are shown.
