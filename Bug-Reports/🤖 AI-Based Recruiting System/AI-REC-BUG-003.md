@@ -1,65 +1,55 @@
-# ID:  AI-REC-BUG-003 - HR Registration Cannot Be Completed (User Already Registered Error)
+# AI-REC-BUG-003 — HR User Cannot Be Created (Duplicate Email Error)
 
 **Project:** AI-Based Recruiting System (Confidential)  
-**Severity:** Major  
+**Severity:** High  
 **Priority:** Urgent  
-**Reproducibility:** 100%  
+**Reproducibility:** 100%
 
 ---
 
 ## Test Environment
-
-| Item                | Value                                              |
-|---------------------|----------------------------------------------------|
-| Device              | iMac                                               |
-| Operating System    | macOS Tahoe 26.0.1                                 |
-| Browser             | Google Chrome Version 141.0.7390.66 (Official Build) (arm64) |
+- **Device:** iMac  
+- **Operating System:** macOS Tahoe 26.0.1  
+- **Browser:** Google Chrome Version 141.0.7390.66 (Official Build) (arm64)
 
 ---
 
-## Precondition
-Employer account exists and user can access company project dashboard.  
-User is attempting to register a new HR team member inside the project.
+## Description
+The system prevents creating a new HR user account even when all required fields are correctly completed. The system displays an error message indicating that the email is already registered, although it belongs to a newly added HR user and should be accepted.
+
+---
+
+## Preconditions
+- Admin user is logged into the AI-based recruiting system.
 
 ---
 
 ## Steps to Reproduce
-
-1. Open the web application using an employer account.  
-2. Navigate to the company dashboard and open the project where HR members can be added.  
-3. Click on “My Team”.  
-4. Select the option to add a new HR member.  
-5. Fill in the required HR information:  
-   - First name: "Lili Imerlishvili"  
-   - Email: "lilimerlishvili@shoply.ge"  
-   - Phone: "+995333333398"  
-6. Provide additional HR profile information:  
-   - Position: "HR Assistant"  
-   - Department: "HR"  
-   - Start Date: "9 Oct, 2025"  
-   - Location: "Rustavi"  
-7. Click the button “Add HR Member”.
+1. Log in to the admin dashboard  
+2. Navigate to the “Employees” section  
+3. Click “Add Employee”  
+4. Fill out the HR user creation form:
+   - Full name  
+   - Email  
+   - Phone number  
+   - Position  
+   - Department  
+   - Status, start date, city  
+5. Click the “Create HR User” button
 
 ---
 
 ## Actual Result
-
-The system does not create the HR account.  
-Instead, an error message appears:  
-**"Failed to create user account: A user with this email address has already been registered"**
-
-This occurs even though the HR email does **not** exist in the company’s HR user list.
+The system returns an error message:  
+**"Failed to create user account: A user with this email address has already been registered"**  
+The account is not created.
 
 ---
 
 ## Expected Result
-
-The system should successfully create a new HR member profile under the company’s project unless the email truly exists in the database.  
-If the email is not registered, the HR member should be added without errors.
+A new HR user should be created successfully. The system should only block creation when the email truly exists in the database, not for new unique emails.
 
 ---
 
-## Additional Evidence
-
-Screen recording / reproduction video:  
-Jam jam.dev/c/694b01eb-6b37-4688-b589-2f7c4c171a5e
+## Attachment  
+Video Evidence: *(Loom link from original report)*
