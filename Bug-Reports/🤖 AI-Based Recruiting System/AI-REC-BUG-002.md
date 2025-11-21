@@ -1,4 +1,4 @@
-# Bug Report AI-REC-BUG-002: User Cannot Access Profile Page
+# ID: AI-REC-BUG-002 - User Cannot Access Profile Page
 
 **Project:** AI-Based Recruiting System (Confidential)  
 **Severity:** Major  
