@@ -19,3 +19,24 @@ To verify that switching the website language from KA → EN updates all visible
 - Device: iMac  
 - OS: macOS Tahoe 26.1  
 - Browser: Chrome 142.x (arm64)  
+
+---
+
+### Steps:
+1. Open the homepage.  
+2. From the language selector, choose **English**.  
+3. Wait for the page to reload completely.  
+4. Scroll through the entire page.  
+5. Observe all visible text sections, labels, and banners, including **Service Info Banner**.
+
+---
+
+### Expected Result:
+- All UI texts are displayed in English.  
+- Service Info Banner text is also displayed in English.  
+- No Georgian text remains after language switch.
+
+---
+
+### Status:
+❌ Failed
