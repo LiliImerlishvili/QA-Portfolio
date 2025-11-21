@@ -1,4 +1,4 @@
-# ID: AI-REC-BUG-006 - UI Misalignment in Test-Question Section
+# AI-REC-BUG-006 – UI Misalignment in Test-Question Section
 
 **Project:** AI-Based Recruiting System (Confidential)  
 **Severity:** Medium  
@@ -9,11 +9,11 @@
 
 ## Test Environment
 
-| Item                | Value                                              |
-|---------------------|----------------------------------------------------|
-| Device              | iMac                                               |
-| Operating System    | macOS Tahoe 26.0.1                                 |
-| Browser             | Google Chrome Version 141.0.7390.56 (Official Build) (arm64) |
+| Item | Value |
+|------|--------|
+| Device | iMac |
+| Operating System | macOS Tahoe 26.0.1 |
+| Browser | Google Chrome Version 141.0.7390.56 (Official Build) (arm64) |
 
 ---
 
@@ -23,27 +23,26 @@ None.
 ---
 
 ## Steps to Reproduce
-
-1. Open the web application and log in using an employer account.  
-2. Navigate to the section named “What Makes Us Different?” (Statistics / Info section).  
-3. Scroll down to the Test-Question section in the interface.
+1. Open the AI-based recruiting platform.  
+2. Log in using an employer account.  
+3. Navigate to the **“What Makes Us Different?”** section (Statistics / Info section).  
+4. Scroll down to the **Test-Question** subsection.
 
 ---
 
 ## Actual Result
-
-The content inside the Test-Question container is visually misaligned.  
-The container expands beyond its intended design and pushes elements downward, breaking the layout.
+- The content inside the Test-Question container is visually misaligned.  
+- The container expands beyond its intended layout, pushing other UI elements downward and breaking the page structure.
 
 ---
 
 ## Expected Result
-
-All elements inside the Test-Question block should remain properly aligned and contained within the designed layout structure without overlapping or shifting elements.
+- All elements within the Test-Question section should remain properly aligned.  
+- The container should not expand unexpectedly or shift nearby elements.  
+- The layout should remain clean, stable, and consistent.
 
 ---
 
 ## Additional Evidence
-
 Reproduction video (Loom):  
-Loom Hr Thoth – 8 October 2025
+*Loom – 8 October 2025*
