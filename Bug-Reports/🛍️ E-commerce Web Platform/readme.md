@@ -1,6 +1,6 @@
 
 🛍️ E-commerce Web Platform (NDA Commercial Website)
-Oct 2025 - Present
+
 ✅ Performed full-cycle manual testing for a large-scale e-commerce site
 ✅ Tested product filtering, cart, checkout, and multilingual modules
 ✅ Verified UI/UX consistency, responsiveness, and data validation
