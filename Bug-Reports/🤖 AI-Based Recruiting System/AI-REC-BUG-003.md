@@ -32,7 +32,7 @@ User is attempting to register a new HR team member inside the project.
 5. Fill in the required HR information:  
    - First name: "Lili Imerlishvili"  
    - Email: "lilimerlishvili@shoply.ge"  
-   - Phone: "+995598733398"  
+   - Phone: "+995333333398"  
 6. Provide additional HR profile information:  
    - Position: "HR Assistant"  
    - Department: "HR"  
