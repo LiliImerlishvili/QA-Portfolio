@@ -1,21 +1,24 @@
-# AI-REC-BUG-002 — Profile Page Does Not Load
+# AI-REC-BUG-008 – Profile Page Does Not Load
 
 **Project:** AI-Based Recruiting System (Confidential)  
 **Severity:** Medium  
 **Priority:** Urgent  
-**Reproducibility:** 80%
+**Reproducibility:** 80%  
 
 ---
 
 ## Test Environment
-- **Device:** iMac  
-- **Operating System:** macOS Tahoe 26.0.1  
-- **Browser:** Google Chrome Version 141.0.7390.66 (Official Build) (arm64)
+
+| Item | Value |
+|------|--------|
+| Device | iMac |
+| Operating System | macOS Tahoe 26.0.1 |
+| Browser | Google Chrome Version 141.0.7390.66 (Official Build) (arm64) |
 
 ---
 
 ## Description
-The system fails to load the user profile page. After entering the profile section, the system returns an error instead of displaying user information.
+The system fails to load the user profile page. After navigating to the profile section, the platform returns an error instead of displaying account information.
 
 ---
 
@@ -25,22 +28,24 @@ The system fails to load the user profile page. After entering the profile secti
 ---
 
 ## Steps to Reproduce
-1. Open the recruiting system  
-2. Navigate to the top-right menu  
-3. Open the “My Account” section  
-4. Click on “Profile”  
+1. Open the recruiting system.  
+2. Navigate to the top-right menu.  
+3. Click **“My Account.”**  
+4. Select **“Profile.”**
 
 ---
 
 ## Actual Result
-System displays an error message: **"User not found"** instead of loading the profile details.
+The system displays an error message:  
+**"User not found"**  
+The profile details are not loaded.
 
 ---
 
 ## Expected Result
-Profile page should load successfully and display the user's account details and settings.
+The Profile page should load successfully and display the user's account information and settings.
 
 ---
 
 ## Attachment
-Video Evidence: *(Loom link provided in original report)*
+Video evidence (Loom link provided in the original bug report).
