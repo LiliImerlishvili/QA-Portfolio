@@ -8,13 +8,6 @@ Checklists help quickly verify core functionality, UI consistency, and performan
 
 ### 🧾 Example Checklists
 
-| Checklist | Description | Platform |
-|------------|--------------|-----------|
-| E-Commerce Functional Checklist | Covers login, search, cart, checkout | Web |
-| Mobile App Checklist | Covers UI, navigation, performance | Android |
-| Regression Checklist | Key test cases for re-validation after bug fixes | Web & Mobile |
-| UI/UX Consistency Checklist | Colors, typography, responsiveness | Web |
-
 ---
 
 ### 🎯 Purpose
