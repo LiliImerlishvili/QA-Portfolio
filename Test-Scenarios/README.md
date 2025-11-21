@@ -1,6 +1,4 @@
-# 🎬 Test Scenarios
-
-## 🧩 Summary
+# 🎬 Test Scenarios -  Summary
 
 The scenarios in this folder provide a complete picture of how users interact with the e-commerce platform under real conditions.
 
