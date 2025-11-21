@@ -1,5 +1,4 @@
-# 🧩 Requirements - Test Scenarios - Test Cases - Bug Reports Traceability Matrix
-
+# 🧩 Requirements - Test Scenarios - Test Cases - Bug Reports Traceability Matrix 
 This matrix links high-level **Test Scenarios** to **Test Cases** and related **Bug Reports**.  
 It shows how real user flows are covered by detailed tests and which defects were found during execution.
 
