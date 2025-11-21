@@ -1,4 +1,4 @@
-##🤖 AI-Based Recruiting System (Confidential Project)
+## 🤖 AI-Based Recruiting System (Confidential Project)
 
 ### ✅ Tested AI-driven workflows for candidate search and ranking modules
 ### ✅ Created structured bug reports with clear reproduction steps
