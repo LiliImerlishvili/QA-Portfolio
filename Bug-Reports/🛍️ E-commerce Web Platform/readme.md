@@ -7,7 +7,7 @@
 - ✅ Reported and tracked defects in Jira and validated fixes with dev team
 - ✅ Ensured smooth regression cycles before major releases
 
-* 🧩 Testing Type: Functional · Regression · UI/UX 
-* 🔧 Tools: Jira · Chrome DevTools · Postman · SQL · TestRail 
+*🧩 Testing Type:* Functional · Regression · UI/UX 
+*🔧 Tools:* Jira · Chrome DevTools · Postman · SQL · TestRail 
  
-** Skills: Functional Testing · Regression Testing · UI Testing · Bug Reporting · Exploratory Testing · Scenario Testing · Test Cases · User Experience Testing · Test Design · Test Execution · Jira · Postman API · TestRail 
+*Skills:* Functional Testing · Regression Testing · UI Testing · Bug Reporting · Exploratory Testing · Scenario Testing · Test Cases · User Experience Testing · Test Design · Test Execution · Jira · Postman API · TestRail 
