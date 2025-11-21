@@ -23,3 +23,8 @@ Checklists help quickly verify core functionality, UI consistency, and performan
 - **Google Sheets / Excel**  
 - **Confluence or Notion** – for team-wide accessibility  
 - **BrowserStack / Emulators** – for multi-device checks  
+
+---
+🔒 NDA Notice
+
+All Test-checklists are anonymized. Real brand names, URLs, or sensitive client assets were removed or replaced according to NDA restrictions. Only testing logic and QA methodologies are shown.
