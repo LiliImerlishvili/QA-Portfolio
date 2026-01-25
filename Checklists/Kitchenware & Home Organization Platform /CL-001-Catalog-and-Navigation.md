@@ -1,8 +1,13 @@
-# CL-001 – Catalog and Navigation Checklist
+🌐 Catalog & Navigation Checklist
 
-- Categories load correctly
-- Subcategories open without errors
-- Breadcrumbs show correct hierarchy
-- Pagination or infinite scroll works
-- No broken links in navigation
-- Page layout remains stable on scroll
+## Categories & Navigation
+- [ ] Categories load without errors
+- [ ] Subcategories open correctly
+- [ ] Breadcrumbs reflect correct hierarchy
+- [ ] Pagination / infinite scroll works
+- [ ] No broken or empty category pages
+
+## UX Checks
+- [ ] Navigation is usable on mobile
+- [ ] Active category is highlighted
+- [ ] No layout shifts during navigation
