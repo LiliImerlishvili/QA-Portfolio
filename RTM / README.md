@@ -1,38 +1,34 @@
 🔗 RTM – Requirements Traceability Matrix
-This folder contains the Traceability Matrix that links high-level requirements with related Test Scenarios, Test Cases, and Bug Reports.
 
-The matrix provides a clear view of:
+This folder contains a Requirements Traceability Matrix (RTM) that links business requirements to related test scenarios, test cases and bug reports.
 
-Which requirements are tested
-Which test cases validate each scenario
-Which defects were discovered during testing
-Coverage completeness and potential risk areas
+The RTM provides a clear and structured view of:
+• Which requirements are covered by testing  
+• Which test cases validate each scenario  
+• Which defects were identified during execution  
+• Overall test coverage and potential risk areas  
+
 🎯 Purpose
-The Traceability Matrix helps to:
+The Traceability Matrix is used to:
+• Ensure full coverage of business and functional requirements  
+• Maintain clear traceability between Requirements → Scenarios → Test Cases → Bug Reports  
+• Identify untested or high-risk areas early  
+• Improve transparency during sprint planning and test execution  
+• Demonstrate a systematic, requirement-driven testing approach  
 
-Ensure all business requirements are covered by test scenarios and cases
-Provide clear linkage between Scenarios → Test Cases → Bug Reports
-Identify untested or high-risk areas early
-Improve transparency during test execution and sprint planning
-Demonstrate full testing coverage in a clean and structured format
 🛠 Tools Used
-Jira – Linking user stories and bug reports
-Qase / TestRail – Managing structured test cases and scenarios
-Google Sheets / Markdown – Documentation and RTM mapping
-GitHub – Organizing RTM alongside Bug Reports, Test Cases, and Checklists
-🧾 Summary
-The RTM shows that testing was performed in a systematic, requirement-driven way, not just through ad-hoc execution.
-It provides a complete trace of:
+• Jira – Linking user stories and defects  
+• Qase / TestRail – Managing test cases and scenarios  
+• Google Sheets / Markdown – RTM documentation and mapping  
+• GitHub – Organizing RTM alongside related QA artifacts  
 
+🧾 Summary
+The RTM demonstrates that testing was performed in a structured and traceable way, rather than ad-hoc execution.
+
+Each entry follows the flow:
 Requirement → Scenario → Test Case → Bug Report
 
-This format is highly valued in professional QA environments and gives interviewers a clear picture of your structured testing approach.
+This approach is widely used in professional QA environments and helps stakeholders quickly assess test coverage and quality status.
 
-If you want, I can also:
-
-✅ Generate the **full RTM.md matrix table
-✅ Link every scenario/test case based on your actual bugs
-✅ Update your folder structure with ready-to-paste files
 🔒 NDA Notice
-
-All reports are anonymized. Real brand names, URLs, or sensitive client assets were removed or replaced according to NDA restrictions. Only testing logic and QA methodologies are shown.
+All materials are fully anonymized. Real brand names, URLs and sensitive client assets were removed or replaced in accordance with NDA requirements. Only testing logic and QA methodology are presented.
