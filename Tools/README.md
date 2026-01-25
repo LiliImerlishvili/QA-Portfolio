@@ -1,30 +1,36 @@
-# 🧰 Tools & Utilities
+# 🧰 Tools & Utilities – Summary
 
-This folder showcases the tools and resources I use in my daily QA workflow.
+This folder showcases the tools and utilities I regularly use during manual QA activities across web, mobile and API-driven projects.
+
+The examples included here demonstrate how these tools are applied in real testing scenarios for defect identification, validation and documentation.
 
 ---
 
 ### 🧩 Tools Demonstrated
 
 | Tool | Usage |
-|------|--------|
-| Jira | Defect tracking and project management |
-| ClickUp | Defect tracking and project management |
-| Postman | API testing and response validation |
-| Swagger | API testing and response validation |
-| Browser DevTools | Inspecting frontend behavior |
-| SQL | Database validation |
-| Android Emulator | Mobile testing environment |
-| Qase.io | Test case and suite management |
+|------|-------|
+| Jira | Defect tracking, bug lifecycle management and collaboration |
+| ClickUp | Task and defect tracking within Agile workflows |
+| Postman | API testing, response validation and error handling |
+| Swagger | API documentation review and endpoint verification |
+| Browser DevTools | Frontend inspection, network analysis and UI debugging |
+| SQL | Basic database validation and data consistency checks |
+| Android Emulator | Mobile application testing environment |
+| Qase | Test case design and test suite management |
 
 ---
 
 ### 📁 Files Included
 
-- `Jira_Bug_Report_Sample.png` – Example bug ticket  
-- `Postman_Collection.json` – Example API tests  
-- `SQL_Query_Screenshots.png` – DB validation example  
+• `Jira_Bug_Report_Sample.png` – Example of a professionally documented bug report  
+• `Postman_Collection.json` – Sample API test collection  
+• `SQL_Query_Screenshots.png` – Database validation examples  
+
+These files provide practical insight into how the listed tools are used during day-to-day QA work.
 
 ---
 
-📘 *These samples are safe and anonymized for portfolio demonstration.*
+📘 Portfolio Note
+
+All samples are fully anonymized and safe for portfolio demonstration. Real project data, brand names and sensitive information have been removed or replaced in accordance with NDA requirements.
