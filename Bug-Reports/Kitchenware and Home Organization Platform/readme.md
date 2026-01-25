@@ -1,12 +1,71 @@
+# 🐞 Bug Reports – Kitchenware & Home Organization Platform (NDA)
 
-🍽️ Kitchenware and Home Organization Platform (NDA Project)
-✅ Improved UI and UX consistency by 25 percent through testing navigation, templates, popups, banners and product pages
-✅ Performed cross-browser and responsive testing ensuring 100 percent layout stability on Chrome, Firefox, Safari and Edge
-✅ Validated shopping journeys and inventory flows reducing customer-facing issues by 30 percent
-✅ Verified tracking events, cookie consent and analytics accuracy improving data reliability by 20 percent
-✅ Reported and tracked defects in Jira and supported retesting to stabilize release cycles
+This folder contains structured and anonymized bug reports identified during manual testing of a B2C e-commerce platform focused on kitchenware and home organization products.
 
-🧩 Testing Type: Functional • Regression • UI and UX • Cross-browser
-🛠️ Tools: Jira • Chrome DevTools • Postman • GA4 • GTM • TestRail
-✅ Improved UI and UX consistency by 25 percent through testing navigation, templates, popups, banners and product pages ✅ Performed cross-browser and responsive testing ensuring 100 percent layout stability on Chrome, Firefox, Safari and Edge ✅ Validated shopping journeys and inventory flows reducing customer-facing issues by 30 percent ✅ Verified tracking events, cookie consent and analytics accuracy improving data reliability by 20 percent ✅ Reported and tracked defects in Jira and supported retesting to stabilize release cycles 🧩 Testing Type: Functional • Regression • UI and UX • Cross-browser 🛠️ Tools: Jira • Chrome DevTools • Postman • GA4 • GTM • TestRail
-Skills: Exploratory Testing · Manual Testing · Retesting · Regression Testing · Functional Testing · Software Testing · System Testing · Bug Reporting · Scenario Testing · Software Testing Life Cycle (STLC) · Test Cases · Testing
+All bug reports are based on real testing scenarios and follow a consistent QA documentation structure to clearly demonstrate defect analysis, reproduction steps, and expected system behavior.
+
+---
+
+## 📌 Scope of Testing
+
+Bug reports in this folder cover defects found across the following areas:
+
+- Navigation menus and category pages  
+- Product listing and product detail pages  
+- Popups, banners, and promotional components  
+- Shopping journeys and inventory-related flows  
+- Cross-browser and responsive layout issues  
+- Cookie consent behavior and tracking events  
+- Analytics validation (GA4 & GTM)  
+
+---
+
+## 🧾 Bug Report Structure
+
+Each bug report includes:
+
+- Bug Title  
+- Bug ID  
+- Priority and Severity  
+- Description  
+- Preconditions  
+- Steps to Reproduce  
+- Actual Result  
+- Expected Result  
+
+This structure ensures clarity, reproducibility, and efficient communication with development teams.
+
+---
+
+## 🎯 QA Skills Demonstrated
+
+Through these bug reports, the following QA competencies are demonstrated:
+
+- Functional Testing  
+- UI/UX Testing  
+- Cross-browser Testing  
+- Responsive Testing  
+- Regression Testing  
+- Defect Analysis and Reproduction  
+- Priority and Severity Evaluation  
+- Clear Expected vs Actual Result Documentation  
+- Collaboration-ready bug reporting (Jira-style)  
+
+---
+
+## 🧰 Tools Used
+
+- Jira – Defect tracking and lifecycle management  
+- Chrome DevTools – UI inspection and network analysis  
+- Postman – API and request validation  
+- GA4 / GTM – Analytics and tracking verification  
+- Desktop & Mobile Browsers – Cross-browser and responsive validation  
+
+---
+
+## 🔒 NDA Notice
+
+All bug reports are anonymized.  
+Real brand names, URLs, internal systems, and sensitive client data have been removed or replaced according to NDA requirements.
+
+Only testing logic, QA methodology, and reporting quality are showcased in this repository.
