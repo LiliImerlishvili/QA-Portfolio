@@ -1,9 +1,10 @@
-# Requirements Traceability Matrix (RTM)
+# 🔗 Requirements Traceability Matrix (RTM)
 
-**Project:** Kitchenware & Home Organization Platform (NDA)  
-**Role:** Manual QA Engineer  
+This RTM demonstrates clear traceability between **Test Scenarios (TS)**,  
+**Test Cases (TC)**, and **Bug Reports (BUG)** for the **Kitchenware & Home Organization Platform**.
 
-This table provides full traceability between system requirements, test scenarios, test cases, and reported bugs.
+It shows that manual testing was performed in a **structured, requirement-driven manner**,  
+ensuring full coverage of critical e-commerce user flows and business requirements.
 
 ---
 
