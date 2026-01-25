@@ -1,55 +1,96 @@
 # 🧪 Manual QA Engineer Portfolio – Lili Imerlishvili
-Welcome to my **QA Portfolio**, where I document my journey as a **Manual QA Tester**  combining analytical thinking, attention to detail, and passion for quality.
 
-Through the **GenoFIT QA Manual Pro Program**, I’ve gained real-world, hands-on experience testing web and mobile applications, managing defects, and building clear QA documentation aligned with ISTQB standards.
+This repository contains selected QA artifacts and project case studies based on real-world products I worked on as a **Manual QA Engineer**.  
+All examples are **anonymized** and simplified to comply with NDA requirements while accurately reflecting my hands-on testing experience.
+
+The portfolio focuses on **manual, end-to-end, functional, regression, UI/UX and API testing** across web, mobile and AI-powered systems.
 
 ---
 
 ## 🚀 About Me
 
-- 🎯 **Detail-oriented Manual QA Tester** focused on improving user experience and ensuring product reliability.  
-- 🧩 Experienced in **Functional, Regression, UI/UX, and API testing**.  
-- 📋 Skilled in creating **Test Cases, Bug Reports, and Checklists**.  
-- 🧠 Knowledgeable in **SDLC, STLC, and Defect Lifecycle**.  
-- 💬 Strong communicator who collaborates effectively with developers, designers, and product teams.  
+Manual QA Engineer with hands-on experience testing **web, mobile and AI-driven applications** in fast-paced product environments.  
+Strong background in functional, regression, exploratory and UI/UX testing, with a clear focus on **release readiness, risk identification and product quality**.
+
+Experienced in creating structured test cases, defect reports and QA documentation, and collaborating closely with **cross-functional product teams** to ensure reliable and user-friendly releases.
+
+---
+
+## 🧩 Featured Case Studies
+
+### 🛒 E-commerce Web Platform (NDA)
+
+End-to-end manual testing of a large-scale e-commerce platform, covering product listings, filtering, cart and checkout flows, and multilingual behavior.
+
+**Focus areas:**
+- Functional and regression testing
+- UI/UX consistency and responsive behavior
+- Data validation and defect reporting
+- Release readiness support
+
+Artifacts related to this project can be found in:
+- Test Cases
+- Bug Reports
+- Regression Checklists
+
+---
+
+### 🤖 AI-Based Recruiting System (Confidential)
+
+Manual QA of an AI-driven recruiting platform focused on candidate search, ranking logic, data consistency and API integrations.
+
+**Focus areas:**
+- Functional and exploratory testing of AI-driven workflows
+- Validation of data consistency and backend integrations
+- Defect investigation and structured bug reporting
+- Collaboration with developers during issue resolution
+
+Artifacts related to this project can be found in:
+- Test Scenarios
+- Bug Reports
+- API Testing samples
 
 ---
 
 ## 🧰 Tools & Technologies
 
 | Category | Tools |
-|-----------|--------|
-| **Test Management** | Jira, Qase.io |
+|---------|-------|
+| **Test Management** | Jira, Qase |
 | **API Testing** | Postman, Swagger |
 | **Frontend Analysis** | Browser DevTools |
 | **Database Testing** | SQL |
-| **Mobile Testing** | Android Studio / Emulators |
+| **Mobile Testing** | Android Studio, Emulators |
 | **Documentation** | Excel, Google Sheets, Notion |
 
 ---
 
-| Category | Description |
-|-----------|--------------|
-| **Test Cases** | Structured test cases designed for Web & Mobile applications. |
-| **Bug Reports** | Realistic, well-documented defect reports based on actual testing scenarios. |
-| **Checklists** | Functional & UI checklists for web and mobile testing. |
-| **Test Scenarios** | High-level scenarios written from a user-centric perspective. |
-| **Learning Path** | My study materials, notes, and progress in QA-related tools. |
-| **Certificates** | Proof of my QA training and achievements. |
-| **Tools & Skills** | Jira, Postman, DevTools, SQL, and documentation examples. |---
+## 📂 Portfolio Contents
 
-## 🎯 My QA Mindset
-
-> “A great tester doesn’t just find bugs  they prevent them by thinking like a user.”
-
-Quality is not only about finding defects; it’s about understanding the product deeply, asking the right questions, and ensuring the end-user gets the best possible experience.
+| Section | Description |
+|--------|-------------|
+| **Test Cases** | Structured test cases designed for web and mobile applications |
+| **Bug Reports** | Well-documented defect reports based on realistic testing scenarios |
+| **Checklists** | Functional and UI checklists used during exploratory and regression testing |
+| **Test Scenarios** | High-level, user-centric testing scenarios |
+| **API Testing** | Sample API validation scenarios using Postman |
+| **QA Documentation Samples** | Examples of structured QA documentation used in real projects |
+| **Certificates** | Proof of completed QA training and certifications |
 
 ---
 
-## 🧩 Let’s Connect
+## 🎯 QA Mindset
 
-💼 [LinkedIn Profile](https://www.linkedin.com/in/lili-imerlishvili/)  
-📧 Email: [lilimerlishvili@gmail.com]  
-📂 [QA Portfolio Repository](https://github.com/LiliImerlishvili/QA-Portfolio)
+Quality is not only about finding defects, but about **understanding the product, identifying risks early and ensuring a stable and reliable user experience**.
 
-⭐ *If you find this portfolio helpful or inspiring, feel free to give it a star!*
+I approach testing with a product mindset, focusing on how real users interact with the system and how quality impacts the overall business outcome.
+
+---
+
+## 🤝 Let’s Connect
+
+- 💼 **LinkedIn:** https://www.linkedin.com/in/lili-imerlishvili  
+- 📧 **Email:** lilimerlishvili@gmail.com  
+- 📂 **GitHub Portfolio:** https://github.com/LiliImerlishvili/QA-Portfolio  
+
+⭐ If you find this portfolio useful, feel free to give it a star.
