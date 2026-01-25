@@ -22,8 +22,32 @@ This table provides full traceability between system requirements, test scenario
 
 ---
 
-## 🔒 NDA Notice
+## 🎯 Purpose
 
-All requirements, identifiers, and references are anonymized.  
-Real product names, URLs, and sensitive client data are removed.  
-Only QA logic and testing methodology are demonstrated.
+The RTM ensures that:
+
+- Every **business requirement** is covered by at least one test scenario  
+- Each **test scenario** is validated by a structured test case  
+- All **reported defects** are traceable to specific test executions  
+- Critical user journeys (browse, cart, checkout) are fully covered  
+- QA coverage is **transparent, auditable, and portfolio-ready**
+
+---
+
+## 🛠 Tools Used
+
+- Jira – bug tracking and defect lifecycle management  
+- TestRail – test case documentation and execution  
+- Chrome DevTools – UI, network, and responsive testing  
+- Postman – API and backend response validation  
+- GA4 / GTM – analytics and event verification  
+- Markdown – documentation format  
+- GitHub – portfolio presentation
+
+---
+
+🔒 **NDA Notice**
+
+All identifiers, flows, and examples are anonymized.  
+No real client data, URLs, or internal business logic are exposed.  
+This RTM is provided **strictly for demonstrating QA methodology, structure, and traceability**.
