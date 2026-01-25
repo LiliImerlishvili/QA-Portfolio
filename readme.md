@@ -1,5 +1,4 @@
-# 🧪 Manual QA Tester Portfolio – Lili Imerlishvili
-
+# 🧪 Manual QA Engineer Portfolio – Lili Imerlishvili
 Welcome to my **QA Portfolio**, where I document my journey as a **Manual QA Tester**  combining analytical thinking, attention to detail, and passion for quality.
 
 Through the **GenoFIT QA Manual Pro Program**, I’ve gained real-world, hands-on experience testing web and mobile applications, managing defects, and building clear QA documentation aligned with ISTQB standards.
