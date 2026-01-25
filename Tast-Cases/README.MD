@@ -1,37 +1,27 @@
-# # 🧩 Test Cases (Based on Real Bug Reports)
+# 🧩 Test Cases (Based on Real Bug Reports)
 
-This folder contains detailed, NDA-safe test cases designed directly from discovered defects in the e-commerce project.
+This folder contains detailed, NDA-safe test cases designed directly from real defects discovered during manual testing of the e-commerce project.
 
 Each test case:
+• Is linked to a specific Bug ID from the Bug Reports folder  
+• Follows a full ISTQB-style structure (Purpose, Preconditions, Steps, Expected Result)  
+• Covers both positive and negative scenarios for critical user flows  
+• Ensures clear traceability between Test Cases and Bug Reports  
 
-- Is **linked to a specific Bug ID** from the Bug Reports folder  
-- Follows a **full ISTQB-style structure** (Purpose, Preconditions, Steps, Expected Result)  
-- Demonstrates **positive and negative coverage** for critical flows  
-- Shows clear **traceability** between Test Cases and Bug Reports  
-
-
----
-
-## 🎯 Purpose
-
+🎯 Purpose
 These test cases were created to:
+• Validate core e-commerce functionality (navigation, brands, product details, registration, recommendations)  
+• Ensure reported bugs are reproducible using clear and well-defined steps  
+• Provide reliable regression coverage for fixed defects  
+• Support requirement-driven and risk-based testing  
+• Maintain traceability between Requirements → Test Cases → Bug Reports  
 
-- Validate **core e-commerce flows** (navigation, brands, product details, registration, recommendations)  
-- Ensure that **reported bugs are reproducible using well-defined steps**  
-- Provide **regression coverage** for fixed defects  
-- Maintain **clear traceability** between requirements → test cases → bug reports  
+🧰 Tools Used
+• Qase / TestRail-style structure for test case design  
+• Jira – Linking Test Cases with Bug Reports  
+• Chrome DevTools – UI inspection and network validation  
+• Figma – Visual comparison for design-related test cases  
+• Desktop and mobile browsers – Responsive and cross-device checks  
 
----
-
-## 🧰 Tools Used
-
-- Qase / TestRail-style structure for test case design  
-- Jira – linking Test Cases ↔ Bug Reports  
-- Chrome DevTools – UI layout & network validation  
-- Figma – visual comparison for design-related test cases  
-- Desktop & Mobile browsers for responsive checks  
-
----
 🔒 NDA Notice
-
-All cases are anonymized. Real brand names, URLs, or sensitive client assets were removed or replaced according to NDA restrictions. Only testing logic and QA methodologies are shown.
+All test cases are fully anonymized. Real brand names, URLs and sensitive client assets were removed or replaced in accordance with NDA requirements. Only testing logic, structure and QA methodologies are demonstrated.
