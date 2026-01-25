@@ -1,71 +1,28 @@
-# 🐞 Bug Reports – Real Estate & Construction Platform (NDA)
+## 🏗️ Real Estate & Construction Platform (NDA Project)
 
-This folder contains structured and anonymized bug reports identified during manual testing of a real estate and construction platform.
+**Role:** Manual QA Engineer  
+**Period:** Aug 2025  
 
-The reports are based on real testing scenarios and focus on UI/UX stability, responsive behavior, inquiry workflows, and analytics accuracy to ensure a smooth and reliable user experience across desktop and mobile devices.
+### 📌 Project Overview
+Manual QA testing for a real estate and construction platform focused on UI/UX stability, responsive behavior, inquiry workflows, and analytics accuracy across web and mobile devices.
 
----
+### ✅ Responsibilities & Achievements
+- Performed manual testing of modular templates, property listings, galleries, animations, and inquiry forms
+- Identified UI/UX inconsistencies and layout issues across multiple screen sizes
+- Validated inquiry submission flows and smart contact logic to ensure reliable lead generation
+- Conducted cross-browser and responsive testing on Chrome, Firefox, Safari, and Edge
+- Verified GA4 tracking events, analytics accuracy, privacy compliance, and basic accessibility requirements
+- Reported defects in Jira and supported retesting cycles with the development team
+- Contributed to performance and usability improvements before production releases
 
-## 📌 Scope of Testing
+### 🧩 Testing Type
+Functional · Regression · UI/UX · Cross-browser
 
-Bug reports in this folder cover issues identified across the following areas:
+### 🛠️ Tools Used
+Jira · Chrome DevTools · GA4 · GTM
 
-- Modular page templates and layout components  
-- Property listings and detail pages  
-- Image galleries, animations, and interactive UI elements  
-- Inquiry forms and contact workflows  
-- Smart inquiry logic and validation  
-- Cross-browser and responsive behavior  
-- Tracking events, GA4 data accuracy, and GTM setup  
-- Privacy compliance and basic accessibility checks  
+### 🎯 QA Skills Demonstrated
+Exploratory Testing · Manual Testing · Functional Testing · Regression Testing · UI Testing · Scenario Testing · STLC · System Testing · Bug Reporting · Test Planning
 
----
-
-## 🧾 Bug Report Structure
-
-Each bug report follows a consistent QA documentation format and includes:
-
-- Bug Title  
-- Bug ID  
-- Priority and Severity  
-- Description  
-- Preconditions  
-- Steps to Reproduce  
-- Actual Result  
-- Expected Result  
-
-This structure ensures defects are easy to reproduce, clearly understood, and ready for efficient collaboration with development teams.
-
----
-
-## 🎯 QA Skills Demonstrated
-
-The bug reports in this folder demonstrate the following QA competencies:
-
-- Functional Testing  
-- UI/UX Testing  
-- Cross-browser Testing  
-- Responsive Testing  
-- Regression Testing  
-- Defect Analysis and Root Cause Identification  
-- Priority and Severity Assessment  
-- Clear Expected vs Actual Result Documentation  
-- Jira-style defect reporting and retesting collaboration  
-
----
-
-## 🧰 Tools Used
-
-- Jira – Defect tracking and communication with development team  
-- Chrome DevTools – Layout inspection, console and network analysis  
-- GA4 / GTM – Analytics and tracking validation  
-- Desktop & Mobile Browsers – Cross-device and cross-browser testing  
-
----
-
-## 🔒 NDA Notice
-
-All bug reports are anonymized.  
-Real brand names, URLs, internal systems, and sensitive client information have been removed or replaced in accordance with NDA requirements.
-
-Only QA methodology, testing logic, and professional defect reporting practices are showcased.
+🔒 **NDA Notice**  
+All project details are anonymized. Real brand names, URLs, and sensitive client information have been removed.
