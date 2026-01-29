@@ -1,0 +1,82 @@
+# 🐞 BUG-002 – Multi-Speaker Input Fields Are Misaligned in AI Audio
+
+---
+
+## 📌 Summary
+Multi-speaker input fields for **Voice** and **Speaker Name** are misaligned in the AI Audio feature, causing an unbalanced and inconsistent UI layout on both desktop and mobile devices.
+
+---
+
+## 🖥 Environment
+
+| Device | OS | Browser |
+|------|----|--------|
+| iMac | iOS Tahoe 26.1 | Google Chrome 143.0.7499.193 (arm64) |
+| iPhone 14 Pro | iOS 26.1 | Google Chrome 144.0.7559.53 |
+
+---
+
+## 🏷 Labels
+
+- Mobile  
+- Web  
+
+---
+
+## 📝 Description
+
+When using the **Multi-Speaker** generation option in the AI Audio feature, the input fields for **Voice** and **Speaker Name** are displayed on different vertical levels.
+
+This results in a visually unbalanced form layout and negatively impacts UI consistency and user experience, especially noticeable on mobile devices.
+
+---
+
+## 🔁 Preconditions
+
+- User is logged in  
+- AI Audio feature is accessible  
+
+---
+
+## 🧪 Steps to Reproduce
+
+1. Open **GetBot: ChatGPT Sidebar + GPT-4.1, Claude 3.5, Gemini 2.5 & AI Tools**
+2. Navigate to **AI Audio**
+3. Select **Multi-Speaker** generation
+4. Observe the input fields for **Voice** and **Speaker Name**
+
+---
+
+## ❌ Actual Result
+
+- **Voice** and **Speaker Name** input fields are **not aligned**
+- Fields appear on **different vertical levels**
+- Layout looks **visually unbalanced**, as shown in the screenshots
+
+---
+
+## ✅ Expected Result
+
+- **Voice** and **Speaker Name** fields should be **evenly aligned**
+- Both fields should appear on the **same horizontal line**
+- The form layout should look **clean and consistent**
+
+---
+
+## 🔄 Frequency
+
+- Always
+
+---
+
+## ⚠ Severity
+
+- Medium
+
+---
+
+## 🚦 Priority
+
+- Medium
+
+---
