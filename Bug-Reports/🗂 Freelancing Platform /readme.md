@@ -1,6 +1,6 @@
 ## 🗂  Freelancing Platform
 
-Worked as a Manual QA Engineer on multiple freelance projects delivered through the MyTask platform, covering both short-term service-based tasks and longer-term employment-style engagements.
+Worked as a Manual QA Engineer on multiple freelance projects delivered through the Freelancing platform, covering both short-term service-based tasks and longer-term employment-style engagements.
 
 ### Scope of Work
 - Tested various web and mobile applications across different domains
