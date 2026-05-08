@@ -34,10 +34,12 @@ I checked:
 - Error handling for invalid requests
 - API behavior with valid and invalid user IDs
 ---
+
 # API Testing - User Endpoint
 
 This section demonstrates my approach to API testing using Postman.  
 The goal of this project is to validate API behavior, response structure, status codes and error handling for user-related endpoints.
+
 
 ---
 
