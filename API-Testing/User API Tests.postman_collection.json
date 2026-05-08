@@ -1,112 +1,242 @@
 {
   "info": {
-    "_postman_id": "ab07995a-2135-42ca-a0f8-81dfd1a2e234",
     "name": "User API Tests",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_exporter_id": "49411943",
-    "_collection_link": "https://go.postman.co/collection/49411943-ab07995a-2135-42ca-a0f8-81dfd1a2e234?source=collection_link"
+    "description": "Postman collection for testing user-related API endpoints. Includes positive and negative scenarios, status code validation, response structure checks and basic error handling validation.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
     {
-      "name": "GET User by ID - Valid User",
-      "event": [
-        {
-          "listen": "test",
-          "script": {
-            "exec": [
-              "pm.test(\"Status code is 200\", function () {",
-              "    pm.response.to.have.status(200);",
-              "});",
-              "",
-              "pm.test(\"Response has id\", function () {",
-              "    var jsonData = pm.response.json();",
-              "    pm.expect(jsonData).to.have.property(\"id\");",
-              "});"
-            ],
-            "type": "text/javascript",
-            "packages": {},
-            "requests": {}
-          }
-        }
-      ],
+      "name": "GET Valid User - /users/1",
       "request": {
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://jsonplaceholder.typicode.com/users/1",
-          "protocol": "https",
+          "raw": "{{base_url}}/users/1",
           "host": [
-            "jsonplaceholder",
-            "typicode",
-            "com"
+            "{{base_url}}"
           ],
           "path": [
             "users",
             "1"
           ]
         },
-        "description": "Validate API returns list of users and correct response structure"
+        "description": "Positive scenario: Retrieve a valid user by ID."
       },
-      "response": []
-    },
-    {
-      "name": "GET User by ID - Invalid User (404)",
+      "response": [],
       "event": [
         {
           "listen": "test",
           "script": {
-            "exec": [
-              "pm.test(\"Status code is 404\", function () {",
-              "    pm.response.to.have.status(404);",
-              "});"
-            ],
             "type": "text/javascript",
-            "packages": {},
-            "requests": {}
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response is JSON\", function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "pm.test(\"Response time is acceptable\", function () {",
+              "    pm.expect(pm.response.responseTime).to.be.below(1000);",
+              "});",
+              "",
+              "pm.test(\"Response contains user ID\", function () {",
+              "    const jsonData = pm.response.json();",
+              "    pm.expect(jsonData.id).to.exist;",
+              "});",
+              "",
+              "pm.test(\"User ID is correct\", function () {",
+              "    const jsonData = pm.response.json();",
+              "    pm.expect(jsonData.id).to.eql(1);",
+              "});",
+              "",
+              "pm.test(\"Email has valid format\", function () {",
+              "    const jsonData = pm.response.json();",
+              "    pm.expect(jsonData.email).to.match(/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/);",
+              "});"
+            ]
           }
         }
-      ],
+      ]
+    },
+    {
+      "name": "GET Non-existing User - /users/9999",
       "request": {
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://jsonplaceholder.typicode.com/users/9999",
-          "protocol": "https",
+          "raw": "{{base_url}}/users/9999",
           "host": [
-            "jsonplaceholder",
-            "typicode",
-            "com"
+            "{{base_url}}"
           ],
           "path": [
             "users",
             "9999"
           ]
         },
-        "description": "Validate API returns 404 status code and proper response for a non-existing user"
+        "description": "Negative scenario: Try to retrieve a non-existing user."
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 404\", function () {",
+              "    pm.response.to.have.status(404);",
+              "});",
+              "",
+              "pm.test(\"Response is JSON\", function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "pm.test(\"Response does not return valid user data\", function () {",
+              "    const jsonData = pm.response.json();",
+              "    pm.expect(jsonData.id).to.be.undefined;",
+              "});"
+            ]
+          }
+        }
+      ]
     },
     {
-      "name": "GET All Users",
+      "name": "GET All Users - /users",
       "request": {
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://jsonplaceholder.typicode.com/users/",
-          "protocol": "https",
+          "raw": "{{base_url}}/users",
           "host": [
-            "jsonplaceholder",
-            "typicode",
-            "com"
+            "{{base_url}}"
+          ],
+          "path": [
+            "users"
+          ]
+        },
+        "description": "Positive scenario: Retrieve all users."
+      },
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response is JSON\", function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "pm.test(\"Response contains users list\", function () {",
+              "    const jsonData = pm.response.json();",
+              "    pm.expect(jsonData).to.be.an(\"array\");",
+              "});",
+              "",
+              "pm.test(\"Users list is not empty\", function () {",
+              "    const jsonData = pm.response.json();",
+              "    pm.expect(jsonData.length).to.be.above(0);",
+              "});",
+              "",
+              "pm.test(\"Each user has required fields\", function () {",
+              "    const jsonData = pm.response.json();",
+              "    jsonData.forEach(function (user) {",
+              "        pm.expect(user).to.have.property(\"id\");",
+              "        pm.expect(user).to.have.property(\"name\");",
+              "        pm.expect(user).to.have.property(\"email\");",
+              "    });",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GET Invalid User ID Format - /users/abc",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/users/abc",
+          "host": [
+            "{{base_url}}"
           ],
           "path": [
             "users",
-            ""
+            "abc"
           ]
         },
-        "description": "Validate API returns list of users and correct response structure"
+        "description": "Negative scenario: Send invalid user ID format."
       },
-      "response": []
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 400 or 404\", function () {",
+              "    pm.expect([400, 404]).to.include(pm.response.code);",
+              "});",
+              "",
+              "pm.test(\"Response is JSON\", function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "pm.test(\"API does not return valid user data\", function () {",
+              "    const jsonData = pm.response.json();",
+              "    pm.expect(jsonData.id).to.be.undefined;",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GET Invalid Endpoint - /invalid-endpoint",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/invalid-endpoint",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "invalid-endpoint"
+          ]
+        },
+        "description": "Negative scenario: Validate API behavior for an invalid endpoint URL."
+      },
+      "response": [],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 404\", function () {",
+              "    pm.response.to.have.status(404);",
+              "});",
+              "",
+              "pm.test(\"Response time is acceptable\", function () {",
+              "    pm.expect(pm.response.responseTime).to.be.below(1000);",
+              "});"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://jsonplaceholder.typicode.com",
+      "type": "string"
     }
   ]
 }
