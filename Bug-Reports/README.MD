@@ -1,37 +1,78 @@
-🐞 Bug Reports – Summary
+# Bug Reports
 
-This folder contains structured, anonymized and professionally formatted bug reports identified during manual testing of web and mobile applications. All reports follow consistent QA documentation standards and demonstrate clear defect analysis, reproducible steps and a strong understanding of expected versus actual system behavior.
+This folder contains structured, anonymized bug reports identified during manual testing of web, mobile, API, AI-powered, community, security, and workflow-management products.
 
-The goal of this collection is to showcase:
-• Proficiency in functional, UI/UX, responsive and cross-browser testing  
-• Strong bug reporting skills aligned with Jira and Qase standards  
-• Clear separation of severity, priority, reproducibility and environment  
-• Ability to analyze design mismatches (Figma vs implementation)  
-• Capability to test both mobile and desktop platforms  
-• Awareness of user impact and potential business risk caused by defects  
+Each report focuses on observable system behavior and includes the information needed for reliable reproduction and review.
 
-🧰 Tools Used
-• Jira – Bug management and defect tracking  
-• Qase – Test case linkage and traceability  
-• Chrome DevTools – Debugging and network inspection  
-• Safari / Chrome / Firefox / Edge – Cross-browser validation  
-• iPhone / macOS / Android – Device-level testing  
-• Figma – UI/UX comparison and design verification  
-• HTML/CSS Inspector – Layout and component analysis  
+## Standard Bug Report Structure
 
-🎯 QA Skills Demonstrated
-• Functional Testing  
-• UI/UX Testing  
-• Responsive Testing  
-• Form Validation  
-• Design Consistency Verification  
-• Regression Testing  
-• Cross-browser and Cross-device Testing  
-• Defect Reproduction and Documentation  
-• Severity and Priority Evaluation  
-• Clear Expected vs Actual Analysis  
-• Retesting and Fix Verification  
+- Clear defect title
+- Test environment
+- Preconditions
+- Steps to reproduce
+- Actual result
+- Expected result
+- Severity and priority
+- Reproducibility
+- User or business impact
+- Supporting evidence reference
 
-🔒 NDA Notice
+## Skills Demonstrated
 
-All reports are fully anonymized. Real brand names, URLs and sensitive client assets were removed or replaced in accordance with NDA requirements. The focus of this collection is strictly on testing logic, QA methodologies and professional defect documentation practices.
+- Functional defect analysis
+- UI/UX issue identification
+- Mobile and responsive testing
+- API and data-consistency validation
+- AI-response accuracy testing
+- Security workflow testing
+- Cross-browser and cross-device validation
+- Severity and priority evaluation
+- Regression and retesting support
+- Clear developer-ready documentation
+
+## Tools Used
+
+- Jira
+- ClickUp
+- Chrome DevTools
+- Postman
+- Android Studio Emulator
+- iOS and Safari
+- Jam
+- ScreenPal
+- Loom
+- GitHub
+
+## Project Collections
+
+- `AI-Based Recruiting System`
+- `AI-Powered E-commerce Platform`
+- `AI-Powered Multi-Modal Platform`
+- `AI-Powered Writing Workspace Platform`
+- `E-commerce Web Platform`
+- `Freelance Marketplace Platform`
+- `Heritage Hair Styling Brand Website`
+- `IT Agency Website`
+- `Interactive Advertising and Voucher Platform`
+- `Interactive Digital Content Platform`
+- `Invitation Card Builder Platform`
+- `Job Portal Platform`
+- `Kitchenware and Home Organization Platform`
+- `Legal Document Platform`
+- `Logistics & Transportation Platform`
+- `Meditation and Mindfulness LMS Platform`
+- `Mobile Application – Social Platform`
+- `Mobile Social Discovery Platform`
+- `Quality Engineering Command Center`
+- `Real Estate and Construction Platform`
+- `Service Marketplace Platform`
+- `Sports Activity Mobile Application`
+- `Student-Focused Android Mobile Application`
+- `Travel Reservation Mobile Application`
+- `Typing Practice Mobile Application`
+- `Vacancy Review and Community Feedback Platform`
+- `Wellness and Mindfulness Mobile Application`
+
+## Confidentiality
+
+All reports are anonymized and contain no confidential credentials, private URLs, personal data, or proprietary client assets.

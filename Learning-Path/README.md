@@ -1,32 +1,35 @@
-# 📚 Learning Path
+# Learning Path
 
-This folder documents my continuous learning journey as a QA Tester.
+This folder documents my continuous professional development in manual QA, API testing, mobile testing, automation fundamentals, security testing, AI feature testing, SQL, and quality leadership.
 
-It includes notes, mini-projects, and certifications that reflect my progress and understanding of QA methodologies, tools, and technologies.
+## Topics Covered
 
----
+- Software Testing Life Cycle
+- Software Development Life Cycle
+- Test design techniques
+- Bug lifecycle and defect management
+- Regression testing and retesting
+- Exploratory testing
+- API testing with Postman
+- SQL fundamentals for QA
+- Mobile and responsive testing
+- Playwright and Cucumber fundamentals
+- Security testing concepts
+- AI-assisted product testing
+- QA planning and leadership
 
-### 🎓 Topics Covered
+## Included Materials
 
-- Software Testing Fundamentals (SDLC, STLC)
-- Test Case Design Techniques
-- Bug Lifecycle & Defect Management
-- Regression & Retesting
-- API Testing (Postman, Swagger)
-- SQL for QA
-- Mobile & Responsive Testing
-- Exploratory Testing
+This area may contain:
 
----
+- Original study notes
+- Practice exercises
+- Mini-projects
+- Course summaries
+- Certification references
+- Technical checklists
+- Interview-preparation materials
 
-### 🧩 Included Files
+## Confidentiality
 
-| File | Description |
-|------|--------------|
-| ISTQB_Notes.pdf | Key concepts from ISTQB Foundation syllabus |
-| API_Testing_with_Postman.pdf | Practice scenarios and notes |
-| SQL_Queries_for_QA.pdf | Useful SQL commands for testers |
-
----
-
-📄 *All materials are original learning notes and study references.*
+Learning materials contain no confidential project data and are maintained only for professional-development purposes.

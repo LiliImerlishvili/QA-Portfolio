@@ -1,133 +1,70 @@
-# QA Engineer Portfolio - Lili Imerlishvili
+# QA Portfolio
 
-This portfolio demonstrates my hands-on experience in manual testing, API testing, UI automation, mobile testing, SQL validation, security testing, and QA documentation.
+A structured quality assurance portfolio containing real-world, anonymized QA documentation created across web, mobile, API, AI-powered, e-commerce, community, security, and workflow-management products.
 
-It reflects how I approach quality assurance - not only by finding defects, but by understanding the product, identifying risks early and ensuring a stable and reliable user experience.
+The repository demonstrates how I approach quality through clear test design, defect analysis, risk-based coverage, traceability, regression planning, and professional documentation.
 
----
+## Portfolio Coverage
 
-## 📊 Portfolio Highlights
+- Manual and functional testing
+- Exploratory and regression testing
+- Mobile application testing
+- API testing with Postman
+- AI feature and response-quality testing
+- Security workflow validation
+- UI/UX and responsive testing
+- Cross-browser and cross-device testing
+- Bug reporting and defect analysis
+- Test case and scenario design
+- Requirements traceability
+- QA planning and process documentation
+- QA Lead coordination and review workflows
 
-- 25+ Test Cases (functional and edge scenarios)  
-- 15+ Bug Reports with clear reproduction steps  
-- RTM (Requirement Traceability Matrix) for coverage validation  
-- API Testing using Postman (status codes, JSON validation)  
-- Real-world Case Studies (E-commerce and AI-based systems)  
+## Repository Structure
 
----
+| Folder | Purpose |
+|---|---|
+| `Bug-Reports/` | Real, anonymized defects with reproducible steps and impact analysis |
+| `Test-Cases /` | Detailed test cases linked to reported defects and requirements |
+| `Test-Scenarios/` | High-level user journeys and business-flow validation |
+| `Checklists/` | Fast, risk-based validation for core product areas |
+| `RTM /` | Requirements Traceability Matrices linking requirements, tests, and defects |
+| `Test-Plans/` | Scope, test approach, entry/exit criteria, and risk coverage |
+| `QA-Processes/` | QA Lead workflows, defect standards, and regression processes |
+| `API-Testing/` | API collections, scenarios, validations, and supporting documentation |
+| `Automation-Testing/` | UI automation projects and framework-related documentation |
+| `Learning-Path/` | Continuous professional development and study materials |
 
-## 🧠 My Testing Approach
+## Documentation Principles
 
-- Risk-based testing  
-- User-centric thinking  
-- Focus on edge cases and negative scenarios  
-- Clear and structured bug reporting  
-- Emphasis on release stability and product quality  
+Every QA artifact aims to be:
 
----
+- Clear and reproducible
+- Risk-aware and user-focused
+- Traceable to a requirement, workflow, or defect
+- Consistent in structure and terminology
+- Safe for public portfolio use
+- Free from confidential client information
 
-## 🧪 Featured Case Studies
+## Tools and Technologies
 
-### 🛒 E-commerce Web Platform (NDA)
+- Jira and ClickUp
+- Postman and API validation tools
+- Chrome DevTools
+- Git and GitHub
+- Playwright and Cucumber
+- Android Studio Emulator
+- iOS and Safari testing
+- Google Docs and Google Sheets
+- Jam, ScreenPal, and Loom
+- SQL fundamentals for QA
 
-**Goal:**  
-Ensure a stable and reliable checkout flow and minimize revenue-impacting defects.
+## Confidentiality
 
-**Key Contributions:**
-- Tested end-to-end user journey (browse → cart → checkout)  
-- Designed test cases for core business flows and edge cases  
-- Identified UI inconsistencies affecting user experience  
-- Validated data consistency between frontend and backend  
-- Performed regression testing before release  
+All public materials are anonymized. Real credentials, private URLs, personal data, internal identifiers, confidential assets, and proprietary implementation details are excluded.
 
-**Impact:**
-- Reduced risk in payment and checkout flow  
-- Improved release confidence through structured testing  
+## Current Portfolio Scale
 
-**Artifacts:**
-- Test Cases  
-- Bug Reports  
-- Regression Checklists  
+Approximately **27 project collections** are represented across the main manual QA documentation areas.
 
----
-
-### 🤖 AI-Based Recruiting System (Confidential)
-
-**Goal:**  
-Validate AI-driven workflows, data consistency and API integrations.
-
-**Key Contributions:**
-- Tested AI-based candidate search and ranking logic  
-- Performed exploratory testing on dynamic workflows  
-- Validated API responses and backend integrations  
-- Investigated defects and documented clear bug reports  
-- Collaborated with developers during issue resolution  
-
-**Impact:**
-- Identified inconsistencies in data processing  
-- Improved reliability of AI-driven features  
-
-**Artifacts:**
-- Test Scenarios  
-- Bug Reports  
-- API Testing Samples  
-
----
-
-## 📂 Portfolio Contents
-
-| Section | Description |
-|--------|------------|
-| Automation Testing | Playwright, Cucumber.js, TypeScript, and UI automation examples |
-| API Testing | Postman collections, test scripts, validation examples, and bug reports |
-| Bug Reports | Structured defect reports with reproduction steps and evidence |
-| Checklists | Regression, exploratory, mobile, and feature-based checklists |
-| Test Cases | Detailed test cases for web, mobile, and AI-powered platforms |
-| Test Scenarios | High-level positive, negative, and edge-case scenarios |
-| Test Plans | Scope, objectives, risks, environments, and test deliverables |
-| Test Strategies | Mobile, web, API, regression, and risk-based approaches |
-| Test Reports | Smoke, regression, execution, defect, and release summaries |
-| Mobile Testing | Device coverage, compatibility, permissions, networks, and interruptions |
-| SQL Testing | Data validation, CRUD, JOIN, NULL, and duplicate checks |
-| Security Testing | Authentication, authorization, session, input, and OWASP checks |
-| Performance Testing | Load scenarios, metrics, response time, and stability validation |
-| QA Processes | Defect life cycle, QA workflows, and release quality activities |
-| CI/CD | Automated test execution and test reporting workflow examples |
-| RTM | Requirement Traceability Matrix for coverage validation |
-| Certificates | Completed QA courses and professional training |
-
----
-
-## 🛠 Tools & Technologies
-
-- **Test Management:** Jira, Qase  
-- **UI Automation:** Playwright, Cucumber.js, TypeScript  
-- **API Testing:** Postman, Swagger, JavaScript test scripts  
-- **Database Testing:** SQL, data validation, CRUD checks  
-- **Mobile Testing:** Android Studio, emulators, physical devices  
-- **Security Testing:** OWASP-based checks, authentication and authorization validation  
-- **Performance Testing:** Load testing concepts, response time and error rate analysis  
-- **CI/CD:** GitHub Actions, Jenkins  
-- **Frontend Analysis:** Chrome DevTools  
-- **Version Control:** Git, GitHub  
-- **Documentation:** Excel, Google Sheets, Notion, Markdown  
-
----
-
-## 💡 QA Mindset
-
-Quality is not only about finding defects, but about understanding the product, identifying risks early and ensuring a stable and reliable user experience.
-
-I approach testing with a product mindset - focusing on how real users interact with the system and how quality impacts the overall business outcome.
-
----
-
-## 🤝 Let’s Connect
-
-- 💼 LinkedIn: https://www.linkedin.com/in/lili-imerlishvili  
-- 📧 Email: lilimerlishvili@gmail.com  
-- 💻 GitHub: https://github.com/Lilimerlishvili/QA-Portfolio  
-
----
-
-⭐ If you find this portfolio useful, feel free to give it a star.
+_Last updated: 2026-07-20_

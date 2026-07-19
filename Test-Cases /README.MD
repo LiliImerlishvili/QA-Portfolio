@@ -1,27 +1,85 @@
-# 🧩 Test Cases (Based on Real Bug Reports)
+# Test Cases
 
-This folder contains detailed, NDA-safe test cases designed directly from real defects discovered during manual testing of the e-commerce project.
+This folder contains detailed, NDA-safe test cases designed from real product requirements, user flows, and defects identified across web, mobile, API, AI-powered, and security-focused applications.
 
-Each test case:
-• Is linked to a specific Bug ID from the Bug Reports folder  
-• Follows a full ISTQB-style structure (Purpose, Preconditions, Steps, Expected Result)  
-• Covers both positive and negative scenarios for critical user flows  
-• Ensures clear traceability between Test Cases and Bug Reports  
+## Test Case Structure
 
-🎯 Purpose
-These test cases were created to:
-• Validate core e-commerce functionality (navigation, brands, product details, registration, recommendations)  
-• Ensure reported bugs are reproducible using clear and well-defined steps  
-• Provide reliable regression coverage for fixed defects  
-• Support requirement-driven and risk-based testing  
-• Maintain traceability between Requirements → Test Cases → Bug Reports  
+Each test case may include:
 
-🧰 Tools Used
-• Qase / TestRail-style structure for test case design  
-• Jira – Linking Test Cases with Bug Reports  
-• Chrome DevTools – UI inspection and network validation  
-• Figma – Visual comparison for design-related test cases  
-• Desktop and mobile browsers – Responsive and cross-device checks  
+- Test case ID
+- Objective
+- Related requirement or defect
+- Preconditions
+- Test environment
+- Test data
+- Execution steps
+- Expected result
+- Priority
+- Execution status
 
-🔒 NDA Notice
-All test cases are fully anonymized. Real brand names, URLs and sensitive client assets were removed or replaced in accordance with NDA requirements. Only testing logic, structure and QA methodologies are demonstrated.
+## Purpose
+
+- Validate business-critical functionality
+- Reproduce and verify reported defects
+- Provide regression coverage after fixes
+- Support positive, negative, and boundary testing
+- Maintain traceability between requirements, tests, and bugs
+- Create reusable test documentation
+
+## Testing Areas
+
+- Authentication and account management
+- Search, filtering, and navigation
+- E-commerce and transaction flows
+- Mobile application behavior
+- API response validation
+- AI response consistency and accuracy
+- Notifications and messaging
+- Security scanning and report workflows
+- Data synchronization
+- UI and responsive behavior
+
+## Tools Used
+
+- Jira
+- ClickUp
+- Postman
+- Chrome DevTools
+- Android Studio Emulator
+- iOS and Safari
+- Google Docs
+- GitHub
+
+## Project Collections
+
+- `AI-Based Recruiting System`
+- `AI-Powered E-commerce Platform`
+- `AI-Powered Multi-Modal Platform`
+- `AI-Powered Writing Workspace Platform`
+- `E-commerce Web Platform`
+- `Freelance Marketplace Platform`
+- `Heritage Hair Styling Brand Website`
+- `IT Agency Website`
+- `Interactive Advertising and Voucher Platform`
+- `Interactive Digital Content Platform`
+- `Invitation Card Builder Platform`
+- `Job Portal Platform`
+- `Kitchenware & Home Organization Platform `
+- `Legal Document Platform`
+- `Logistics & Transportation Platform`
+- `Meditation and Mindfulness LMS Platform`
+- `Mobile Application – Social Platform`
+- `Mobile Social Discovery Platform`
+- `Quality Engineering Command Center`
+- `Real Estate and Construction Platform`
+- `Service Marketplace Platform`
+- `Sports Activity Mobile Application`
+- `Student-Focused Android Mobile Application`
+- `Travel Reservation Mobile Application`
+- `Typing Practice Mobile Application`
+- `Vacancy Review and Community Feedback Platform`
+- `Wellness and Mindfulness Mobile Application`
+
+## Confidentiality
+
+All test cases are anonymized. Only testing logic, structure, and QA methodology are presented.

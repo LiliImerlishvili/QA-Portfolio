@@ -1,27 +1,72 @@
-☑️ Checklists – Summary
+# Checklists
 
-This folder contains structured QA checklists used to ensure product quality, consistency and release readiness across different testing stages.
+This folder contains structured QA checklists used for quick, consistent, and risk-based validation across different products and release stages.
 
-Checklists are designed to support quick validation of core functionality, UI/UX consistency and critical user flows before releases, helping reduce the risk of overlooked issues during manual testing.
+Checklists complement detailed test cases by helping testers verify critical behavior efficiently during smoke testing, exploratory testing, regression, retesting, and release-readiness checks.
 
-🎯 Purpose
-• Reduce missed defects during manual and regression testing  
-• Standardize testing efforts across sprints and releases  
-• Support risk-based validation of critical product areas  
-• Provide fast and reliable quality checks before deployment  
+## Purpose
 
-🧾 Example Checklists Include
-• Functional and smoke testing checklists  
-• UI/UX and design consistency checks  
-• Responsive and cross-device validation  
-• Regression testing coverage  
-• Release readiness verification  
+- Reduce missed defects
+- Standardize repeated validation
+- Focus attention on high-risk functionality
+- Support fast pre-release checks
+- Improve consistency across testers and devices
+- Provide reusable regression coverage
 
-🧰 Tools Used
-• Google Sheets / Excel – checklist creation and tracking  
-• Confluence or Notion – team-wide visibility and collaboration  
-• BrowserStack / Emulators – multi-device and cross-platform checks  
+## Coverage Examples
 
-🔒 NDA Notice
+- Functional and smoke testing
+- Authentication and permissions
+- Mobile and responsive behavior
+- UI/UX consistency
+- API and data validation
+- AI feature behavior
+- Security workflows
+- Notifications and deep links
+- Payment and transaction flows
+- Release readiness
 
-All test checklists are fully anonymized. Real brand names, URLs and sensitive client assets were removed or replaced in accordance with NDA requirements. The focus of this folder is on testing logic, QA best practices and professional checklist usage.
+## Tools Used
+
+- Google Sheets
+- Google Docs
+- Jira
+- ClickUp
+- Android Studio Emulator
+- Chrome DevTools
+- Postman
+- GitHub
+
+## Project Collections
+
+- `AI-Based Recruiting System`
+- `AI-Powered E-commerce Platform`
+- `AI-Powered Multi-Modal Platform`
+- `AI-Powered Writing Workspace Platform`
+- `E-commerce Web Platform`
+- `Freelance Marketplace Platform`
+- `Heritage Hair Styling Brand Website`
+- `IT Agency Website`
+- `Interactive Advertising and Voucher Platform`
+- `Interactive Digital Content Platform`
+- `Invitation Card Builder Platform`
+- `Job Portal Platform`
+- `Kitchenware & Home Organization Platform `
+- `Legal Document Platform`
+- `Logistics & Transportation Platform`
+- `Meditation and Mindfulness LMS Platform`
+- `Mobile Application – Social Platform`
+- `Mobile Social Discovery Platform`
+- `Quality Engineering Command Center`
+- `Real Estate and Construction Platform`
+- `Service Marketplace Platform`
+- `Sports Activity Mobile Application`
+- `Student-Focused Android Mobile Application`
+- `Travel Reservation Mobile Application`
+- `Typing Practice Mobile Application`
+- `Vacancy Review and Community Feedback Platform`
+- `Wellness and Mindfulness Mobile Application`
+
+## Confidentiality
+
+All checklist content is anonymized and focuses only on QA logic, coverage, and professional testing practices.

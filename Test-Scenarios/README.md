@@ -1,41 +1,72 @@
-# 🎬 Test Scenarios – Summary
+# Test Scenarios
 
-This folder contains high-level test scenarios that describe real user journeys across the e-commerce platform under realistic usage conditions.
+This folder contains high-level test scenarios covering realistic user journeys across web, mobile, API, AI-powered, e-commerce, community, and quality-engineering platforms.
 
-Test scenarios provide a clear view of how users interact with the system and serve as the foundation for detailed Test Cases, Bug Reports and Regression Checklists.
+Test scenarios describe what must be validated before detailed test steps are written.
 
-Scenarios are designed to verify that:
-• Core business flows (registration, filtering, checkout) function correctly  
-• UI, UX and layout behavior remain consistent across devices  
-• Frontend behavior matches API responses and backend logic  
-• The platform behaves consistently on web and mobile  
-• Localization works correctly across all components  
-• Product recommendations remain relevant and reliable  
+## Purpose
 
----
+- Validate complete end-to-end user journeys
+- Connect business requirements with actionable test design
+- Identify critical and high-risk flows
+- Support exploratory testing
+- Reveal system-level integration issues
+- Organize detailed test cases and regression scope
 
-## 🎯 Purpose
+## Scenario Coverage
 
-Test scenarios are used to:
-• Validate real end-to-end user flows  
-• Ensure business-critical functionality works as expected  
-• Detect system-level issues before detailed test case execution  
-• Support exploratory testing and uncover unexpected behavior  
-• Bridge the gap between business requirements and actionable test design  
+- Registration, login, and recovery
+- Profile and account management
+- Search and discovery
+- Matching, messaging, and notifications
+- Checkout and payment
+- Content creation and management
+- API and backend consistency
+- AI-assisted workflows
+- Security scan and reporting flows
+- Task and project management
+- Mobile and responsive behavior
 
----
+## Tools Used
 
-## 🛠 Tools Used
+- Google Docs
+- Jira
+- ClickUp
+- Postman
+- Chrome DevTools
+- Android Studio Emulator
+- GitHub
 
-• Google Docs / Notion – Scenario documentation  
-• Qase – Linking scenarios with test cases  
-• Jira – Mapping scenarios to bug reports  
-• Browser DevTools – UI/UX and responsive investigation  
-• Android Studio / iOS Safari – Mobile behavior validation  
-• Postman – Backend and API response verification  
+## Project Collections
 
----
+- `AI-Based Recruiting System`
+- `AI-Powered E-commerce Platform`
+- `AI-Powered Multi-Modal Platform`
+- `AI-Powered Writing Workspace Platform`
+- `E-commerce Web Platform`
+- `Freelance Marketplace Platform`
+- `Heritage Hair Styling Brand Website`
+- `IT Agency Website`
+- `Interactive Advertising and Voucher Platform`
+- `Interactive Digital Content Platform`
+- `Invitation Card Builder Platform`
+- `Job Portal Platform`
+- `Kitchenware and Home Organization Platform `
+- `Legal Document Platform`
+- `Logistics & Transportation Platform`
+- `Meditation and Mindfulness LMS Platform`
+- `Mobile Application – Social Platform`
+- `Mobile Social Discovery Platform`
+- `Quality Engineering Command Center`
+- `Real Estate and Construction Platform`
+- `Service Marketplace Platform`
+- `Sports Activity Mobile Application`
+- `Student-Focused Android Mobile Application`
+- `Travel Reservation Mobile Application`
+- `Typing Practice Mobile Application`
+- `Vacancy Review and Community Feedback Platform`
+- `Wellness and Mindfulness Mobile Application`
 
-🔒 NDA Notice
+## Confidentiality
 
-All test scenarios are fully anonymized. Real brand names, URLs and sensitive client assets were removed or replaced in accordance with NDA requirements. Only testing logic, structure and QA methodology are presented.
+All scenarios are anonymized and contain no private user data, credentials, internal URLs, or proprietary assets.

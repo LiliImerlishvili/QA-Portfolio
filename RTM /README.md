@@ -1,34 +1,68 @@
-🔗 RTM – Requirements Traceability Matrix
+# Requirements Traceability Matrix
 
-This folder contains a Requirements Traceability Matrix (RTM) that links business requirements to related test scenarios, test cases and bug reports.
+This folder contains Requirements Traceability Matrices that connect business or functional requirements with related test scenarios, test cases, checklists, and defects.
 
-The RTM provides a clear and structured view of:
-• Which requirements are covered by testing  
-• Which test cases validate each scenario  
-• Which defects were identified during execution  
-• Overall test coverage and potential risk areas  
+## Traceability Flow
 
-🎯 Purpose
-The Traceability Matrix is used to:
-• Ensure full coverage of business and functional requirements  
-• Maintain clear traceability between Requirements → Scenarios → Test Cases → Bug Reports  
-• Identify untested or high-risk areas early  
-• Improve transparency during sprint planning and test execution  
-• Demonstrate a systematic, requirement-driven testing approach  
+`Requirement → Test Scenario → Test Case → Checklist → Defect`
 
-🛠 Tools Used
-• Jira – Linking user stories and defects  
-• Qase / TestRail – Managing test cases and scenarios  
-• Google Sheets / Markdown – RTM documentation and mapping  
-• GitHub – Organizing RTM alongside related QA artifacts  
+## Purpose
 
-🧾 Summary
-The RTM demonstrates that testing was performed in a structured and traceable way, rather than ad-hoc execution.
+- Demonstrate requirement coverage
+- Identify untested or high-risk areas
+- Connect defects to affected functionality
+- Support regression planning
+- Improve visibility during release decisions
+- Show a systematic, requirement-driven QA approach
 
-Each entry follows the flow:
-Requirement → Scenario → Test Case → Bug Report
+## Typical RTM Fields
 
-This approach is widely used in professional QA environments and helps stakeholders quickly assess test coverage and quality status.
+- Requirement ID
+- Requirement description
+- Related test scenario
+- Related test case
+- Related checklist
+- Related defect
+- Execution or coverage status
 
-🔒 NDA Notice
-All materials are fully anonymized. Real brand names, URLs and sensitive client assets were removed or replaced in accordance with NDA requirements. Only testing logic and QA methodology are presented.
+## Tools Used
+
+- Google Sheets
+- Markdown
+- Jira
+- ClickUp
+- GitHub
+
+## Project Collections
+
+- `AI-Based Recruiting System`
+- `AI-Powered E-commerce Platform`
+- `AI-Powered Multi-Modal Platform`
+- `AI-Powered Writing Workspace Platform`
+- `E-commerce Web Platform`
+- `Freelance Marketplace Platform`
+- `Heritage Hair Styling Brand Website`
+- `IT Agency Website`
+- `Interactive Advertising and Voucher Platform`
+- `Interactive Digital Content Platform`
+- `Invitation Card Builder Platform`
+- `Job Portal Platform`
+- `Kitchenware & Home Organization Platform  `
+- `Legal Document Platform`
+- `Logistics & Transportation Platform`
+- `Meditation and Mindfulness LMS Platform`
+- `Mobile Application – Social Platform`
+- `Mobile Social Discovery Platform`
+- `Quality Engineering Command Center`
+- `Real Estate and Construction Platform`
+- `Service Marketplace Platform`
+- `Sports Activity Mobile Application`
+- `Student-Focused Android Mobile Application`
+- `Travel Reservation Mobile Application`
+- `Typing Practice Mobile Application`
+- `Vacancy Review and Community Feedback Platform`
+- `Wellness and Mindfulness Mobile Application`
+
+## Confidentiality
+
+All matrices are anonymized and contain no confidential client requirements or identifying data.
