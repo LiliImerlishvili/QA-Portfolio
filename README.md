@@ -78,13 +78,23 @@ Validate AI-driven workflows, data consistency and API integrations.
 
 | Section | Description |
 |--------|------------|
-| Test Cases | Structured test cases for web and mobile applications |
-| Bug Reports | Realistic defect reports with clear steps and expected results |
-| Checklists | Used for regression and exploratory testing |
-| Test Scenarios | High-level user-focused scenarios |
-| API Testing | Postman collections and validation examples |
-| QA Documentation | RTM and structured QA artifacts |
-| Certificates | Completed QA courses and training |
+| Automation Testing | Playwright, Cucumber.js, TypeScript, and UI automation examples |
+| API Testing | Postman collections, test scripts, validation examples, and bug reports |
+| Bug Reports | Structured defect reports with reproduction steps and evidence |
+| Checklists | Regression, exploratory, mobile, and feature-based checklists |
+| Test Cases | Detailed test cases for web, mobile, and AI-powered platforms |
+| Test Scenarios | High-level positive, negative, and edge-case scenarios |
+| Test Plans | Scope, objectives, risks, environments, and test deliverables |
+| Test Strategies | Mobile, web, API, regression, and risk-based approaches |
+| Test Reports | Smoke, regression, execution, defect, and release summaries |
+| Mobile Testing | Device coverage, compatibility, permissions, networks, and interruptions |
+| SQL Testing | Data validation, CRUD, JOIN, NULL, and duplicate checks |
+| Security Testing | Authentication, authorization, session, input, and OWASP checks |
+| Performance Testing | Load scenarios, metrics, response time, and stability validation |
+| QA Processes | Defect life cycle, QA workflows, and release quality activities |
+| CI/CD | Automated test execution and test reporting workflow examples |
+| RTM | Requirement Traceability Matrix for coverage validation |
+| Certificates | Completed QA courses and professional training |
 
 ---
 
