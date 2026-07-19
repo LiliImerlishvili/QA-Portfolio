@@ -1,0 +1,29 @@
+{
+  "valid_users": [
+    {
+      "email": "test.user@example.com",
+      "first_name": "Test",
+      "last_name": "User",
+      "pin": "000000"
+    }
+  ],
+  "invalid_inputs": [
+    {
+      "email": ""
+    },
+    {
+      "email": "invalid-email"
+    },
+    {
+      "pin": ""
+    },
+    {
+      "pin": "abc123"
+    }
+  ],
+  "resources": {
+    "conversation_id": "con_example_001",
+    "answer_id": "answr_example_001",
+    "organization_id": "org_example_001"
+  }
+}
