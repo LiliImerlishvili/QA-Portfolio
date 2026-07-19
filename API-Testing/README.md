@@ -208,6 +208,9 @@ pm.test("User ID is correct", function () {
 });
 
 pm.test("Email has valid format", function () {
+
     const jsonData = pm.response.json();
+
     pm.expect(jsonData.email).to.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/);
+
 });
