@@ -101,11 +101,16 @@ Validate AI-driven workflows, data consistency and API integrations.
 ## 🛠 Tools & Technologies
 
 - **Test Management:** Jira, Qase  
-- **API Testing:** Postman, Swagger  
+- **UI Automation:** Playwright, Cucumber.js, TypeScript  
+- **API Testing:** Postman, Swagger, JavaScript test scripts  
+- **Database Testing:** SQL, data validation, CRUD checks  
+- **Mobile Testing:** Android Studio, emulators, physical devices  
+- **Security Testing:** OWASP-based checks, authentication and authorization validation  
+- **Performance Testing:** Load testing concepts, response time and error rate analysis  
+- **CI/CD:** GitHub Actions, Jenkins  
 - **Frontend Analysis:** Chrome DevTools  
-- **Database:** SQL (basic queries)  
-- **Mobile Testing:** Android Studio, Emulators  
-- **Documentation:** Excel, Google Sheets, Notion  
+- **Version Control:** Git, GitHub  
+- **Documentation:** Excel, Google Sheets, Notion, Markdown  
 
 ---
 
