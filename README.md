@@ -1,6 +1,6 @@
-# 🚀 Manual QA Engineer Portfolio - Lili Imerlishvili
+# QA Engineer Portfolio - Lili Imerlishvili
 
-This portfolio demonstrates my hands-on experience in testing real-world web, mobile and AI-powered applications.
+This portfolio demonstrates my hands-on experience in manual testing, API testing, UI automation, mobile testing, SQL validation, security testing, and QA documentation.
 
 It reflects how I approach quality assurance - not only by finding defects, but by understanding the product, identifying risks early and ensuring a stable and reliable user experience.
 
