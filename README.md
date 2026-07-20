@@ -112,8 +112,6 @@ The repository continues to grow as new testing projects, automation examples, a
 
 Interested in discussing QA, software testing, automation, or professional opportunities?
 
-**LinkedIn**  
-https://linkedin.com/in/lili-imerlishvili
-
-**Email**  
-lilimerlishvili@gmail.com
+**LinkedIn:** <https://linkedin.com/in/lili-imerlishvili>  
+**Email:** <mailto:lilimerlishvili@gmail.com>  
+**Phone:** +995 598 73 33 98
