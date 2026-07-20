@@ -68,6 +68,15 @@ Portfolio Scale
 
 The portfolio currently represents approximately 27 project collections across the main manual QA documentation areas, covering different products, platforms, industries, and testing approaches.
 
+## Portfolio Scale
+
+This portfolio includes approximately **27 project collections** across key manual QA documentation areas, representing different products, platforms, industries, and testing approaches.
+
+---
+
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/lili-imerlishvili/) · [Email](mailto:lilimerlishvili@gmail.com)
+Interested in discussing QA, software testing, or professional opportunities?
+
+💼 **LinkedIn:** [linkedin.com/in/lili-imerlishvili](https://www.linkedin.com/in/lili-imerlishvili/)  
+📧 **Email:** [lilimerlishvili@gmail.com](mailto:lilimerlishvili@gmail.com)
