@@ -19,10 +19,10 @@ Feature: UI — Login via Email OTP
     Then the URL should contain "/login"
 
   # Checks that the browser tab shows the correct page title.
-  # This scenario verifies that the page title includes the product name.
+  # This scenario verifies that the page title includes the platform name.
   Scenario: Login page has correct page title
     When I open the login page
-    Then the page title should contain "GetBot"
+    Then the page title should contain "AI Platform"
 
   # ─── Page Elements ────────────────────────────────────────────────────────
 
@@ -33,9 +33,9 @@ Feature: UI — Login via Email OTP
     Then the email input should be visible
     And the sign in button should be visible
 
-  # Checks that the GetBot logo is visible on the login page.
+  # Checks that the application logo is visible on the login page.
   # This scenario verifies that branding is present for user orientation.
-  Scenario: GetBot logo is visible on login page
+  Scenario: Application logo is visible on login page
     When I open the login page
     Then the logo should be visible
 

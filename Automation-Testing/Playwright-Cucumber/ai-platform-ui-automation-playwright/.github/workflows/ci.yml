@@ -14,8 +14,8 @@ on:
       - develop
   workflow_dispatch:
     inputs:
-      run_auth_tests:
-        description: "Run auth API tests"
+      run_ui_tests:
+        description: "Run UI smoke tests"
         required: false
         default: "false"
 
@@ -39,26 +39,19 @@ jobs:
       - name: Type check
         run: npm run type-check
 
-  auth-tests:
-    name: Auth API Tests
+  ui-smoke-tests:
+    name: UI Smoke Tests
     runs-on: ubuntu-latest
     needs: typecheck
     if: >-
       github.event_name == 'workflow_dispatch' &&
-      github.event.inputs.run_auth_tests == 'true'
+      github.event.inputs.run_ui_tests == 'true'
     env:
       BASE_URL: ${{ vars.BASE_URL }}
       TEST_EMAIL: ${{ vars.TEST_EMAIL }}
-      TEST_FIRST_NAME: ${{ vars.TEST_FIRST_NAME || 'Test' }}
-      TEST_LAST_NAME: ${{ vars.TEST_LAST_NAME || 'User' }}
       OTP_MODE: ${{ vars.OTP_MODE || 'static' }}
       OTP_CODE: ${{ secrets.OTP_CODE }}
-      GMAIL_INBOX_USER: ${{ secrets.GMAIL_INBOX_USER }}
-      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-      GMAIL_SUBJECT_FILTER: ${{ vars.GMAIL_SUBJECT_FILTER || 'otp' }}
-      OTP_TIMEOUT_MS: ${{ vars.OTP_TIMEOUT_MS || '90000' }}
-      OTP_POLL_INTERVAL_MS: ${{ vars.OTP_POLL_INTERVAL_MS || '3000' }}
-      OTP_DIGIT_LENGTH: ${{ vars.OTP_DIGIT_LENGTH || '6' }}
+      HEADLESS: "true"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -72,5 +65,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run auth tests
-        run: npm run test:auth
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+
+      - name: Run UI smoke tests
+        run: npm run test:smoke

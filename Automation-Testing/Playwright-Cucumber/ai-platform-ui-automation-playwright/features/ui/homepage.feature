@@ -11,7 +11,7 @@ Feature: AI Platform Homepage
     @homepage
     Scenario: Homepage has correct page title
         Given the user is on the application homepage
-        Then the page title should be "GetBot - ChatGPT AI Assistant | GPT-4o, Claude 4.5, Gemini 2.5 & AI Tools"
+        Then the page title should be "AI Platform"
     @homepage
     Scenario: Company logo is visible on the homepage
         Given the user is on the application homepage
@@ -108,7 +108,7 @@ Feature: AI Platform Homepage
             | AI Plagiarism Checker |
             | AI Prediction         |
             | Group AI Chat         |
-            | GetBot Code           |
+            | AI Code               |
             | AI Content Detector   |
             | YouTube Summarizer    |
 
@@ -132,7 +132,7 @@ Feature: AI Platform Homepage
             | Text & Content | AI Plagiarism Checker     | https://app.example.com/ai-plagiarism                |
             | Text & Content | AI Prediction             | https://app.example.com/ai-prediction                |
             | Text & Content | Group AI Chat             | https://app.example.com/chatgpt-group-ai-chat        |
-            | Text & Content | GetBot Code               | https://app.example.com/code                         |
+            | Text & Content | AI Code                   | https://app.example.com/code                         |
             | Text & Content | AI Content Detector       | https://app.example.com/ai-content-detector          |
             | Text & Content | YouTube Summarizer        | https://app.example.com/youtube-summary-with-ai      |
 
@@ -270,7 +270,7 @@ Feature: AI Platform Homepage
     @homepage
     Scenario: Footer logo is visible
         Given the user is on the application homepage
-        Then the GetBotAI logo should be visible in the footer
+        Then the company logo should be visible in the footer
 
     @homepage
     Scenario: Footer navigation columns are visible
@@ -294,7 +294,7 @@ Feature: AI Platform Homepage
             | Video to text       |
             | Text to Voice       |
             | Youtube Summarizer  |
-            | GetBot Code         |
+            | AI Code             |
             | AI Content Detector |
 
     @homepage
