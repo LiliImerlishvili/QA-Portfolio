@@ -76,7 +76,5 @@ This portfolio includes approximately **27 project collections** across key manu
 
 ## Contact
 
-Interested in discussing QA, software testing, or professional opportunities?
-
-💼 **LinkedIn:** [linkedin.com/in/lili-imerlishvili](https://www.linkedin.com/in/lili-imerlishvili/)  
-📧 **Email:** [lilimerlishvili@gmail.com](mailto:lilimerlishvili@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lili-imerlishvili/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lilimerlishvili@gmail.com)
