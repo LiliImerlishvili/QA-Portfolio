@@ -1,79 +1,119 @@
-# QA Portfolio
+# QA Engineer Portfolio
 
-A structured Quality Assurance portfolio containing real-world, anonymized QA documentation created across web, mobile, API, AI-powered, e-commerce, community, security, and workflow-management products.
+A professional Quality Assurance portfolio featuring **27+ real-world testing projects** across Manual Testing, API Testing, Playwright Automation, Mobile Testing, AI Testing, Security Testing, Performance Testing, SQL Testing, and QA Documentation.
 
-This repository demonstrates how I approach software quality through clear test design, defect analysis, risk-based coverage, requirements traceability, regression planning, and professional QA documentation.
+This repository demonstrates my practical QA approach through structured, anonymized documentation created for web, mobile, API, AI-powered, e-commerce, community, security, and workflow-management products.
+
+---
+
+## Portfolio Highlights
+
+- 27+ Project Collections
+- Web, Mobile, API & AI Testing
+- Playwright Automation
+- Android & iOS Testing
+- Security & Performance Testing
+- Professional QA Documentation
+- Real-world Bug Reports
+- Requirements Traceability
+
+---
 
 ## Portfolio Coverage
 
-- Manual and functional testing
-- Exploratory and regression testing
-- Mobile application testing
-- API testing with Postman
-- AI feature and response-quality testing
-- Security workflow validation
-- UI/UX and responsive testing
-- Cross-browser and cross-device testing
-- Bug reporting and defect analysis
-- Test case and scenario design
-- Requirements traceability
-- QA planning and process documentation
-- QA Lead coordination and review workflows
+- Manual and Functional Testing
+- Exploratory Testing
+- Regression Testing
+- API Testing (Postman)
+- Playwright UI Automation
+- Mobile Application Testing
+- AI Feature Testing
+- Security Workflow Validation
+- Performance Testing
+- Cross-browser Testing
+- Cross-device Testing
+- UI/UX Testing
+- Bug Reporting & Defect Analysis
+- Test Case Design
+- Test Scenario Design
+- Requirements Traceability
+- Test Planning
+- QA Process Documentation
+- QA Lead Workflows
+
+---
 
 ## Repository Structure
 
 | Folder | Purpose |
 |---|---|
-| `Bug-Reports/` | Real, anonymized defects with reproducible steps, expected and actual results, severity, priority, and impact analysis |
-| `Test-Cases/` | Detailed test cases linked to requirements, workflows, and reported defects |
-| `Test-Scenarios/` | High-level user journeys, business flows, and feature-validation scenarios |
-| `Checklists/` | Fast, risk-based validation checklists for core product areas |
-| `RTM/` | Requirements Traceability Matrices linking requirements, test coverage, and identified defects |
-| `Test-Plans/` | Test scope, objectives, approach, entry and exit criteria, resources, and risk coverage |
-| `QA-Processes/` | QA Lead workflows, defect-reporting standards, review processes, and regression procedures |
-| `API-Testing/` | API collections, test scenarios, request validation, response checks, and supporting documentation |
-| `Automation-Testing/` | UI automation projects, automated scenarios, framework structure, and related documentation |
-| `Learning-Path/` | Continuous professional development, technical exercises, and QA study materials |
+| `Bug-Reports/` | Real, anonymized defects with reproducible steps and impact analysis |
+| `Test-Cases/` | Detailed test cases linked to requirements and reported defects |
+| `Test-Scenarios/` | High-level user journeys and business workflow validation |
+| `Checklists/` | Risk-based validation checklists |
+| `RTM/` | Requirements Traceability Matrices |
+| `Test-Plans/` | Test scope, strategy, risks, entry and exit criteria |
+| `QA-Processes/` | QA workflows, review processes, and regression standards |
+| `API-Testing/` | API collections, validation scenarios, and supporting documentation |
+| `Automation-Testing/` | Playwright automation projects and framework documentation |
+| `Learning-Path/` | Continuous learning, certifications, and study materials |
+
+---
 
 ## Documentation Principles
 
-Every QA artifact is designed to be:
+Every QA artifact is:
 
 - Clear and reproducible
 - Risk-aware and user-focused
-- Traceable to a requirement, workflow, or defect
+- Traceable to requirements
 - Consistent in structure and terminology
 - Suitable for public portfolio presentation
 - Free from confidential client information
 
-## Tools and Technologies
+---
 
-- Jira and ClickUp
-- Postman and API validation tools
+## Tools & Technologies
+
+- Jira
+- ClickUp
+- Postman
+- Playwright
+- Cucumber
 - Chrome DevTools
-- Git and GitHub
-- Playwright and Cucumber
+- Git & GitHub
+- SQL
 - Android Studio Emulator
-- iOS and Safari testing
-- Google Docs and Google Sheets
-- Jam, ScreenPal, and Loom
-- SQL fundamentals for QA
+- iOS & Safari Testing
+- Google Docs & Google Sheets
+- Jam
+- ScreenPal
+- Loom
+
+---
 
 ## Confidentiality
 
-All public portfolio materials are anonymized.
+All portfolio materials are fully anonymized.
 
-Real credentials, private URLs, personal information, internal identifiers, confidential assets, client names, and proprietary implementation details are excluded.
+No client names, private URLs, credentials, internal identifiers, personal information, proprietary assets, or confidential implementation details are included.
+
+---
 
 ## Portfolio Scale
 
-This portfolio includes approximately **27 project collections** across key manual QA documentation areas, representing different products, platforms, industries, and testing approaches.
+This portfolio currently contains **27+ project collections** covering multiple software domains and testing disciplines.
+
+The repository continues to grow as new testing projects, automation examples, and QA documentation are added.
 
 ---
 
 ## Contact
 
-Interested in discussing QA, software testing, or professional opportunities?
+Interested in discussing QA, software testing, automation, or professional opportunities?
 
-💼 **LinkedIn:** [linkedin.com/in/lili-imerlishvili](https://www.linkedin.com/in/lili-imerlishvili/)  
-📧 **Email:** [lilimerlishvili@gmail.com](mailto:lilimerlishvili@gmail.com)
+**LinkedIn**  
+https://linkedin.com/in/lili-imerlishvili
+
+**Email**  
+lilimerlishvili@gmail.com
