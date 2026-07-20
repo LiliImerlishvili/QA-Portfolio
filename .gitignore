@@ -1,3 +1,4 @@
 .portfolio-backup/
 *environment*.json
 !*environment.example.json
+Automation-Testing/poe-playwright-automation/node_modules/
