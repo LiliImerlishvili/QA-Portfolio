@@ -1,5 +1,5 @@
 import { setWorldConstructor, World, IWorldOptions } from '@cucumber/cucumber';
-import { Browser, BrowserContext, Page, chromium } from 'playwright';
+import { Browser, BrowserContext, Page } from 'playwright';
 
 export class CustomWorld extends World {
   browser!: Browser;

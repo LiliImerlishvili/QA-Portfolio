@@ -1,15 +1,22 @@
 {
   "name": "poe-playwright-automation",
   "version": "1.0.0",
-  "description": "",
+  "description": "UI test automation for Poe.com using TypeScript, Playwright, and Cucumber BDD",
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js --config cucumber.js",
     "test:smoke": "cucumber-js --config cucumber.js --tags '@smoke'",
     "test:negative": "cucumber-js --config cucumber.js --tags '@negative'"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "bdd",
+    "typescript",
+    "test-automation",
+    "ui-testing"
+  ],
+  "author": "Lili Imerlishvili",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {

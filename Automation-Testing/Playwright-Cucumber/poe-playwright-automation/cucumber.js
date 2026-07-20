@@ -3,7 +3,8 @@ module.exports = {
     require: [
       'support/world.ts',
       'support/hooks.ts',
-      'step-definitions/ui/auth.steps.ts'
+      'step-definitions/ui/auth.steps.ts',
+      'step-definitions/ui/homepage.steps.ts'
     ],
     requireModule: ['tsx/cjs'],
     format: ['progress-bar', 'html:reports/cucumber-report.html'],
