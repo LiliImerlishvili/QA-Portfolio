@@ -1,4 +1,4 @@
-import { AuthTokens } from '../types/api.types';
+import { AuthTokens } from '../types/app.types';
 import { logger } from './logger';
 
 /**
