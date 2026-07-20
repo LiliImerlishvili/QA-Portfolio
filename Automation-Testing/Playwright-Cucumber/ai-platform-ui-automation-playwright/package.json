@@ -1,0 +1,47 @@
+{
+  "name": "getbotai-playwright-automation",
+  "version": "1.0.0",
+  "description": "GetBotAI Test Automation Framework — API & UI with Playwright + Cucumber",
+  "author": "QA Team",
+  "scripts": {
+    "gmail:init": "node ./node_modules/gmail-tester/init.js",
+    "gmail:init:default": "node ./node_modules/gmail-tester/init.js ./credentials.json ./token.json afgan.shahguliyev.test@gmail.com",
+    "test:gmail": "ts-node scripts/testGmailConnection.ts",
+    "test": "cucumber-js --config cucumber.js",
+    "test:api": "cucumber-js --config cucumber.js --profile api",
+    "test:ui": "cucumber-js --config cucumber.js --profile ui",
+    "test:login": "cucumber-js --config cucumber.js --tags \"@login and not @e2e\" && cucumber-js --config cucumber.js --tags \"@e2e\"",
+    "test:tag": "cucumber-js --config cucumber.js --tags",
+    "pretest:auth": "npm run test:gmail",
+    "test:auth": "cucumber-js --config cucumber.js --tags @sign-in-11",
+    "test:auth:lockout": "cucumber-js --config cucumber.js --tags @negative-lockout",
+    "test:orgs": "cucumber-js --config cucumber.js --tags @organizations",
+    "test:smoke": "cucumber-js --config cucumber.js --tags @smoke",
+    "report": "ts-node scripts/generateReport.ts",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint 'src/**/*.ts' 'step-definitions/**/*.ts' --fix"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@playwright/test": "^1.44.0",
+    "@types/chai": "^4.3.16",
+    "@types/node": "^20.14.0",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
+    "allure-cucumberjs": "^2.15.1",
+    "chai": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "gmail-tester": "^1.4.0",
+    "imapflow": "^1.0.193",
+    "multiple-cucumber-html-reporter": "^3.7.0",
+    "playwright": "^1.44.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "winston": "^3.13.0"
+  },
+  "dependencies": {
+    "axios": "^1.15.2",
+    "npm": "^11.18.0"
+  }
+}
