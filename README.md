@@ -20,19 +20,20 @@ Portfolio Coverage
 * QA planning and process documentation
 * QA Lead coordination and review workflows
 
-Repository Structure
+## Repository Structure
 
-Folder	Purpose
-Bug-Reports/	Real, anonymized defects with reproducible steps, expected and actual results, severity, priority, and impact analysis
-Test-Cases/	Detailed test cases linked to requirements, workflows, and reported defects
-Test-Scenarios/	High-level user journeys, business flows, and feature-validation scenarios
-Checklists/	Fast, risk-based validation checklists for core product areas
-RTM/	Requirements Traceability Matrices linking requirements, test coverage, and identified defects
-Test-Plans/	Test scope, objectives, approach, entry and exit criteria, resources, and risk coverage
-QA-Processes/	QA Lead workflows, defect-reporting standards, review processes, and regression procedures
-API-Testing/	API collections, test scenarios, request validation, response checks, and supporting documentation
-Automation-Testing/	UI automation projects, automated scenarios, framework structure, and related documentation
-Learning-Path/	Continuous professional development, technical exercises, and QA study materials
+| Folder | Purpose |
+|---|---|
+| `Bug-Reports/` | Real, anonymized defects with reproducible steps, expected and actual results, severity, priority, and impact analysis |
+| `Test-Cases/` | Detailed test cases linked to requirements, workflows, and reported defects |
+| `Test-Scenarios/` | High-level user journeys, business flows, and feature-validation scenarios |
+| `Checklists/` | Fast, risk-based validation checklists for core product areas |
+| `RTM/` | Requirements Traceability Matrices linking requirements, test coverage, and identified defects |
+| `Test-Plans/` | Test scope, objectives, approach, entry and exit criteria, resources, and risk coverage |
+| `QA-Processes/` | QA Lead workflows, defect-reporting standards, review processes, and regression procedures |
+| `API-Testing/` | API collections, test scenarios, request validation, response checks, and supporting documentation |
+| `Automation-Testing/` | UI automation projects, automated scenarios, framework structure, and related documentation |
+| `Learning-Path/` | Continuous professional development, technical exercises, and QA study materials |
 
 Documentation Principles
 
