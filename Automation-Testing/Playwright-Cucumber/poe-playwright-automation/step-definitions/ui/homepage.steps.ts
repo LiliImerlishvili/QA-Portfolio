@@ -41,5 +41,53 @@ Then('the email input should be visible on the homepage', async function (this: 
 Then('the Google login button should be visible on the homepage', async function (this: CustomWorld) {
   const homePage = new HomePage(this.page);
   const visible = await homePage.isGoogleButtonVisible();
-  expect(visible).to.be.true;
+  expect(visible, 'Google login button should be visible after redirect').to.be.true;
+});
+
+Then('the login page should be fully loaded after redirect', async function (this: CustomWorld) {
+  const homePage = new HomePage(this.page);
+  const loaded = await homePage.isLoginPageLoaded();
+  expect(loaded, 'Login page should be fully loaded after redirect').to.be.true;
+});
+
+Then('the login page heading should be visible after redirect', async function (this: CustomWorld) {
+  const homePage = new HomePage(this.page);
+  const visible = await homePage.isHeadingVisible();
+  expect(visible, 'Login page heading should be visible after redirect').to.be.true;
+});
+
+Then('the email submission button should be visible after redirect', async function (this: CustomWorld) {
+  const homePage = new HomePage(this.page);
+  const visible = await homePage.isGoButtonVisible();
+  expect(visible, 'Email submission button should be visible after redirect').to.be.true;
+});
+
+Then('the Apple login button should be visible after redirect', async function (this: CustomWorld) {
+  const homePage = new HomePage(this.page);
+  const visible = await homePage.isAppleButtonVisible();
+  expect(visible, 'Apple login button should be visible after redirect').to.be.true;
+});
+
+Then('the phone authentication option should be visible after redirect', async function (this: CustomWorld) {
+  const homePage = new HomePage(this.page);
+  const visible = await homePage.isPhoneOptionVisible();
+  expect(visible, 'Phone authentication option should be visible after redirect').to.be.true;
+});
+
+Then('the Terms of Service link should be visible after redirect', async function (this: CustomWorld) {
+  const homePage = new HomePage(this.page);
+  const visible = await homePage.isTermsLinkVisible();
+  expect(visible, 'Terms of Service link should be visible after redirect').to.be.true;
+});
+
+Then('the Privacy Policy link should be visible after redirect', async function (this: CustomWorld) {
+  const homePage = new HomePage(this.page);
+  const visible = await homePage.isPrivacyLinkVisible();
+  expect(visible, 'Privacy Policy link should be visible after redirect').to.be.true;
+});
+
+Then('no error messages should be displayed after redirect', async function (this: CustomWorld) {
+  const homePage = new HomePage(this.page);
+  const noErrors = await homePage.hasNoErrorOnLoad();
+  expect(noErrors, 'No error messages should appear after redirect').to.be.true;
 });

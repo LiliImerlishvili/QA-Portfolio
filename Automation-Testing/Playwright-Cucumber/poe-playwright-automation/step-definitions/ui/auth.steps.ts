@@ -101,3 +101,27 @@ Then('the login page should still be displayed', async function (this: CustomWor
   const url = await loginPage.getCurrentUrl();
   expect(url).to.include('poe.com');
 });
+
+Then('the email input field should be empty', async function (this: CustomWorld) {
+  const loginPage = new LoginPage(this.page);
+  const isEmpty = await loginPage.isEmailInputEmpty();
+  expect(isEmpty, 'Email input field should be empty on initial page load').to.be.true;
+});
+
+Then('the email input should contain the value {string}', async function (this: CustomWorld, value: string) {
+  const loginPage = new LoginPage(this.page);
+  const inputValue = await loginPage.getEmailInputValue();
+  expect(inputValue, `Email input should contain "${value}"`).to.include(value);
+});
+
+Then('the Go button should display the text {string}', async function (this: CustomWorld, text: string) {
+  const loginPage = new LoginPage(this.page);
+  const buttonText = await loginPage.getGoButtonText();
+  expect(buttonText.trim(), `Go button should display text "${text}"`).to.include(text);
+});
+
+Then('no error messages should be displayed on the login page', async function (this: CustomWorld) {
+  const loginPage = new LoginPage(this.page);
+  const noErrors = await loginPage.hasNoErrorOnLoad();
+  expect(noErrors, 'No error messages should appear on initial page load').to.be.true;
+});

@@ -45,6 +45,10 @@ export class LoginPage extends BasePage {
     return this.page.getByRole('link', { name: 'Privacy Policy' });
   }
 
+  private errorLocator() {
+    return this.page.locator('[class*="error"], [class*="alert"], [role="alert"]');
+  }
+
   // ─── Actions ────────────────────────────────────────────────────────────────
 
   async open(): Promise<void> {
@@ -160,6 +164,55 @@ export class LoginPage extends BasePage {
       return true;
     } catch {
       return false;
+    }
+  }
+
+  /**
+   * Check that the email input field is empty on initial page load.
+   */
+  async isEmailInputEmpty(): Promise<boolean> {
+    try {
+      await this.emailInputLocator().waitFor({ state: 'visible', timeout: 5_000 });
+      const value = await this.emailInputLocator().inputValue();
+      return value.trim() === '';
+    } catch {
+      return false;
+    }
+  }
+
+  /**
+   * Get the current value typed into the email input field.
+   */
+  async getEmailInputValue(): Promise<string> {
+    try {
+      await this.emailInputLocator().waitFor({ state: 'visible', timeout: 5_000 });
+      return this.emailInputLocator().inputValue();
+    } catch {
+      return '';
+    }
+  }
+
+  /**
+   * Get the label text of the Go button.
+   */
+  async getGoButtonText(): Promise<string> {
+    try {
+      await this.goButtonLocator().waitFor({ state: 'visible', timeout: 5_000 });
+      return this.goButtonLocator().innerText();
+    } catch {
+      return '';
+    }
+  }
+
+  /**
+   * Check that no error messages are visible on the page.
+   */
+  async hasNoErrorOnLoad(): Promise<boolean> {
+    try {
+      const count = await this.errorLocator().count();
+      return count === 0;
+    } catch {
+      return true;
     }
   }
 }

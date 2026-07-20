@@ -15,25 +15,44 @@ export class HomePage extends BasePage {
 
   // ─── Locators ───────────────────────────────────────────────────────────────
 
-  /**
-   * Logo link locator (visible after redirect to login page).
-   */
   private logoLocator() {
     return this.page.getByRole('link', { name: 'Poe', exact: true });
   }
 
-  /**
-   * Email input locator (visible after redirect to login page).
-   */
+  private headingLocator() {
+    return this.page.getByRole('heading', { name: 'Chat with the best AI,' });
+  }
+
   private emailInputLocator() {
     return this.page.getByRole('textbox', { name: 'Email address' });
   }
 
-  /**
-   * Google login button locator (visible after redirect to login page).
-   */
+  private goButtonLocator() {
+    return this.page.getByRole('button', { name: 'Go', exact: true });
+  }
+
   private googleButtonLocator() {
     return this.page.getByRole('button', { name: 'Continue with Google' });
+  }
+
+  private appleButtonLocator() {
+    return this.page.getByRole('button', { name: 'Continue with Apple' });
+  }
+
+  private phoneOptionLocator() {
+    return this.page.getByText('Use phone');
+  }
+
+  private termsLinkLocator() {
+    return this.page.getByRole('link', { name: 'Terms of Service' });
+  }
+
+  private privacyLinkLocator() {
+    return this.page.getByRole('link', { name: 'Privacy Policy' });
+  }
+
+  private errorLocator() {
+    return this.page.locator('[class*="error"], [class*="alert"], [role="alert"]');
   }
 
   // ─── Actions ────────────────────────────────────────────────────────────────
@@ -51,16 +70,10 @@ export class HomePage extends BasePage {
 
   // ─── State Checks ───────────────────────────────────────────────────────────
 
-  /**
-   * Get the current page URL.
-   */
   async getCurrentUrl(): Promise<string> {
     return this.page.url();
   }
 
-  /**
-   * Get the current page title.
-   */
   async getPageTitle(): Promise<string> {
     return this.page.title();
   }
@@ -78,8 +91,17 @@ export class HomePage extends BasePage {
   }
 
   /**
-   * Check whether the logo is visible.
+   * Check whether the login page is fully loaded (email input visible).
    */
+  async isLoginPageLoaded(): Promise<boolean> {
+    try {
+      await this.emailInputLocator().waitFor({ state: 'visible', timeout: 10_000 });
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
   async isLogoVisible(): Promise<boolean> {
     try {
       await this.logoLocator().waitFor({ state: 'visible', timeout: 5_000 });
@@ -89,9 +111,15 @@ export class HomePage extends BasePage {
     }
   }
 
-  /**
-   * Check whether the email input is visible.
-   */
+  async isHeadingVisible(): Promise<boolean> {
+    try {
+      await this.headingLocator().waitFor({ state: 'visible', timeout: 5_000 });
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
   async isEmailInputVisible(): Promise<boolean> {
     try {
       await this.emailInputLocator().waitFor({ state: 'visible', timeout: 10_000 });
@@ -101,15 +129,66 @@ export class HomePage extends BasePage {
     }
   }
 
-  /**
-   * Check whether the Google login button is visible.
-   */
+  async isGoButtonVisible(): Promise<boolean> {
+    try {
+      await this.goButtonLocator().waitFor({ state: 'visible', timeout: 5_000 });
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
   async isGoogleButtonVisible(): Promise<boolean> {
     try {
       await this.googleButtonLocator().waitFor({ state: 'visible', timeout: 5_000 });
       return true;
     } catch {
       return false;
+    }
+  }
+
+  async isAppleButtonVisible(): Promise<boolean> {
+    try {
+      await this.appleButtonLocator().waitFor({ state: 'visible', timeout: 5_000 });
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  async isPhoneOptionVisible(): Promise<boolean> {
+    try {
+      await this.phoneOptionLocator().waitFor({ state: 'visible', timeout: 5_000 });
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  async isTermsLinkVisible(): Promise<boolean> {
+    try {
+      await this.termsLinkLocator().waitFor({ state: 'visible', timeout: 5_000 });
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  async isPrivacyLinkVisible(): Promise<boolean> {
+    try {
+      await this.privacyLinkLocator().waitFor({ state: 'visible', timeout: 5_000 });
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  async hasNoErrorOnLoad(): Promise<boolean> {
+    try {
+      const count = await this.errorLocator().count();
+      return count === 0;
+    } catch {
+      return true;
     }
   }
 }
