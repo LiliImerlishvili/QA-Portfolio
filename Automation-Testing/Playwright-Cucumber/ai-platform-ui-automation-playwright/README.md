@@ -1,6 +1,6 @@
-# GetBotAI Playwright Automation Framework
+# AI Platform UI Automation Framework
 
-End-to-end test automation for **GetBotAI** using **TypeScript**, **Playwright**, and **Cucumber (BDD)**.
+End-to-end UI test automation using **TypeScript**, **Playwright**, and **Cucumber (BDD)**.
 
 ---
 
@@ -8,7 +8,7 @@ End-to-end test automation for **GetBotAI** using **TypeScript**, **Playwright**
 
 | Tool | Purpose |
 |------|---------|
-| [Playwright](https://playwright.dev) | Browser automation + API request context |
+| [Playwright](https://playwright.dev) | Browser automation |
 | [Cucumber.js](https://cucumber.io) | BDD feature files & step definitions |
 | TypeScript | Type safety across the entire framework |
 | Chai | Assertions |
@@ -20,29 +20,23 @@ End-to-end test automation for **GetBotAI** using **TypeScript**, **Playwright**
 ## Project Structure
 
 ```
-getbotai-playwright-automation/
+ai-platform-ui-automation-playwright/
 ├── src/
-│   ├── api/
-│   │   ├── base/BaseApiClient.ts      # Shared HTTP helpers (auth headers, logging)
-│   │   └── clients/                   # One typed client per API domain
 │   ├── ui/
 │   │   ├── pages/                     # Page Object Models
 │   │   └── components/                # Reusable UI components
 │   ├── support/
 │   │   ├── world.ts                   # Cucumber World (shared scenario state)
 │   │   └── hooks.ts                   # Before/After lifecycle hooks
-│   ├── types/api.types.ts             # Full TypeScript type definitions
 │   ├── utils/
-│   │   ├── tokenManager.ts            # Access/refresh token management
+│   │   ├── otpProvider.ts             # OTP retrieval helpers
 │   │   ├── logger.ts                  # Winston logger
 │   │   └── assertions.ts             # Fluent assertion helpers
 │   ├── fixtures/testData.ts           # Centralised test data
 │   └── config/config.ts              # Environment-aware configuration
 ├── features/
-│   ├── api/                           # API BDD scenarios
 │   └── ui/                            # UI BDD scenarios
 ├── step-definitions/
-│   ├── api/                           # API step implementations
 │   └── ui/                            # UI step implementations
 ├── scripts/generateReport.ts          # HTML report generator
 ├── cucumber.js                        # Cucumber profiles
@@ -65,10 +59,10 @@ npm install
 npx playwright install chromium
 ```
 
-Configure `.env` to point at your running backend:
+Configure `.env` with your environment:
 ```
-BASE_URL=http://localhost:5001
-TEST_EMAIL=afgan.shahguliyev.test@gmail.com
+BASE_URL=https://your-app-url.com
+TEST_EMAIL=testuser@example.com
 OTP_CODE=123456
 ```
 
@@ -79,9 +73,6 @@ OTP_CODE=123456
 ```bash
 # All tests
 npm test
-
-# API tests only
-npm run test:api
 
 # UI tests only
 npm run test:ui
@@ -101,7 +92,7 @@ npm run test -- --profile rerun
 ## Generating the HTML Report
 
 ```bash
-npm run test:api          # produces reports/cucumber-report.json
+npm test                  # produces reports/cucumber-report.json
 npm run report            # generates reports/html-report/index.html
 ```
 
@@ -109,15 +100,14 @@ npm run report            # generates reports/html-report/index.html
 
 ## Auth Flow
 
-The backend uses email-based OTP authentication. In **dev mode** with `OTP_PIN_STATIC=123456`, tests use the static code `123456`.
+The application uses email-based OTP authentication. Tests can run with a static OTP code (set via `OTP_CODE` in `.env`) or with Gmail integration for reading OTP emails automatically.
 
-The `I am authenticated as "email"` step handles the full sign-in → verify OTP → save tokens flow automatically.
+The `I am logged in as "email" with OTP "code"` step handles the full sign-in → enter OTP → verify flow automatically.
 
 ---
 
 ## Adding New Tests
 
-1. **Feature file** — add a `.feature` file under `features/api/` or `features/ui/`
-2. **API Client** — if it's a new domain, create a client in `src/api/clients/` extending `BaseApiClient`
-3. **Step definitions** — add steps to the relevant file under `step-definitions/`
-4. **Types** — add request/response interfaces to `src/types/api.types.ts`
+1. **Feature file** — add a `.feature` file under `features/ui/`
+2. **Page Object** — if it's a new page, create a class in `src/ui/pages/` extending `BasePage`
+3. **Step definitions** — add steps to the relevant file under `step-definitions/ui/`
