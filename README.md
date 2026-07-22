@@ -56,7 +56,6 @@ This repository demonstrates my practical QA approach through structured, anonym
 | `QA-Processes/` | QA workflows, review processes, and regression standards |
 | `API-Testing/` | API collections, validation scenarios, and supporting documentation |
 | `Automation-Testing/` | Playwright automation projects and framework documentation |
-| `Learning-Path/` | Continuous learning, certifications, and study materials |
 
 ---
 

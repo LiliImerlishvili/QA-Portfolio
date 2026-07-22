@@ -6186,7 +6186,7 @@
                       "",
                       "// Prepare a valid website link for the request",
                       "const websiteLinks = [",
-                      "    \"https://medium.com/the-useful-life/if-you-can-only-read-a-few-books-this-year-read-these-10-de58679b82c6\"",
+                      "    \"https://example.test/sample-article\"",
                       "];",
                       "",
                       "",
