@@ -1,0 +1,12 @@
+[
+  {
+    "description": "Missing required field",
+    "input": {},
+    "expected_status": 400
+  },
+  {
+    "description": "Invalid authentication token",
+    "token": "invalid_token",
+    "expected_status": 401
+  }
+]

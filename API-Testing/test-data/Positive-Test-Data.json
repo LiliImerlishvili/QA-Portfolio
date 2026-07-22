@@ -1,0 +1,9 @@
+[
+  {
+    "description": "Valid request example",
+    "input": {
+      "name": "Test User"
+    },
+    "expected_status": 200
+  }
+]
