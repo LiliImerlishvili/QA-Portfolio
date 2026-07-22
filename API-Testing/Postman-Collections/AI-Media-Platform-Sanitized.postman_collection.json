@@ -1171,7 +1171,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"first_name\": \"John\",\n    \"last_name\": \"Doe\",\n    \"profile_image\": \"https://media.istockphoto.com/id/805156212/photo/atlanta-georgia-usa-skyline.jpg?s=1024x1024&w=is&k=20&c=LI9be-px6zRRVtIn0XbV5XFMbjHG_rIMjZlWkuBdl8w=\"\n}",
+                  "raw": "{\n    \"first_name\": \"John\",\n    \"last_name\": \"Doe\",\n    \"profile_image\": \"https://files.example.test/sample-image.jpg\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1227,7 +1227,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"email\": \"test.user@example.com\",\n    \"first_name\": \"Ikram\",\n    \"last_name\": \"Zulfugar\"\n}",
+                  "raw": "{\n    \"email\": \"test.user@example.com\",\n    \"first_name\": \"Test\",\n    \"last_name\": \"User\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1624,7 +1624,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"prompt\": \"Heavy fighting between Israeli troops and Palestinian militants raged east of Rafah in the southern Gaza Strip on Friday, as terrified residents jammed roads out of the city, many of them fleeing once again for their lives without any guarantees that they would find safety. The Israeli military said it was engaged in a “precise counterterrorism operation” in eastern Rafah, on the outskirts of the city, and that it had “eliminated several terror cells during close-quarters combat” and in an airstrike. Doctors at the area’s few remaining hospitals said most of the wounded arriving at their wards were children.\",\n    \"type\": \"plagiarism\" // or \"ai-prediction\"\n    // \"media_url\": \"https://\",\n    //title: \"\" // conversation title\n    //title: \"\" // website url\n    //\"meta\": {}, // meta\n\n    // plagiarism can only handle text\n    // ai-prediction can handle website ( website_url ) | media_url ( uploaded image url ) | text\n}",
+                  "raw": "{\n    \"prompt\": \"This is a sample article used for plagiarism detection testing. and Palestinian militants raged east of Rafah in the southern Gaza Strip on Friday, as terrified residents jammed roads out of the city, many of them fleeing once again for their lives without any guarantees that they would find safety. The Israeli military said it was engaged in a “precise counterterrorism operation” in eastern Rafah, on the outskirts of the city, and that it had “eliminated several terror cells during close-quarters combat” and in an airstrike. Doctors at the area’s few remaining hospitals said most of the wounded arriving at their wards were children.\",\n    \"type\": \"plagiarism\" // or \"ai-prediction\"\n    // \"media_url\": \"https://\",\n    //title: \"\" // conversation title\n    //title: \"\" // website url\n    //\"meta\": {}, // meta\n\n    // plagiarism can only handle text\n    // ai-prediction can handle website ( website_url ) | media_url ( uploaded image url ) | text\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -2483,7 +2483,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"name\": \"Example Platform Main\",\n    \"description\": \"Example Platform main organization\",\n    \"profile_url\": \"https://www.google.com/url?sa=i&url=https%3A%2F%2Fexample.test%2F&psig=AOvVaw2iY6RtAtO_Bxkyx4jIBKJ5&ust=1728752697568000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLCmh-XnhokDFQAAAAAdAAAAABAE\"\n}",
+                  "raw": "{\n    \"name\": \"Example Platform Main\",\n    \"description\": \"Example Platform main organization\",\n    \"profile_url\": \"https://files.example.test/sample-profile.png\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -2609,7 +2609,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"email\": \"test.user@example.com\",\n    \"role\": \"MEMBER\",\n    \"message\": \"Test message from Test Userli\"\n}",
+                  "raw": "{\n    \"email\": \"test.user@example.com\",\n    \"role\": \"MEMBER\",\n    \"message\": \"Sample invitation message\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -3174,7 +3174,7 @@
                     },
                     {
                       "key": "surname",
-                      "value": "zulfugar",
+                      "value": "test-user",
                       "type": "text",
                       "disabled": true
                     }
@@ -4288,7 +4288,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"email\": \"test.user@example.com\",\n    \"first_name\": \"Ikram\",\n    \"last_name\": \"Zulfugar\"\n}",
+                  "raw": "{\n    \"email\": \"test.user@example.com\",\n    \"first_name\": \"Test\",\n    \"last_name\": \"User\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -19059,7 +19059,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"name\": \"Example Platform Main\",\n    \"description\": \"Example Platform main organization\",\n    \"profile_url\": \"https://www.google.com/url?sa=i&url=https%3A%2F%2Fexample.test%2F&psig=AOvVaw2iY6RtAtO_Bxkyx4jIBKJ5&ust=1728752697568000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLCmh-XnhokDFQAAAAAdAAAAABAE\"\n}",
+                  "raw": "{\n    \"name\": \"Example Platform Main\",\n    \"description\": \"Example Platform main organization\",\n    \"profile_url\": \"https://files.example.test/sample-profile.png\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -19185,7 +19185,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"email\": \"test.user@example.com\",\n    \"role\": \"MEMBER\",\n    \"message\": \"Test message from Test Userli\"\n}",
+                  "raw": "{\n    \"email\": \"test.user@example.com\",\n    \"role\": \"MEMBER\",\n    \"message\": \"Sample invitation message\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -19997,7 +19997,7 @@
                     },
                     {
                       "key": "surname",
-                      "value": "zulfugar",
+                      "value": "test-user",
                       "type": "text",
                       "disabled": true
                     }
@@ -20185,7 +20185,7 @@
                     },
                     {
                       "key": "surname",
-                      "value": "zulfugar",
+                      "value": "test-user",
                       "type": "text",
                       "disabled": true
                     }
@@ -20333,7 +20333,7 @@
                     },
                     {
                       "key": "surname",
-                      "value": "zulfugar",
+                      "value": "test-user",
                       "type": "text"
                     }
                   ]
