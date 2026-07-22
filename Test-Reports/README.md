@@ -1,24 +1,8 @@
 # Test Reports
 
-This section contains test execution summaries, regression results, smoke test reports, and release recommendations.
+This section contains reusable QA report structures for documenting execution results, regression status, defects, risks, and release recommendations.
 
-## Report Types
+## Included Reports
 
-- Test execution report
-- Smoke test report
-- Regression test report
-- Retest report
-- Bug summary report
-- Release recommendation
-
-## Report Content
-
-Each report may include:
-
-- Test scope
-- Test environment
-- Execution results
-- Passed and failed tests
-- Open defects
-- Known risks
-- Final QA recommendation
+- Functional Test Execution Report
+- Regression Test Summary

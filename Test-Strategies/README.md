@@ -1,12 +1,9 @@
 # Test Strategies
 
-This section contains high-level testing approaches for web, mobile, API, regression, and cross-platform quality assurance.
+This section contains general QA strategy documents demonstrating how testing scope, risks, priorities, environments, and coverage can be planned for web and API products.
 
-## Strategy Areas
+## Included Strategies
 
-- Web application testing
-- Mobile application testing
-- API testing
-- Regression testing
-- Cross-browser testing
-- Risk-based testing
+- Web Application Testing Strategy
+- API Testing Strategy
+- Regression Testing Strategy

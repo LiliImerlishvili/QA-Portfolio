@@ -1,38 +1,11 @@
 # QA Processes
 
-This folder documents reusable QA workflows and QA Lead practices applied across projects.
+This section documents core Quality Assurance workflows used to organize testing activities, defect handling, regression, and release validation.
 
-## Covered Processes
+## Included Processes
 
-- Test scope definition
-- Risk-based prioritization
-- Task assignment and coordination
-- Bug report review
-- Severity and priority calibration
-- Retesting and regression planning
-- Requirements traceability
-- Release-readiness communication
-- QA documentation standards
-- Team support and feedback
-
-## Defect Quality Standard
-
-A professional defect should include:
-
-- A specific title
-- Reproducible steps
-- Clear actual and expected results
-- Correct environment details
-- Evidence
-- Severity and priority
-- User or business impact
-
-## Project Collections
-
-- `Defect-Life-Cycle`
-- `Quality Engineering Command Center`
-- `Vacancy Review and Community Feedback Platform`
-
-## Confidentiality
-
-Process documentation contains no confidential employee data, client details, or internal credentials.
+- Software Testing Life Cycle
+- Defect Life Cycle
+- Bug Triage Workflow
+- Regression Testing Workflow
+- Release Readiness Process
