@@ -53,6 +53,7 @@ Projects are organized by **domain and platform type**. Each project folder cont
 | `Mobile-Testing/` | Android & iOS mobile applications across social, wellness, travel, and productivity domains |
 | `E-commerce-Testing/` | Online retail, voucher, and brand e-commerce platforms |
 | `Web-Platform-Testing/` | Web platforms across marketplace, legal, logistics, LMS, real estate, and other domains |
+| `Desktop-Testing/` | Desktop application testing |
 | `API-Testing/` | API collections, validation scenarios, and supporting documentation |
 | `Automation-Testing/` | Playwright automation projects and framework documentation |
 | `SQL-Testing/` | SQL queries and database validation scenarios |
