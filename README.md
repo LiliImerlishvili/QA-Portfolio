@@ -45,17 +45,34 @@ This repository demonstrates my practical QA approach through structured, anonym
 
 ## Repository Structure
 
+Projects are organized by **domain and platform type**. Each project folder contains its full QA documentation (Bug Reports, Test Cases, Test Scenarios, Checklists, RTM) in one place.
+
 | Folder | Purpose |
 |---|---|
-| `Bug-Reports/` | Real, anonymized defects with reproducible steps and impact analysis |
-| `Test-Cases/` | Detailed test cases linked to requirements and reported defects |
-| `Test-Scenarios/` | High-level user journeys and business workflow validation |
-| `Checklists/` | Risk-based validation checklists |
-| `RTM/` | Requirements Traceability Matrices |
-| `Test-Plans/` | Test scope, strategy, risks, entry and exit criteria |
-| `QA-Processes/` | QA workflows, review processes, and regression standards |
+| `AI-Testing/` | AI-powered products — recruiting, e-commerce, writing, and multi-modal platforms |
+| `Mobile-Testing/` | Android & iOS mobile applications across social, wellness, travel, and productivity domains |
+| `E-commerce-Testing/` | Online retail and voucher platforms |
+| `Web-Platform-Testing/` | Web platforms across marketplace, legal, logistics, LMS, real estate, and other domains |
 | `API-Testing/` | API collections, validation scenarios, and supporting documentation |
 | `Automation-Testing/` | Playwright automation projects and framework documentation |
+| `SQL-Testing/` | SQL queries and database validation scenarios |
+| `Test-Plans/` | Test scope, strategy, risks, entry and exit criteria |
+| `Test-Reports/` | Test execution summaries and regression reports |
+| `Test-Strategies/` | Testing approach documentation per project type |
+| `QA-Processes/` | QA workflows, review processes, and regression standards |
+| `Certificates/` | Professional QA and testing certifications |
+| `Tools/` | Tools and technology references |
+
+### Project Structure (per category folder)
+Each project inside a category folder contains:
+```
+Project Name/
+├── Bug-Reports/
+├── Test-Cases/
+├── Test-Scenarios/
+├── Checklists/
+└── RTM/
+```
 
 ---
 
