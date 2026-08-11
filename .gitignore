@@ -2,3 +2,4 @@
 *environment*.json
 !*environment.example.json
 Automation-Testing/poe-playwright-automation/node_modules/
+.DS_Store
