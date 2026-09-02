@@ -131,4 +131,3 @@ Interested in discussing QA, software testing, automation, or professional oppor
 
 **LinkedIn:** <https://linkedin.com/in/lili-imerlishvili>  
 **Email:** <mailto:lilimerlishvili@gmail.com>  
-**Phone:** +995 598 73 33 98
