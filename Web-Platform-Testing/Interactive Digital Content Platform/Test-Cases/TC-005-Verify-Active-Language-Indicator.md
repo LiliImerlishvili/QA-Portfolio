@@ -18,9 +18,19 @@ Verify that the current language has a clear active state.
 | Browser | Google Chrome 146 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user has the required access level.
+
+## Test Steps
+
+1. Open the language selector.
+2. Select another language.
+3. Observe the selected language option.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The selected language should have a clear active state, such as highlight, underline, bold text, or an active icon.
 
 ## Status
 

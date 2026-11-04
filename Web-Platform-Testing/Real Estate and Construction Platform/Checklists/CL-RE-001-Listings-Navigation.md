@@ -1,4 +1,4 @@
-🏘️ Listings & Navigation Checklist
+# Listings & Navigation Checklist
 - [ ] Listings page loads without errors
 - [ ] Property cards render correctly
 - [ ] Pagination / load more works (if applicable)

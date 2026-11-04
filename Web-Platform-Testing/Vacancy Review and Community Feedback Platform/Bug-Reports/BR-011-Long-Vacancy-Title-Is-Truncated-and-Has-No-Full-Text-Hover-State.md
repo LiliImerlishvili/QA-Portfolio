@@ -24,8 +24,7 @@ Normal
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required platform data is available.
+- A vacancy with a long title exists in the vacancy list.
 
 ## Steps to Reproduce
 

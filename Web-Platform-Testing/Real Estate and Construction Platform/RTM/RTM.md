@@ -1,4 +1,4 @@
-# 🔗 Requirements Traceability Matrix (RTM)
+# Requirements Traceability Matrix (RTM)
 
 This RTM demonstrates clear traceability between **Test Scenarios (TS)**,  
 **Test Cases (TC)**, and **Bug Reports (BUG)** for the **Real Estate & Construction Platform**.
@@ -21,7 +21,8 @@ covering critical user journeys such as property browsing, inquiry flows, and fo
 | RE-REQ-010 | Analytics events are tracked for key actions | TS-RE-010 | TC-RE-010 | BUG-006 |
 
 ---
-## 🎯 Purpose
+
+## Purpose
 
 The RTM ensures that:
 
@@ -33,7 +34,7 @@ The RTM ensures that:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Jira – defect reporting and tracking  
 - Chrome DevTools – UI, layout, and responsive testing  
@@ -44,7 +45,7 @@ The RTM ensures that:
 
 ---
 
-🔒 **NDA Notice**
+**NDA Notice**
 
 All identifiers, flows, and examples are anonymized.  
 No real client data, URLs, or proprietary business logic are included.  

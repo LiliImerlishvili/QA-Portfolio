@@ -24,8 +24,7 @@ High
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required platform data is available.
+- The user is logged in.
 
 ## Steps to Reproduce
 

@@ -1,4 +1,4 @@
-# 🔗 Requirements Traceability Matrix (RTM)
+# Requirements Traceability Matrix (RTM)
 
 This RTM demonstrates clear traceability between **Test Scenarios (TS)**,  
 **Test Cases (TC)**, and **Bug Reports (BUG)** for the **Invitation Card Builder Platform**.
@@ -8,7 +8,7 @@ covering core invitation creation flows, UI/UX behavior, and delivery reliabilit
 
 ---
 
-## 📊 RTM Table
+## RTM Table
 
 | Requirement | Test Scenario | Test Case | Bug |
 |------------|--------------|-----------|-----|
@@ -24,7 +24,7 @@ covering core invitation creation flows, UI/UX behavior, and delivery reliabilit
 | Shared invitation link | TS-010 | TC-010 | BUG-010 |
 ---
 
-## 🎯 Purpose
+## Purpose
 
 The RTM ensures that:
 
@@ -36,7 +36,7 @@ The RTM ensures that:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Jira – bug tracking and defect management  
 - Chrome DevTools – UI inspection and layout validation  
@@ -47,7 +47,7 @@ The RTM ensures that:
 
 ---
 
-🔒 **NDA Notice**
+**NDA Notice**
 
 All identifiers, flows, and examples are anonymized.  
 No real client names, URLs, or invitation content are included.  

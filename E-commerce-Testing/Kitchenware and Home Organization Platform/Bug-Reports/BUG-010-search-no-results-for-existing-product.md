@@ -1,4 +1,4 @@
-# 🐞 Search returns no results for existing products
+# Search returns no results for existing products
 
 **Bug ID:** KHP-BUG-010  
 **Priority:** Medium  

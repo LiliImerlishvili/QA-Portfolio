@@ -18,9 +18,20 @@ Verify confirmation sends timely in-app and SMS notifications.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Complete a gardener service.
+2. Have the client confirm the work.
+3. Check in-app notifications.
+4. Check SMS delivery time.
+
 ## Expected Result
 
-The workflow behaves according to the requirement without reproducing the related defect.
+Both in-app and SMS confirmations should be delivered promptly.
 
 ## Status
 

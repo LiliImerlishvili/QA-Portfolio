@@ -1,4 +1,4 @@
-# 🧩 Validate out-of-stock product cannot be added to cart
+# Validate out-of-stock product cannot be added to cart
 
 **Test Case ID:** TC-KHP-005  
 **Linked Bug ID:** KHP-BUG-005  

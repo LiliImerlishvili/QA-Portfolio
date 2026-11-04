@@ -24,8 +24,7 @@ Normal
 
 ## Preconditions
 
-- The user is authenticated unless otherwise stated.
-- The relevant feature is available.
+- The user is not logged in.
 
 ## Steps to Reproduce
 

@@ -18,9 +18,19 @@ Verify that all interest items are fully visible.
 | Application Version | 2.0.1 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open the Profile screen.
+2. Open Interests.
+3. Scroll to the final item.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+All interest items should be fully visible and readable.
 
 ## Status
 

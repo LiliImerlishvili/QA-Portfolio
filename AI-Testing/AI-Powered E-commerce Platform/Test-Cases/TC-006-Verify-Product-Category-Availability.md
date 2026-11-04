@@ -18,9 +18,22 @@ Verify existing product categories are grounded correctly against catalog data.
 | Browser | Google Chrome 150 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The AI chat is available.
+- Relevant website or catalog data exists.
+- The user has access to the customer-facing platform.
+
+## Test Steps
+
+1. Confirm that products from the target category exist in the online catalog.
+2. Open the AI chat.
+3. Ask for products from that category.
+4. Observe the response.
+
 ## Expected Result
 
-The AI response is accurate, complete, consistent, and grounded in the current website or catalog data.
+The assistant should return matching products from the catalog.
 
 ## Status
 

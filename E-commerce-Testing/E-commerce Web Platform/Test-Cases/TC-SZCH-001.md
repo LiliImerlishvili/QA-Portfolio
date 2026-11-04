@@ -22,4 +22,4 @@ To verify that Size Chart modal displays the correct product’s size informatio
 ---
 
 ### Status:
-❌ Failed
+Failed

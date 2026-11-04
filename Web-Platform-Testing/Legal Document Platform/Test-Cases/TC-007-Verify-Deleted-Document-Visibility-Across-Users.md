@@ -18,9 +18,20 @@ Verify document deletion is synchronized for all users.
 | Browser | Google Chrome 146 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- Two registered users (User A and User B) have access to the same shared document.
+
+## Test Steps
+
+1. Log in as User A.
+2. Delete a shared document.
+3. Log in as User B.
+4. Open the document list.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+Document visibility should update consistently for all authorized users after deletion.
 
 ## Status
 

@@ -30,4 +30,4 @@ Same as TC-BRND-001
 ---
 
 ### Status:
-❌ Failed
+Failed

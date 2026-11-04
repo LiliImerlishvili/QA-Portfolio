@@ -1,4 +1,4 @@
-# 🔗 Requirements Traceability Matrix (RTM)
+# Requirements Traceability Matrix (RTM)
 
 This RTM demonstrates clear traceability between **Test Scenarios (TS)**,  
 **Test Cases (TC)**, and **Bug Reports (BUG)** for the Mobile Social Application.
@@ -8,7 +8,7 @@ with full coverage of critical mobile user flows across devices and OS versions.
 
 ---
 
-## 📊 RTM Table
+## RTM Table
 
 | Feature / Requirement | Test Scenario ID | Test Case ID | Bug ID |
 |----------------------|------------------|--------------|--------|
@@ -22,7 +22,7 @@ with full coverage of critical mobile user flows across devices and OS versions.
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 The RTM ensures that:
 
@@ -34,7 +34,7 @@ The RTM ensures that:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Jira – bug tracking and defect linkage  
 - Android Studio Emulator – device and OS testing  
@@ -45,7 +45,7 @@ The RTM ensures that:
 
 ---
 
-🔒 **NDA Notice**
+**NDA Notice**
 
 All identifiers are anonymized.  
 No real application names, user data, or internal APIs are exposed.  

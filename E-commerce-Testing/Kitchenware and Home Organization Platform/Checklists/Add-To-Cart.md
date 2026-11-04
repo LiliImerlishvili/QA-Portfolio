@@ -1,4 +1,4 @@
-➕ Add to Cart Checklist
+# Add to Cart Checklist
 
 ## Add to Cart
 - [ ] Add to Cart button is visible

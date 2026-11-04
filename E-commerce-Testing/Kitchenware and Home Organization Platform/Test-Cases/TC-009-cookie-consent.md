@@ -1,4 +1,4 @@
-# 🧩 Validate cookie consent persistence after refresh
+# Validate cookie consent persistence after refresh
 
 **Test Case ID:** TC-KHP-009  
 **Linked Bug ID:** KHP-BUG-009  

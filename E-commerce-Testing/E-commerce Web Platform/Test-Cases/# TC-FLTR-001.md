@@ -22,4 +22,4 @@ To verify that applying a category filter returns only relevant products.
 ---
 
 ### Status:
-✅ Passed
+Passed

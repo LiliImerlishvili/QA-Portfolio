@@ -1,4 +1,4 @@
-🧾 Cart Management Checklist
+# Cart Management Checklist
 
 ## Cart Actions
 - [ ] Cart page/drawer opens

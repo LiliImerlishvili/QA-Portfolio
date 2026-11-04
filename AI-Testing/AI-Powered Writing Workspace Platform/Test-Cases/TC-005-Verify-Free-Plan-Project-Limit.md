@@ -18,9 +18,16 @@ Verify that project limits cannot be bypassed through the Bin.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Test Steps
+
+1. Use an account on the free plan.
+2. Create projects up to the configured limit.
+3. Move one or more projects to the Bin.
+4. Create another project.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+Projects in the Bin should still count toward the plan limit, or the system should clearly enforce the intended business rule.
 
 ## Status
 

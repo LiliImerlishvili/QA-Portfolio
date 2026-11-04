@@ -18,9 +18,16 @@ Verify that inactive tabs open with one click.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Test Steps
+
+1. Open a project containing multiple tabs.
+2. Click an inactive tab once.
+3. Observe whether the tab opens.
+4. Click the same tab again.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The tab should activate with a single click.
 
 ## Status
 

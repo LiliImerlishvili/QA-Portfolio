@@ -24,8 +24,7 @@ Urgent
 
 ## Preconditions
 
-- The user is authenticated unless otherwise stated.
-- The relevant feature is available.
+- The user has a registered account with completed profile data.
 
 ## Steps to Reproduce
 

@@ -24,8 +24,7 @@ High
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required platform data is available.
+- The user has permission to create articles.
 
 ## Steps to Reproduce
 

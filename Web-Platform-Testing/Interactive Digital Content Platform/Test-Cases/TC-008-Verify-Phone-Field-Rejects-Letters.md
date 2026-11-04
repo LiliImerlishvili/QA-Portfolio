@@ -18,9 +18,19 @@ Verify that phone fields reject alphabetic input.
 | Browser | Google Chrome 146 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user has the required access level.
+
+## Test Steps
+
+1. Open the purchase or contact form.
+2. Enter letters in the phone number field.
+3. Submit or continue.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The field should restrict unsupported characters and show clear validation feedback.
 
 ## Status
 

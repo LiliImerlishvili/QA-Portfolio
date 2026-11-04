@@ -18,9 +18,19 @@ Verify that the configured default provider is used.
 | Application Version | 1.0 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is authenticated.
+
+## Test Steps
+
+1. Ensure a default AI provider is configured.
+2. Run a scan without changing the provider.
+3. Review the analysis result and provider behavior.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The configured default provider should be used unless the user explicitly changes it.
 
 ## Status
 

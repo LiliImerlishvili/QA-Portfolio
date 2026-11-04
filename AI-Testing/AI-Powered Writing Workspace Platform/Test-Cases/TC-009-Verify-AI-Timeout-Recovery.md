@@ -18,9 +18,17 @@ Verify AI timeout, retry, recovery, and partial-result handling.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Test Steps
+
+1. Open a screenplay draft.
+2. Open the AI chat.
+3. Select an available AI model.
+4. Submit a multi-step writing prompt.
+5. Wait for the response.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The request should complete within the expected time or provide retry, recovery, or partial-result handling without losing the generated work.
 
 ## Status
 

@@ -1,8 +1,8 @@
-# 📱 Responsive & Mobile Checklist
+# Responsive & Mobile Checklist
 
 ---
 
-## 📏 Breakpoint Checks
+## Breakpoint Checks
 - [ ] 320px  
 - [ ] 375px  
 - [ ] 414px  
@@ -13,7 +13,7 @@
 
 ---
 
-## 📱 Mobile Functionality
+## Mobile Functionality
 - [ ] Mobile menu works  
 - [ ] Filter drawer works  
 - [ ] Size dropdown accessible  
@@ -22,13 +22,13 @@
 
 ---
 
-## 🖼 Mobile Images
+## Mobile Images
 - [ ] Fullscreen preview works  
 - [ ] Image carousel navigates properly  
 
 ---
 
-## 📄 Product Page (Mobile)
+## Product Page (Mobile)
 - [ ] Title readable  
 - [ ] Price and actions visible  
 - [ ] Size guide accessible  

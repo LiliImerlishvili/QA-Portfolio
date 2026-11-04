@@ -18,9 +18,21 @@ Verify pickup checkout completes after Slide to Confirm.
 | Application Version | 1.0 (build 7) |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open the cart.
+2. Proceed to checkout.
+3. Select Pickup.
+4. Choose a payment method.
+5. Swipe Slide to Confirm.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+The user should continue to payment and complete the purchase successfully.
 
 ## Status
 

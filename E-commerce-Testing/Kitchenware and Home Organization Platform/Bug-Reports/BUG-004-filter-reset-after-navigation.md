@@ -1,4 +1,4 @@
-# 🐞 Product filters reset after navigating back to listing
+# Product filters reset after navigating back to listing
 
 **Bug ID:** KHP-BUG-004  
 **Priority:** Medium  

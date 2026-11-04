@@ -1,4 +1,4 @@
-# 🔗 Requirements Traceability Matrix (RTM)
+# Requirements Traceability Matrix (RTM)
 
 This RTM provides clear traceability between **Happy Path Test Scenarios (TS)**,  
 **Checklists (CL)**, and **Bug Reports (BUG)** for the AI-powered multi-modal platform.
@@ -8,7 +8,7 @@ using Happy Paths as primary coverage instead of traditional test cases.
 
 ---
 
-## 📊 RTM Table
+## RTM Table
 
 | Feature / Area | Happy Path ID | Checklist ID | Bug ID |
 |---------------|---------------|--------------|--------|
@@ -25,7 +25,7 @@ using Happy Paths as primary coverage instead of traditional test cases.
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This RTM ensures that:
 
@@ -37,7 +37,7 @@ This RTM ensures that:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Jira – bug tracking and validation  
 - Markdown – documentation format  
@@ -45,7 +45,7 @@ This RTM ensures that:
 
 ---
 
-🔒 **NDA Notice**
+**NDA Notice**
 
 All identifiers are anonymized.  
 No real user data, URLs, or internal assets are included.  

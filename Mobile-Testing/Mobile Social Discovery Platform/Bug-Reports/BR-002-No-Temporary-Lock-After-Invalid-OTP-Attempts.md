@@ -24,8 +24,7 @@ Urgent
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required feature is available.
+- The user has started registration and requested a verification code.
 
 ## Steps to Reproduce
 

@@ -29,4 +29,4 @@ To check that "Similar Products" section shows relevant items.
 ---
 
 ### Status:
-❌ Failed
+Failed

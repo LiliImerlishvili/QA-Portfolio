@@ -35,4 +35,4 @@ Same as TC-LNG-001
 ---
 
 ### Status:
-❌ Failed
+Failed

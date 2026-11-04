@@ -24,8 +24,8 @@ Normal
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required feature is available.
+- The user is not registered.
+- The user has a valid email address.
 
 ## Steps to Reproduce
 

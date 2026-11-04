@@ -24,8 +24,8 @@ High
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required platform data is available.
+- The user has an active account with the social login provider.
+- The user is not logged in.
 
 ## Steps to Reproduce
 

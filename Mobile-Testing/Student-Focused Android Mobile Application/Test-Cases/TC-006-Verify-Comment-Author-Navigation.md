@@ -18,9 +18,19 @@ Verify comment author navigation follows privacy requirements.
 | Application Version | 2.0.1 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open Activity.
+2. Open a post with comments.
+3. Tap the comment author's name or avatar.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+Navigation should follow the defined privacy and interaction rules.
 
 ## Status
 

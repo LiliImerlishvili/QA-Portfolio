@@ -20,5 +20,5 @@ Functional · Regression · UI/UX · Exploratory
 ### Tools Used
 Jira · Chrome DevTools · Postman · SQL · TestRail
 
-🔒 **NDA Notice**  
+**NDA Notice**  
 All project details are anonymized. Only QA methodology and testing logic are demonstrated.

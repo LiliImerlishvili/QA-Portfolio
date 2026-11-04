@@ -18,9 +18,20 @@ Verify modal controls remain visible after entering a price.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open a service request.
+2. Click Send Offer.
+3. Enter a price.
+4. Observe the modal controls.
+
 ## Expected Result
 
-The workflow behaves according to the requirement without reproducing the related defect.
+Both controls should remain fully visible at supported viewport sizes and zoom levels.
 
 ## Status
 

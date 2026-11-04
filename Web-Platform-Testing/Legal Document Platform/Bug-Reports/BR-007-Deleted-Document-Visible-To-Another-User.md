@@ -24,8 +24,7 @@ Urgent
 
 ## Preconditions
 
-- The user is authenticated unless otherwise stated.
-- The relevant feature is available.
+- Two registered users (User A and User B) have access to the same shared document.
 
 ## Steps to Reproduce
 

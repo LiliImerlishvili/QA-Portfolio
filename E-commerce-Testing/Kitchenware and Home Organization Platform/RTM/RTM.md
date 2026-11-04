@@ -1,4 +1,4 @@
-# 🔗 Requirements Traceability Matrix (RTM)
+# Requirements Traceability Matrix (RTM)
 
 This RTM demonstrates clear traceability between **Test Scenarios (TS)**,  
 **Test Cases (TC)**, and **Bug Reports (BUG)** for the **Kitchenware & Home Organization Platform**.
@@ -23,7 +23,7 @@ ensuring full coverage of critical e-commerce user flows and business requiremen
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 The RTM ensures that:
 
@@ -35,7 +35,7 @@ The RTM ensures that:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Jira – bug tracking and defect lifecycle management  
 - TestRail – test case documentation and execution  
@@ -47,7 +47,7 @@ The RTM ensures that:
 
 ---
 
-🔒 **NDA Notice**
+**NDA Notice**
 
 All identifiers, flows, and examples are anonymized.  
 No real client data, URLs, or internal business logic are exposed.  

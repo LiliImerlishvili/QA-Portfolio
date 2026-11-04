@@ -1,4 +1,4 @@
-# 🔗 Requirements Traceability Matrix (RTM)
+# Requirements Traceability Matrix (RTM)
 
 This RTM demonstrates clear traceability between **Test Scenarios (TS)**,  
 **Test Cases (TC)**, and **Bug Reports (BUG)** for the **Heritage Hair Styling Brand Website**.
@@ -8,7 +8,7 @@ covering UI/UX consistency, responsive behavior, SEO readiness, and analytics va
 
 ---
 
-## 📊 RTM Table
+## RTM Table
 
 | Requirement | Test Scenario | Test Case | Bug |
 |------------|--------------|-----------|-----|
@@ -26,7 +26,7 @@ covering UI/UX consistency, responsive behavior, SEO readiness, and analytics va
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 The RTM ensures that:
 
@@ -38,7 +38,7 @@ The RTM ensures that:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Jira – bug tracking and defect lifecycle management  
 - Chrome DevTools – UI, layout, and responsive validation  
@@ -50,7 +50,7 @@ The RTM ensures that:
 
 ---
 
-🔒 **NDA Notice**
+**NDA Notice**
 
 All identifiers, flows, and examples are anonymized.  
 No real brand data, URLs, or proprietary content are included.  

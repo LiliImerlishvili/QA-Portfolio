@@ -33,4 +33,4 @@ To validate that selecting a brand (e.g., "Levi’s") shows only that brand’s 
 ---
 
 ### Status:
-❌ Failed
+Failed

@@ -18,9 +18,20 @@ Verify the close button is fully visible and usable.
 | Application Version | 1.0 (build 7) |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open Marketplace.
+2. Open Partners.
+3. Select a partner.
+4. Observe the close button.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+The close button should be fully visible and correctly aligned.
 
 ## Status
 

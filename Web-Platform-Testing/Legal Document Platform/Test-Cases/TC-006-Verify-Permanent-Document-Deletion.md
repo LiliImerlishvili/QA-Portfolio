@@ -18,9 +18,21 @@ Verify permanently deleted documents disappear from all active views.
 | Browser | Google Chrome 146 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open the document list.
+2. Move a document to Trash.
+3. Open Trash.
+4. Permanently delete the document.
+5. Return to the workspace.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The document should disappear from all active views after permanent deletion.
 
 ## Status
 

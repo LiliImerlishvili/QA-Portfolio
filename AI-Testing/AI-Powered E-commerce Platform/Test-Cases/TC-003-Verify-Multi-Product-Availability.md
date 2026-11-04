@@ -18,9 +18,22 @@ Verify availability status for multiple products requested in one message.
 | Browser | Google Chrome 150 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The AI chat is available.
+- Relevant website or catalog data exists.
+- The user has access to the customer-facing platform.
+
+## Test Steps
+
+1. Open the AI chat.
+2. Ask for two related products in a single query.
+3. Ensure one product is available and the other is unavailable in the catalog.
+4. Compare the chatbot response with the actual catalog.
+
 ## Expected Result
 
-The AI response is accurate, complete, consistent, and grounded in the current website or catalog data.
+The assistant should report the correct availability status for each product separately.
 
 ## Status
 

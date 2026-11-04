@@ -6,21 +6,41 @@
 
 ## Objective
 
-Verify that long profile descriptions remain fully visible and editable.
+Verify that long multi-line profile descriptions remain fully readable and editable.
+
+## Test Type
+
+UI
+
+## Priority
+
+High
 
 ## Environment
 
 | Field | Value |
 |---|---|
 | Environment | Production |
+| Platform | iOS |
 | Device | iPhone 14 Pro |
 | Operating System | iOS 26.5 |
 | Application Version | 2.0.0 (build 2003) |
-| Reproducibility | 100% |
+
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open the profile screen and enter edit mode.
+2. Open the profile description field.
+3. Enter a long multi-line description.
+4. Scroll through the text.
 
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+- The toolbar does not overlap the text.
+- The field scrolls or resizes so all content remains readable and editable.
 
 ## Status
 

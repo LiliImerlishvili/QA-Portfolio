@@ -24,8 +24,8 @@ High
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required feature is available.
+- The user is logged in.
+- A valid image exists in the device gallery.
 
 ## Steps to Reproduce
 

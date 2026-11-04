@@ -18,9 +18,17 @@ Verify that hidden outline items and related content are not visible in the edit
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Test Steps
+
+1. Open a general draft with outline items.
+2. Select an outline item.
+3. Use the Hide action.
+4. Close or collapse the navigation panel.
+5. Review the draft editor.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The hidden item and its related content should be removed from the visible editor state.
 
 ## Status
 

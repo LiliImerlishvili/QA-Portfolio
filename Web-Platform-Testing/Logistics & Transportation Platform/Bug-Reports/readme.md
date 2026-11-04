@@ -1,4 +1,4 @@
-# 🚚 Logistics & Transportation Platform (Confidential Client)
+# Logistics & Transportation Platform (Confidential Client)
 
 This project represents manual QA work performed on a **Logistics & Transportation Platform**
 focused on route management, booking workflows, delivery tracking, and multi-language support.
@@ -8,7 +8,7 @@ requiring high reliability, accurate data handling, and stable integrations with
 
 ---
 
-## 👩‍💻 Role & Responsibilities
+## Role & Responsibilities
 
 As a **Manual QA Engineer**, I was responsible for validating core logistics workflows,
 ensuring localization accuracy, and verifying system stability across browsers and environments.
@@ -22,7 +22,7 @@ Key responsibilities included:
 
 ---
 
-## 🧪 Testing Scope
+## Testing Scope
 
 Testing activities covered the following areas:
 
@@ -35,7 +35,7 @@ Testing activities covered the following areas:
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 
 - **Jira** – defect reporting and tracking  
 - **Postman** – API and backend validation  
@@ -45,7 +45,7 @@ Testing activities covered the following areas:
 
 ---
 
-## 📂 Project Documentation Structure
+## Project Documentation Structure
 
 This project includes structured QA documentation:
 
@@ -59,7 +59,7 @@ All documents are organized into separate folders for clarity and easy navigatio
 
 ---
 
-🔒 **NDA Notice**
+**NDA Notice**
 
 All project data is anonymized.  
 Real client names, URLs, routes, and internal logic are excluded.  

@@ -18,9 +18,20 @@ Verify that the selected language persists across navigation and reload.
 | Browser | Google Chrome 146 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user has the required access level.
+
+## Test Steps
+
+1. Open the platform.
+2. Select a non-default language.
+3. Navigate to another main page.
+4. Observe the interface language.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The selected language should persist across navigation and page reloads.
 
 ## Status
 

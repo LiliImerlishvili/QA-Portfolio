@@ -1,4 +1,4 @@
-# 🧩 Verify search returns results for existing products
+# Verify search returns results for existing products
 
 **Test Case ID:** TC-KHP-010  
 **Linked Bug ID:** KHP-BUG-010  

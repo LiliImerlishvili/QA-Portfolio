@@ -1,4 +1,4 @@
-🍪 Cookies & Analytics Checklist
+# Cookies & Analytics Checklist
 
 ## Cookie Consent
 - [ ] Consent banner displayed

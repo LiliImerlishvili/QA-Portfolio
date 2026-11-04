@@ -18,9 +18,20 @@ Verify that notification toggles show the correct final state.
 | Application Version | 2.0.1 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open Settings.
+2. Open Notification Management.
+3. Toggle Enable Push Notifications.
+4. Observe the control state.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+The toggle should immediately display the correct final state.
 
 ## Status
 

@@ -1,4 +1,4 @@
-# 🧩 Verify analytics events fire once per checkout step
+# Verify analytics events fire once per checkout step
 
 **Test Case ID:** TC-KHP-008  
 **Linked Bug ID:** KHP-BUG-008  

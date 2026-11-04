@@ -1,4 +1,4 @@
-🧱 Listing Card UI Checklist
+# Listing Card UI Checklist
 - [ ] Title visible and not truncated incorrectly
 - [ ] Price format is consistent
 - [ ] Location is visible

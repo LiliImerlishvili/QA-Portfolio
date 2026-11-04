@@ -18,9 +18,20 @@ Verify OTP is invalidated or locked after the configured failed attempts.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user has a registered account.
+
+## Test Steps
+
+1. Open Forgot Password.
+2. Request an OTP.
+3. Enter an incorrect OTP three times.
+4. Enter the correct OTP.
+
 ## Expected Result
 
-The workflow behaves according to the requirement without reproducing the related defect.
+After the configured failed-attempt limit, the OTP should be invalidated or the user should be temporarily locked and required to request a new code.
 
 ## Status
 

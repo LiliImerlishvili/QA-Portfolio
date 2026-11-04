@@ -1,4 +1,4 @@
-🌐 Catalog & Navigation Checklist
+# Catalog & Navigation Checklist
 
 ## Categories & Navigation
 - [ ] Categories load without errors

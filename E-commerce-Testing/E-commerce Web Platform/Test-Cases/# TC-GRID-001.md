@@ -34,4 +34,4 @@ To verify that the footer Blog Grid layout and pagination display correctly with
 ---
 
 ### Status:
-❌ Failed
+Failed

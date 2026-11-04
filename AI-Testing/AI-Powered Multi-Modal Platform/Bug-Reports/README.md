@@ -1,4 +1,4 @@
-# 🤖 AI-Powered Multi-Modal Platform
+# AI-Powered Multi-Modal Platform
 
 This project represents manual QA work performed on a **multi-modal AI platform**
 that combines conversational AI with **audio, image, and video generation features**.
@@ -9,13 +9,13 @@ and reliable user experience** across different AI-powered functionalities.
 
 ---
 
-## 👩‍💻 Role
+## Role
 
 **Manual QA Engineer**
 
 ---
 
-## 🧪 Responsibilities
+## Responsibilities
 
 - Tested AI-driven conversational chat workflows and prompt-based interactions to ensure consistent responses and reliable user flows  
 - Performed functional and exploratory testing of **audio generation features**, validating output accuracy, UI behavior, and edge cases  
@@ -27,7 +27,7 @@ and reliable user experience** across different AI-powered functionalities.
 
 ---
 
-## 🧩 Testing Types
+## Testing Types
 
 - Functional Testing  
 - Exploratory Testing  
@@ -37,7 +37,7 @@ and reliable user experience** across different AI-powered functionalities.
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Jira  
 - Postman  
@@ -46,7 +46,7 @@ and reliable user experience** across different AI-powered functionalities.
 
 ---
 
-🔒 **NDA Notice**
+**NDA Notice**
 
 All project details are anonymized.  
 Real product names, AI model identifiers, URLs, and sensitive data are excluded.  

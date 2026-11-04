@@ -18,9 +18,20 @@ Verify that chat presence reflects the real user state.
 | Application Version | 2.0.1 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- Two registered user accounts exist.
+
+## Test Steps
+
+1. Log in with two accounts.
+2. Open a chat between them.
+3. Take one account offline.
+4. Observe the other user's status.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+The status should update promptly and reflect the real online state.
 
 ## Status
 

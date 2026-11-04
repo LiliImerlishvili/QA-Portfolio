@@ -18,9 +18,21 @@ Verify that shared post URLs are sent as clickable hyperlinks.
 | Application Version | 2.0.1 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open the Activity screen.
+2. Open an existing post.
+3. Tap Share.
+4. Choose an external messaging application.
+5. Send the shared content.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+The shared URL should be formatted as a clickable hyperlink.
 
 ## Status
 

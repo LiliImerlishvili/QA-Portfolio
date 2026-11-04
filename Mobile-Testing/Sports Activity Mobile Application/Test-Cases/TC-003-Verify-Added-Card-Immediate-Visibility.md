@@ -18,9 +18,22 @@ Verify a newly added card appears without restart.
 | Application Version | 1.0 (build 7) |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open Payment Methods.
+2. Add a new card.
+3. Return to the list.
+4. Refresh the list.
+5. Restart the application.
+6. Open Payment Methods again.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+The card should appear immediately after successful addition.
 
 ## Status
 

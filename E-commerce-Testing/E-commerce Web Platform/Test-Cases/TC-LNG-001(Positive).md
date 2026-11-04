@@ -39,4 +39,4 @@ To verify that switching the website language from KA → EN updates all visible
 ---
 
 ### Status:
-❌ Failed
+Failed

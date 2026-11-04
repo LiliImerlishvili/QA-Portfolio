@@ -1,4 +1,4 @@
-🏗️ Property Details UI Checklist
+# Property Details UI Checklist
 - [ ] Title, price, location displayed
 - [ ] Description section loads
 - [ ] Attributes/specs visible

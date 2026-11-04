@@ -24,8 +24,7 @@ Normal
 
 ## Preconditions
 
-- The relevant user role is authenticated unless otherwise stated.
-- The required workflow is available.
+- The user has access to the admin verification panel.
 
 ## Steps to Reproduce
 

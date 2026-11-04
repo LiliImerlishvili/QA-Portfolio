@@ -18,9 +18,21 @@ Verify that scan analysis uses the provider selected by the user.
 | Application Version | 1.0 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is authenticated.
+
+## Test Steps
+
+1. Open the scan flow.
+2. Enter a valid target URL.
+3. Select a non-default AI provider.
+4. Run the scan.
+5. Review the AI analysis result.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The analysis should use the provider selected by the user.
 
 ## Status
 

@@ -24,8 +24,8 @@ High
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required platform data is available.
+- The user has a registered account.
+- The user has created or viewed anonymous content.
 
 ## Steps to Reproduce
 

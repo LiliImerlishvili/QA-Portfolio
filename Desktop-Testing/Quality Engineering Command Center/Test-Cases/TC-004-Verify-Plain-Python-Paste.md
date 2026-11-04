@@ -18,9 +18,20 @@ Verify that pasting code inserts only plain Python text.
 | Application Version | 1.0 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is authenticated.
+
+## Test Steps
+
+1. Open the Python script editor.
+2. Create a new script.
+3. Paste plain Python code.
+4. Review the editor content.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+Only plain Python source code should be pasted.
 
 ## Status
 

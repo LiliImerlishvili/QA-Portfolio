@@ -1,4 +1,4 @@
-# 🧘‍♂️ Meditation and Mindfulness LMS Platform (NDA Project)
+# Meditation and Mindfulness LMS Platform (NDA Project)
 
 This project represents manual QA work performed on a **Meditation and Mindfulness Learning Management System (LMS)** focused on delivering structured online courses, secure payments, multilingual support, and privacy-compliant user flows.
 
@@ -6,19 +6,19 @@ The platform combines e-learning functionality with e-commerce features, requiri
 
 ---
 
-## 👩‍💻 Role
+## Role
 
 **Manual QA Engineer**
 
 ---
 
-## 📅 Period
+## Period
 
 **September 2025**
 
 ---
 
-## 🧪 Responsibilities
+## Responsibilities
 
 - Tested end-to-end learning flows including course access, gated content, and lesson progression  
 - Validated e-commerce checkout flows via WooCommerce (Stripe, PayPal, Klarna, Sofort)  
@@ -30,7 +30,7 @@ The platform combines e-learning functionality with e-commerce features, requiri
 
 ---
 
-## 🧩 Testing Types
+## Testing Types
 
 - Functional Testing  
 - Regression Testing  
@@ -40,7 +40,7 @@ The platform combines e-learning functionality with e-commerce features, requiri
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Jira  
 - WooCommerce  
@@ -51,7 +51,7 @@ The platform combines e-learning functionality with e-commerce features, requiri
 
 ---
 
-🔒 **NDA Notice**
+**NDA Notice**
 
 All project details are anonymized.  
 Real client data, URLs, payment information, and internal assets are excluded.  

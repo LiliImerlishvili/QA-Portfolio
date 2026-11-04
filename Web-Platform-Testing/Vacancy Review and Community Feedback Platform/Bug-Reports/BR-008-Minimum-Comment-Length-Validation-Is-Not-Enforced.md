@@ -24,8 +24,8 @@ High
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required platform data is available.
+- The user is logged in.
+- A vacancy page is open.
 
 ## Steps to Reproduce
 

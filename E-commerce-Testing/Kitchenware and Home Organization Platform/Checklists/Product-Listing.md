@@ -1,4 +1,4 @@
-📦 Product Listing Checklist
+# Product Listing Checklist
 
 ## Listing Behavior
 - [ ] Product cards load correctly

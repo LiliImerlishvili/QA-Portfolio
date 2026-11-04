@@ -26,7 +26,6 @@ Low
 
 - The user is authenticated.
 - The relevant project or draft exists.
-- The required feature is available.
 
 ## Steps to Reproduce
 

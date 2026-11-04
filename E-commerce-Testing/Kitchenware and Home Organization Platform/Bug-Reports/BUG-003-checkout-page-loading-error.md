@@ -1,4 +1,4 @@
-# 🐞 Checkout page shows loading spinner indefinitely
+# Checkout page shows loading spinner indefinitely
 
 **Bug ID:** KHP-BUG-003  
 **Priority:** High  

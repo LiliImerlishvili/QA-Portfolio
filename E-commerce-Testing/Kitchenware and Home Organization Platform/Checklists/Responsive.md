@@ -1,4 +1,4 @@
-📱 Responsive Checklist
+# Responsive Checklist
 
 ## Layout
 - [ ] No horizontal scroll on mobile

@@ -18,9 +18,21 @@ Verify crop controls remain visible and do not overlap.
 | Application Version | 2.0.1 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open Activity.
+2. Tap Add.
+3. Choose an image.
+4. Open crop mode.
+5. Observe the layout.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+The Crop button should remain clearly visible and separated from other controls.
 
 ## Status
 

@@ -18,9 +18,20 @@ Verify approval triggers both SMS and Slack.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user has access to the admin verification panel.
+
+## Test Steps
+
+1. Register a gardener account.
+2. Upload the required identity document.
+3. Open the admin verification panel.
+4. Approve the gardener.
+
 ## Expected Result
 
-The workflow behaves according to the requirement without reproducing the related defect.
+The system should send both the approval SMS and Slack alert.
 
 ## Status
 

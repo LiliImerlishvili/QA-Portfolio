@@ -1,4 +1,4 @@
-🌍 Localization Checklist
+# Localization Checklist
 
 ## Language Switch
 - [ ] Language switcher works

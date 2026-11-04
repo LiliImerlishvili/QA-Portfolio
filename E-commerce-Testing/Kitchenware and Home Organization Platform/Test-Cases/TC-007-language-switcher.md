@@ -1,4 +1,4 @@
-# 🧩 Validate language switch updates product descriptions
+# Validate language switch updates product descriptions
 
 **Test Case ID:** TC-KHP-007  
 **Linked Bug ID:** KHP-BUG-007  

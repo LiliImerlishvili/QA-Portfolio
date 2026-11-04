@@ -24,8 +24,7 @@ Normal
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required platform data is available.
+- At least two blog posts with different publication dates exist.
 
 ## Steps to Reproduce
 

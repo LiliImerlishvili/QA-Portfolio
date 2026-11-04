@@ -1,4 +1,4 @@
-# 🧰 Tools & Utilities – Summary
+# Tools & Utilities – Summary
 
 This folder showcases the tools and utilities I regularly use during manual QA activities across web, mobile and API-driven projects.
 
@@ -6,7 +6,7 @@ The examples included here demonstrate how these tools are applied in real testi
 
 ---
 
-### 🧩 Tools Demonstrated
+### Tools Demonstrated
 
 | Tool | Usage |
 |------|-------|
@@ -21,7 +21,7 @@ The examples included here demonstrate how these tools are applied in real testi
 
 ---
 
-### 📁 Files Included
+### Files Included
 
 • `Jira_Bug_Report_Sample.png` – Example of a professionally documented bug report  
 • `Postman_Collection.json` – Sample API test collection  
@@ -31,6 +31,6 @@ These files provide practical insight into how the listed tools are used during 
 
 ---
 
-📘 Portfolio Note
+Portfolio Note
 
 All samples are fully anonymized and safe for portfolio demonstration. Real project data, brand names and sensitive information have been removed or replaced in accordance with NDA requirements.

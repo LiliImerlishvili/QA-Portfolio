@@ -1,6 +1,6 @@
 # Web Platform Testing
 
-This section contains QA documentation for web-based platforms across a wide range of domains including marketplaces, job portals, legal services, logistics, content platforms, real estate, and community tools.
+This section contains QA documentation for web-based platforms across a wide range of domains including marketplaces, job portals, legal services, logistics, content platforms, B2B production workflows, real estate, and community tools.
 
 ## Projects
 
@@ -14,6 +14,7 @@ This section contains QA documentation for web-based platforms across a wide ran
 | `Legal Document Platform/` | Platform for creating, managing, and signing legal documents |
 | `Logistics & Transportation Platform/` | Platform for managing logistics operations and transportation services |
 | `Meditation and Mindfulness LMS Platform/` | Learning management system focused on wellness and mindfulness courses |
+| `Production Workflow and AI Workspace Platform/` | B2B platform for production workflows, finance, CRM and AI-assisted work |
 | `Real Estate and Construction Platform/` | Platform for real estate listings and construction project management |
 | `Service Marketplace Platform/` | Marketplace for booking local and professional services |
 | `Vacancy Review and Community Feedback Platform/` | Community-driven platform for reviewing job vacancies and employer feedback |

@@ -1,4 +1,4 @@
-📊 Analytics & Privacy Checklist
+# Analytics & Privacy Checklist
 - [ ] Key actions trigger expected GA4 events
 - [ ] No duplicate events on refresh
 - [ ] Cookie consent does not block essential UX

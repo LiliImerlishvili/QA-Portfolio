@@ -1,8 +1,8 @@
-# 🧵 Product Page Functional Checklist
+# Product Page Functional Checklist
 
 ---
 
-## 📌 Main Information
+## Main Information
 - [ ] Product title correct  
 - [ ] Brand and category displayed correctly  
 - [ ] Correct price shown  
@@ -10,7 +10,7 @@
 
 ---
 
-## 📏 Size & Variants
+## Size & Variants
 - [ ] Only available sizes displayed  
 - [ ] Unavailable sizes hidden or disabled  
 - [ ] Size chart modal shows product-accurate info  
@@ -18,21 +18,21 @@
 
 ---
 
-## 🎨 Product Attributes
+## Product Attributes
 - [ ] Correct color category displayed  
 - [ ] No irrelevant tags/attributes  
 - [ ] Tags match design and product data  
 
 ---
 
-## 🔄 Similar & Recommended Products
+## Similar & Recommended Products
 - [ ] Similar products match category  
 - [ ] Similar products match brand (where applicable)  
 - [ ] No irrelevant recommendations  
 
 ---
 
-## 🖼 Images
+## Images
 - [ ] Image preview opens correctly  
 - [ ] Fullscreen preview closes to same product  
 - [ ] Thumbnail switching works  

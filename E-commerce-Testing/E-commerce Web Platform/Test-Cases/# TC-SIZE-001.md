@@ -23,4 +23,4 @@ To validate that size dropdown shows only valid options for selected product.
 ---
 
 ### Status:
-❌ Failed
+Failed

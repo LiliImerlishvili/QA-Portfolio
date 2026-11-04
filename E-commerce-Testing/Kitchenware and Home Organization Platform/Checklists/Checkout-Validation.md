@@ -1,4 +1,4 @@
-💳 Checkout & Validation Checklist
+# Checkout & Validation Checklist
 
 ## Form Validation
 - [ ] Required fields are marked

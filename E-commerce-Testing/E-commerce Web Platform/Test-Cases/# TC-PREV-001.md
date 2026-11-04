@@ -29,4 +29,4 @@ To verify that closing fullscreen preview keeps user on the same product page.
 ---
 
 ### Status:
-❌ Failed
+Failed

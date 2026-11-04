@@ -1,4 +1,4 @@
-# 🐞 Add to Cart button becomes disabled on mobile after variant selection
+# Add to Cart button becomes disabled on mobile after variant selection
 
 **Bug ID:** KHP-BUG-001  
 **Priority:** High  

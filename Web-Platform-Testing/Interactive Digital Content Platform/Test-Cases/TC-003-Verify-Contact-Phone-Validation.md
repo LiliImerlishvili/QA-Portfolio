@@ -18,9 +18,20 @@ Verify that invalid phone characters are rejected.
 | Browser | Google Chrome 146 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user has the required access level.
+
+## Test Steps
+
+1. Open the Contact form.
+2. Fill in the required fields.
+3. Enter invalid letters and special characters in the phone field.
+4. Submit the form.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The phone field should accept only permitted phone number characters and display a clear validation message for invalid input.
 
 ## Status
 

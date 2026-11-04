@@ -24,8 +24,7 @@ High
 
 ## Preconditions
 
-- The user is authenticated unless otherwise stated.
-- The relevant feature is available.
+- The user is not registered.
 
 ## Steps to Reproduce
 

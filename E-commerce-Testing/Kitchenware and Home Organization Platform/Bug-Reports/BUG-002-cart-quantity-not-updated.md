@@ -1,4 +1,4 @@
-# 🐞 Cart quantity does not update after increasing item count
+# Cart quantity does not update after increasing item count
 
 **Bug ID:** KHP-BUG-002  
 **Priority:** Medium  

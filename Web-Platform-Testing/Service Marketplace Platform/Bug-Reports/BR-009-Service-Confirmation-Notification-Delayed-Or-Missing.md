@@ -24,8 +24,7 @@ High
 
 ## Preconditions
 
-- The relevant user role is authenticated unless otherwise stated.
-- The required workflow is available.
+- The user is logged in.
 
 ## Steps to Reproduce
 

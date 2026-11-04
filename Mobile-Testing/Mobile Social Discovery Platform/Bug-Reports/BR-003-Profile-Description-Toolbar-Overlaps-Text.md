@@ -24,8 +24,7 @@ Normal
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required feature is available.
+- The user is logged in.
 
 ## Steps to Reproduce
 

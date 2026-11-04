@@ -1,4 +1,4 @@
-# 🐞 Promotional popup overlaps footer on small screens
+# Promotional popup overlaps footer on small screens
 
 **Bug ID:** KHP-BUG-006  
 **Priority:** Low  

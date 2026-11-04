@@ -18,9 +18,20 @@ Verify support message time matches device time.
 | Application Version | 1.0 (build 7) |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open Help & Support.
+2. Open Contact Support.
+3. Send a message.
+4. Compare the displayed time with device time.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+The timestamp should match the user's local device time.
 
 ## Status
 

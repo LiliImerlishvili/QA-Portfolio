@@ -22,4 +22,4 @@ To verify “Similar products from this brand” shows items from the same brand
 ---
 
 ### Status:
-❌ Faile
+Failed

@@ -1,4 +1,4 @@
-# 🧩 Verify product filters persist after navigation
+# Verify product filters persist after navigation
 
 **Test Case ID:** TC-KHP-004  
 **Linked Bug ID:** KHP-BUG-004  

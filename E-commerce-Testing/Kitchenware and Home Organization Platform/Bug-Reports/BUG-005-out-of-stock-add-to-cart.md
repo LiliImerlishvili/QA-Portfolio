@@ -1,4 +1,4 @@
-# 🐞 Out-of-stock product can still be added to cart
+# Out-of-stock product can still be added to cart
 
 **Bug ID:** KHP-BUG-005  
 **Priority:** High  

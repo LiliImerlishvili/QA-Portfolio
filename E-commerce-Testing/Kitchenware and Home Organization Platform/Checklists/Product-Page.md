@@ -1,4 +1,4 @@
-🛒 Product Page Checklist
+# Product Page Checklist
 
 ## Product Information
 - [ ] Title and description are correct

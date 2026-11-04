@@ -18,9 +18,19 @@ Verify invalid phone formats are rejected or normalized before OTP.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is not registered.
+
+## Test Steps
+
+1. Open registration.
+2. Enter a number in an invalid format, for example +995(599)123456.
+3. Click Send Code.
+
 ## Expected Result
 
-The workflow behaves according to the requirement without reproducing the related defect.
+The number should be rejected or normalized before OTP is sent.
 
 ## Status
 

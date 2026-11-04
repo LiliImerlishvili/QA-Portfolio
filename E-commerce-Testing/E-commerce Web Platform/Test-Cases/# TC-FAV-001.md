@@ -25,4 +25,4 @@ To verify that clicking Favorites icon adds product to the Favorites list.
 ---
 
 ### Status:
-❌ Failed
+Failed

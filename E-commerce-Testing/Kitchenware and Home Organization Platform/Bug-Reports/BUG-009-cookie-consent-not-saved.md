@@ -1,4 +1,4 @@
-# 🐞 Cookie consent choice is not saved after refresh
+# Cookie consent choice is not saved after refresh
 
 **Bug ID:** KHP-BUG-009  
 **Priority:** Low  

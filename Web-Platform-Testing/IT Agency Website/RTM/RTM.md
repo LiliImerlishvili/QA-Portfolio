@@ -1,4 +1,4 @@
-# 🔗 Requirements Traceability Matrix (RTM)
+# Requirements Traceability Matrix (RTM)
 
 This RTM provides clear traceability between **Test Scenarios (TS)**,  
 **Test Cases (TC)**, and **Bug Reports (BUG)** for the IT Agency Website project.
@@ -7,7 +7,7 @@ It demonstrates structured, requirement-driven testing and full coverage of crit
 
 ---
 
-## 📊 RTM Table
+## RTM Table
 
 | Requirement / Feature | Test Scenario ID | Test Case ID | Bug ID |
 |----------------------|------------------|--------------|--------|
@@ -24,7 +24,7 @@ It demonstrates structured, requirement-driven testing and full coverage of crit
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This RTM ensures that:
 
@@ -36,7 +36,7 @@ This RTM ensures that:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Jira – bug tracking and traceability  
 - Qase / TestRail – test case management  
@@ -45,7 +45,7 @@ This RTM ensures that:
 
 ---
 
-🔒 **NDA Notice**
+**NDA Notice**
 
 All identifiers are anonymized. Real client data, URLs, and assets are excluded.  
 Only QA structure, methodology, and logic are demonstrated.

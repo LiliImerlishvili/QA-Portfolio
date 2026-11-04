@@ -25,7 +25,6 @@ Urgent
 ## Preconditions
 
 - The user is authenticated.
-- The relevant project and feature are available.
 
 ## Steps to Reproduce
 

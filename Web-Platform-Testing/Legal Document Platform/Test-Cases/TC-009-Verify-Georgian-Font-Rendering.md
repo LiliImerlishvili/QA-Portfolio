@@ -18,9 +18,20 @@ Verify Georgian text renders correctly in generated documents.
 | Browser | Google Chrome 146 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open document generation.
+2. Enter Georgian text.
+3. Generate the document.
+4. Review the output.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+Georgian text should use a compatible font and render correctly.
 
 ## Status
 

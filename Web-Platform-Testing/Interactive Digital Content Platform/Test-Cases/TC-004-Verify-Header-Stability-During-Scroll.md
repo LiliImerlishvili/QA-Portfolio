@@ -18,9 +18,19 @@ Verify that the header remains visually stable while scrolling.
 | Browser | Google Chrome 146 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user has the required access level.
+
+## Test Steps
+
+1. Open the platform.
+2. Navigate to a content category page.
+3. Scroll up and down repeatedly.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The header should remain stable and render smoothly while scrolling.
 
 ## Status
 

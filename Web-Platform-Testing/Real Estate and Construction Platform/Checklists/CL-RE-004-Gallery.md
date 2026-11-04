@@ -1,4 +1,4 @@
-🖼️ Gallery Checklist
+# Gallery Checklist
 - [ ] Gallery opens correctly
 - [ ] Next/prev navigation works
 - [ ] Images load without blanks

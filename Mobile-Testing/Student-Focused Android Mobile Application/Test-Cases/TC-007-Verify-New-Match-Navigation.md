@@ -18,9 +18,19 @@ Verify that a New Match notification opens the current matched profile.
 | Application Version | 2.0.1 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Receive a New Match notification.
+2. Open Notifications.
+3. Tap the matched user's profile photo.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+The current matched user's profile should open.
 
 ## Status
 

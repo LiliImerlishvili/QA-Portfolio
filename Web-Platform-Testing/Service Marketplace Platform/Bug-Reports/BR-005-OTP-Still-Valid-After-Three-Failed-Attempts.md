@@ -24,8 +24,7 @@ Normal
 
 ## Preconditions
 
-- The relevant user role is authenticated unless otherwise stated.
-- The required workflow is available.
+- The user has a registered account.
 
 ## Steps to Reproduce
 

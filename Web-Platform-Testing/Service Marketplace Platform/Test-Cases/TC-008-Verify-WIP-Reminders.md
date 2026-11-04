@@ -18,9 +18,20 @@ Verify ongoing work generates scheduled reminders.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user has a gardener account with accepted work.
+
+## Test Steps
+
+1. Log in as a gardener.
+2. Start accepted work.
+3. Wait for the configured reminder intervals.
+4. Check SMS and Slack.
+
 ## Expected Result
 
-The workflow behaves according to the requirement without reproducing the related defect.
+SMS reminders should be sent every two hours up to the configured limit, and Slack should receive the scheduled WIP alert.
 
 ## Status
 

@@ -18,9 +18,19 @@ Verify that scan timestamps and duration are accurate.
 | Application Version | 1.0 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is authenticated.
+
+## Test Steps
+
+1. Run a scan.
+2. Open the scan report.
+3. Review start time, completion time, and duration.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+Completion time should be later than start time and duration should match the actual scan runtime.
 
 ## Status
 

@@ -18,9 +18,19 @@ Verify the Remember Me label meets readability and contrast requirements.
 | Browser | Google Chrome 146 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is not logged in.
+
+## Test Steps
+
+1. Open the login page.
+2. Locate the Remember Me checkbox and label.
+3. Compare the label contrast with surrounding form controls.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The label should meet accessibility contrast requirements and remain clearly readable.
 
 ## Status
 

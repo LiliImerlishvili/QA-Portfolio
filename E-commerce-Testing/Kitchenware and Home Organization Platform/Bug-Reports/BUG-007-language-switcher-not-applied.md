@@ -1,4 +1,4 @@
-# 🐞 Language switcher does not update product descriptions
+# Language switcher does not update product descriptions
 
 **Bug ID:** KHP-BUG-007  
 **Priority:** Medium  

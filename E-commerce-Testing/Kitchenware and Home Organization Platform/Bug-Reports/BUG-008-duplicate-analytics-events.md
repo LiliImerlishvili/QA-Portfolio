@@ -1,4 +1,4 @@
-# 🐞 Duplicate analytics events fired during checkout steps
+# Duplicate analytics events fired during checkout steps
 
 **Bug ID:** KHP-BUG-008  
 **Priority:** Medium  

@@ -24,8 +24,8 @@ Urgent
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required platform data is available.
+- The user has access to the vacancy import or review flow.
+- A vacancy from a finance-related domain is available.
 
 ## Steps to Reproduce
 

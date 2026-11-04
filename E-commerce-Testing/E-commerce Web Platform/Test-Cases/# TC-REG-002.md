@@ -27,4 +27,4 @@ To ensure invalid email formats are rejected.
 ---
 
 ### Status:
-❌ Failed
+Failed

@@ -1,4 +1,4 @@
-🔍 Search Functionality Checklist
+# Search Functionality Checklist
 
 ## Search Input
 - [ ] Search field accepts text input

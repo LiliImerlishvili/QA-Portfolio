@@ -1,4 +1,4 @@
-# 🧩 Validate Add to Cart button after variant selection on mobile
+# Validate Add to Cart button after variant selection on mobile
 
 **Test Case ID:** TC-KHP-001  
 **Linked Bug ID:** KHP-BUG-001  

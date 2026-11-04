@@ -18,9 +18,21 @@ Verify that messaging is blocked when Allow Messages is disabled.
 | Application Version | 2.0.1 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- Two registered user accounts (User A and User B) exist.
+
+## Test Steps
+
+1. Log in as User A.
+2. Disable Allow Messages in Privacy Settings.
+3. Log in as User B.
+4. Open User A's profile.
+5. Attempt to send a message.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+Messaging controls should be disabled when Allow Messages is turned off.
 
 ## Status
 

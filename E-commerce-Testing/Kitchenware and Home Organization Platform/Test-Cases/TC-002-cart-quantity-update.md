@@ -1,4 +1,4 @@
-# 🧩 Verify cart quantity updates correctly
+# Verify cart quantity updates correctly
 
 **Test Case ID:** TC-KHP-002  
 **Linked Bug ID:** KHP-BUG-002  

@@ -1,4 +1,4 @@
-✅ Form Validation Checklist
+# Form Validation Checklist
 - [ ] Empty required fields show errors
 - [ ] Invalid email/phone shows errors (if applicable)
 - [ ] Errors disappear after correction

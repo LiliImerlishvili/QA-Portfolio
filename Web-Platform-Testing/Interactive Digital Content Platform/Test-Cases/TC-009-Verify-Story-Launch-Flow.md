@@ -18,9 +18,20 @@ Verify that a selected story loads and starts successfully.
 | Browser | Google Chrome 146 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user has the required access level.
+
+## Test Steps
+
+1. Open the story catalog.
+2. Select an available story.
+3. Start the story.
+4. Observe the loading and playback behavior.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The selected story should load and start consistently.
 
 ## Status
 

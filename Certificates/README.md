@@ -1,10 +1,10 @@
-# 🏅 Certificates
+# Certificates
 
 This folder contains my professional certificates and course completion proofs related to software testing and QA.
 
 ---
 
-## 📜 Included
+## Included
 
 | Certificate | Institution | Year |
 |---|---|---:|
@@ -17,6 +17,6 @@ This folder contains my professional certificates and course completion proofs r
 | [Complete Agile Scrum Master Certification Training](./Complete-Agile-Scrum-Master-Certificate.jpg) | Udemy | 2024 |
 ---
 
-### 🎯 Purpose
+### Purpose
 
 To demonstrate formal education and continuous professional development in the QA field.

@@ -23,4 +23,4 @@ To validate that product attributes (color, season, material, etc.) match design
 ---
 
 ### Status:
-❌ Failed
+Failed

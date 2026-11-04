@@ -1,4 +1,4 @@
-# 🧩 Validate checkout page loads successfully
+# Validate checkout page loads successfully
 
 **Test Case ID:** TC-KHP-003  
 **Linked Bug ID:** KHP-BUG-003  

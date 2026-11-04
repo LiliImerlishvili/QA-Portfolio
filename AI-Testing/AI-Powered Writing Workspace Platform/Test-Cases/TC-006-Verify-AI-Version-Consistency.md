@@ -18,9 +18,17 @@ Verify that supported AI versions are consistent across Board and Draft modes.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Test Steps
+
+1. Open an existing project.
+2. Open the Draft mode AI controls.
+3. Record the available AI versions.
+4. Open Board mode.
+5. Compare the available AI versions.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The same supported AI versions and capabilities should be available consistently across both modes.
 
 ## Status
 

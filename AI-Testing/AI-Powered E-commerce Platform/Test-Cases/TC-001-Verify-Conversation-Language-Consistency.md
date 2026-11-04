@@ -18,9 +18,22 @@ Verify that all AI responses remain in the user's selected conversation language
 | Browser | Google Chrome 150 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The AI chat is available.
+- Relevant website or catalog data exists.
+- The user has access to the customer-facing platform.
+
+## Test Steps
+
+1. Open the AI chat.
+2. Start and continue the conversation in Georgian.
+3. Ask a detailed question that the assistant cannot fully answer.
+4. Observe the operator-transfer suggestion.
+
 ## Expected Result
 
-The AI response is accurate, complete, consistent, and grounded in the current website or catalog data.
+The response language should remain Georgian throughout the conversation, including escalation messages.
 
 ## Status
 

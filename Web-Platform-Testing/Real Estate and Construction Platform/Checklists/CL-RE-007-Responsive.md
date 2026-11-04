@@ -1,4 +1,4 @@
-📱 Responsive Checklist
+# Responsive Checklist
 - [ ] No horizontal scroll on mobile
 - [ ] Buttons are tappable and not overlapped
 - [ ] Images resize correctly

@@ -23,4 +23,4 @@ To ensure unavailable sizes are disabled or removed.
 ---
 
 ### Status:
-❌ Failed
+Failed

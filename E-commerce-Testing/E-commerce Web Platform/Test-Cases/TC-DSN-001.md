@@ -22,4 +22,4 @@ To compare implementation with Figma for the "Product Code & Delivery Options" b
 ---
 
 ### Status:
-❌ Failed
+Failed

@@ -24,8 +24,8 @@ Normal
 
 ## Preconditions
 
-- The user has access to the relevant flow.
-- The required feature is available.
+- The user is logged in.
+- Profiles are available in the discovery or saved-profiles section.
 
 ## Steps to Reproduce
 

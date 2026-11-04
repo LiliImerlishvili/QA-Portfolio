@@ -24,7 +24,6 @@ High
 
 ## Preconditions
 
-- The relevant feature is available.
 - The user has the required access level.
 
 ## Steps to Reproduce

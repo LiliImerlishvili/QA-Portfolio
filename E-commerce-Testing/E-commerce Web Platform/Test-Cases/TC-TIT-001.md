@@ -25,4 +25,4 @@ To ensure product title area follows the approved design.
 ---
 
 ### Status:
-❌ Failed
+Failed

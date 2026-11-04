@@ -22,4 +22,4 @@ To verify that user can remove product from Favorites.
 ---
 
 ### Status:
-⚠ Needs Retest
+Needs Retest

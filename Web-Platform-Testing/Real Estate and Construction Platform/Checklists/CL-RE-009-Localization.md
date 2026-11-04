@@ -1,4 +1,4 @@
-🌍 Localization Checklist
+# Localization Checklist
 - [ ] Language switcher works
 - [ ] Navigation labels translated
 - [ ] CTAs translated

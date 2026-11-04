@@ -18,9 +18,19 @@ Verify partner website links are clickable.
 | Application Version | 1.0 (build 7) |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user is logged in.
+
+## Test Steps
+
+1. Open the Featured section.
+2. Open a partner details modal.
+3. Tap the company website link.
+
 ## Expected Result
 
-The feature behaves according to the requirement without the related defect.
+The website should open in an in-app or external browser.
 
 ## Status
 

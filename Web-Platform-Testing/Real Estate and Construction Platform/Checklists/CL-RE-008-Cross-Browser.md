@@ -1,4 +1,4 @@
-🌐 Cross-Browser Checklist
+# Cross-Browser Checklist
 - [ ] Chrome: layout and forms OK
 - [ ] Firefox: layout and forms OK
 - [ ] Safari: layout and CTAs aligned

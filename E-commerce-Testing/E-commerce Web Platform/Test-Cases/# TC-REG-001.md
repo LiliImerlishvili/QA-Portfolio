@@ -31,4 +31,4 @@ To verify that registration succeeds with valid email and data.
 ---
 
 ### Status:
-✅ Passed
+Passed

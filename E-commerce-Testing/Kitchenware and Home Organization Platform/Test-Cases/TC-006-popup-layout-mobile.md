@@ -1,4 +1,4 @@
-# 🧩 Verify promotional popup layout on small screens
+# Verify promotional popup layout on small screens
 
 **Test Case ID:** TC-KHP-006  
 **Linked Bug ID:** KHP-BUG-006  

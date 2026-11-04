@@ -18,9 +18,16 @@ Verify that the correct greeting is shown immediately during refresh.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Test Steps
+
+1. Open the application.
+2. Navigate to the browser address bar.
+3. Refresh the page.
+4. Observe the greeting during loading.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The correct greeting should render immediately without flashing an incorrect state.
 
 ## Status
 

@@ -1,11 +1,13 @@
 # Mobile Testing
 
-This section contains QA documentation for Android and iOS mobile applications across social, wellness, travel, sports, and productivity domains.
+This section contains QA documentation for Android and iOS mobile applications across social, healthcare, live video, wellness, travel, sports, and productivity domains.
 
 ## Projects
 
 | Project | Description |
 |---|---|
+| `Healthcare Staffing Mobile Application/` | Android app connecting healthcare professionals with care facilities for shifts |
+| `Live Video and Debate Platform/` | iOS and web platform for live debates and user-generated video |
 | `Mobile Application – Social Platform/` | Social networking mobile application |
 | `Mobile Social Discovery Platform/` | Location-based social discovery mobile app |
 | `Sports Activity Mobile Application/` | Sports tracking and activity logging mobile app |

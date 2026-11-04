@@ -18,9 +18,17 @@ Verify that Ask AI opens and processes selected screenplay text.
 | Browser | Google Chrome 147 |
 | Reproducibility | 100% |
 
+## Test Steps
+
+1. Open a screenplay draft.
+2. Select text.
+3. Open the contextual hover menu.
+4. Choose Ask AI.
+5. Observe the response.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+The AI panel should open and process the selected text request.
 
 ## Status
 

@@ -18,9 +18,20 @@ Verify that all required payment fields are validated.
 | Browser | Google Chrome 146 |
 | Reproducibility | 100% |
 
+## Preconditions
+
+- The user has the required access level.
+
+## Test Steps
+
+1. Open a paid-content purchase flow.
+2. Proceed to the payment modal.
+3. Leave one or more required payment fields empty.
+4. Submit the payment form.
+
 ## Expected Result
 
-The feature behaves according to the requirement without reproducing the related defect.
+Every required field should be validated before submission and display a specific error message.
 
 ## Status
 

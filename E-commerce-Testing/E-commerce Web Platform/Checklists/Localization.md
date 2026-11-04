@@ -1,8 +1,8 @@
-# 🌐 Localization (KA → EN) Checklist
+# Localization (KA → EN) Checklist
 
 ---
 
-## 🏠 Homepage
+## Homepage
 - [ ] Hero texts translate correctly  
 - [ ] Category labels translated  
 - [ ] Static banners translated  
@@ -10,7 +10,7 @@
 
 ---
 
-## 📦 Product Page
+## Product Page
 - [ ] Product title translation correct  
 - [ ] Attributes translated  
 - [ ] Similar products translated  
@@ -18,13 +18,13 @@
 
 ---
 
-## 🔔 System Components
+## System Components
 - [ ] Toast notifications translated  
 - [ ] Form errors translated  
 - [ ] Placeholders translated  
 
 ---
 
-## ❗ Critical Check
+## Critical Check
 - [ ] "Service Info Banner" updates to EN  
 - [ ] No Georgian text remains after switching  
