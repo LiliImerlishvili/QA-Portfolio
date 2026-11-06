@@ -1,4 +1,4 @@
-# 🔗 Requirements Traceability Matrix (RTM)
+# Requirements Traceability Matrix (RTM)
 
 This RTM demonstrates clear traceability between **Test Scenarios (TS)**,  
 **Test Cases (TC)**, and **Bug Reports (BUG)** for the **Logistics & Transportation Platform**.
@@ -8,7 +8,7 @@ full coverage of critical logistics, booking, localization, and delivery flows.
 
 ---
 
-## 📊 RTM Table
+## RTM Table
 
 | Feature / Requirement | Test Scenario ID | Test Case ID | Bug ID |
 |----------------------|------------------|--------------|--------|
@@ -25,7 +25,7 @@ full coverage of critical logistics, booking, localization, and delivery flows.
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 The RTM ensures that:
 
@@ -37,7 +37,7 @@ The RTM ensures that:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Jira – defect tracking and linkage  
 - TestRail / Qase – test case management  
@@ -48,7 +48,7 @@ The RTM ensures that:
 
 ---
 
-🔒 **NDA Notice**
+ **NDA Notice**
 
 All identifiers are anonymized.  
 No real client data, URLs, or internal assets are included.  
